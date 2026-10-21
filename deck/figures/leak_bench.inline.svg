@@ -1,5 +1,5 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1680 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1680" height="660" style="aspect-ratio: 1680 / 660" data-viewbox="0 0 1680 660" data-min-text="28" data-slot="1680x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau souple, buse calibrée, jet critique, et caméra acoustique tenue à la main hors de l'axe, qui donne un score et des décibels mais pas de débit">
- <title>Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau souple, buse calibrée, jet critique, et caméra acoustique tenue à la main hors de l'axe, qui donne un score et des décibels mais pas de débit</title>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1680 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1680" height="660" style="aspect-ratio: 1680 / 660" data-viewbox="0 0 1680 660" data-min-text="28" data-slot="1680x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau souple, buse calibrée, jet critique, et caméra acoustique tenue à la main hors de l'axe, qui donne un score et des décibels mais pas de débit ; en dessous, l'étalonnage : pour chaque pression, le débit calculé à la buse est comparé au score LeakQ et aux décibels, d'où deux lois, débit en fonction du score et débit en fonction des décibels">
+ <title>Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau souple, buse calibrée, jet critique, et caméra acoustique tenue à la main hors de l'axe, qui donne un score et des décibels mais pas de débit ; en dessous, l'étalonnage : pour chaque pression, le débit calculé à la buse est comparé au score LeakQ et aux décibels, d'où deux lois, débit en fonction du score et débit en fonction des décibels</title>
  <defs>
   <style type="text/css">.tf-figure *{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
@@ -669,6 +669,15 @@ z
    </g>
   </g>
  </g>
+  <g id="tf-leak-bench-calibration" class="tf-calibration">
+   <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="722" y="521">pression constante</text>
+   <path d="M 0 544 L 1680 544" style="fill: none; stroke: var(--grid, #D6D3C8); stroke-width: 2"/>
+   <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; letter-spacing: 1.1px; fill: var(--accent-text, #0A6B62)" x="0" y="588">ÉTALONNAGE</text>
+   <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="230" y="588">pour chaque pression : débit calculé à la buse, comparé au score LeakQ et aux dB lus à la caméra</text>
+   <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--muted, #56616B)" x="230" y="638">deux lois :</text>
+   <text style="font-weight: 600; font-size: 40px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="400" y="638">Q<tspan font-size="28px" dy="8">V</tspan><tspan dy="-8"> = f(LeakQ)</tspan></text>
+   <text style="font-weight: 600; font-size: 40px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="820" y="638">Q<tspan font-size="28px" dy="8">V</tspan><tspan dy="-8"> = g(dB)</tspan></text>
+  </g>
  <defs>
   <clipPath id="tf-leak-bench-pf0071cb59c">
    <rect x="0" y="0" width="1680" height="660"/>
