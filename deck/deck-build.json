@@ -20,6 +20,15 @@
    "slot": "1680x660px",
    "options": [],
    "out": "figures/cascade"
+  },
+  {
+   "id": "ahu_booth",
+   "skill": "technical-schematics-max",
+   "script": "schematic.py",
+   "spec": "specs/ahu_booth.json",
+   "slot": "1100x660px",
+   "options": [],
+   "out": "figures/ahu_booth"
   }
  ],
  "equations": [

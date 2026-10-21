@@ -1,0 +1,514 @@
+{
+ "xlim": [
+  0,
+  1100
+ ],
+ "ylim": [
+  0,
+  660
+ ],
+ "alt": "Schéma de principe : l'air neuf passe par une batterie de récupération puis par la centrale de traitement d'air, qui le souffle par le haut dans la cabine de pesée. En mode éco, le débit est réduit hors pesée. La cabine est en dépression et l'air de la salle entre par sa façade ouverte. L'air extrait est filtré, passe par la seconde batterie de la boucle d'eau glycolée puis est rejeté dehors sans recyclage.",
+ "elements": [
+  {
+   "id": "inlet",
+   "type": "arrow",
+   "from": [
+    5,
+    500
+   ],
+   "to": [
+    68,
+    500
+   ],
+   "color": "accent"
+  },
+  {
+   "id": "r1",
+   "type": "box",
+   "x": 70,
+   "y": 482,
+   "w": 40,
+   "h": 36
+  },
+  {
+   "id": "r1z",
+   "type": "polyline",
+   "points": [
+    [
+     78,
+     514
+    ],
+    [
+     102,
+     507
+    ],
+    [
+     78,
+     500
+    ],
+    [
+     102,
+     493
+    ],
+    [
+     78,
+     486
+    ]
+   ],
+   "color": "accent",
+   "allow_overlap": true,
+   "z": "front"
+  },
+  {
+   "id": "link",
+   "type": "line",
+   "from": "r1.right",
+   "to": "ahu.left"
+  },
+  {
+   "id": "ahu",
+   "type": "box",
+   "x": 140,
+   "y": 445,
+   "w": 330,
+   "h": 110
+  },
+  {
+   "id": "d1",
+   "type": "line",
+   "from": [
+    250,
+    445
+   ],
+   "to": [
+    250,
+    555
+   ],
+   "allow_overlap": true,
+   "z": "front"
+  },
+  {
+   "id": "d2",
+   "type": "line",
+   "from": [
+    360,
+    445
+   ],
+   "to": [
+    360,
+    555
+   ],
+   "allow_overlap": true,
+   "z": "front"
+  },
+  {
+   "id": "coil",
+   "type": "polyline",
+   "points": [
+    [
+     180,
+     530
+    ],
+    [
+     215,
+     515
+    ],
+    [
+     180,
+     500
+    ],
+    [
+     215,
+     485
+    ],
+    [
+     180,
+     470
+    ]
+   ],
+   "allow_overlap": true,
+   "z": "front"
+  },
+  {
+   "id": "filt",
+   "type": "line",
+   "from": [
+    280,
+    465
+   ],
+   "to": [
+    330,
+    535
+   ],
+   "allow_overlap": true,
+   "z": "front"
+  },
+  {
+   "id": "fan",
+   "type": "circle",
+   "x": 415,
+   "y": 500,
+   "r": 34,
+   "z": "front",
+   "allow_overlap": true
+  },
+  {
+   "id": "fanb",
+   "type": "polygon",
+   "points": [
+    [
+     402,
+     516
+    ],
+    [
+     402,
+     484
+    ],
+    [
+     432,
+     500
+    ]
+   ],
+   "fill": "none",
+   "z": "front",
+   "allow_overlap": true
+  },
+  {
+   "id": "supply",
+   "type": "polyline",
+   "points": [
+    [
+     470,
+     500
+    ],
+    [
+     880,
+     500
+    ],
+    [
+     880,
+     384
+    ]
+   ]
+  },
+  {
+   "id": "diff",
+   "type": "polyline",
+   "points": [
+    [
+     865,
+     371
+    ],
+    [
+     850,
+     386
+    ],
+    [
+     910,
+     386
+    ],
+    [
+     895,
+     371
+    ]
+   ],
+   "touches": [
+    "booth"
+   ]
+  },
+  {
+   "id": "booth",
+   "type": "polyline",
+   "points": [
+    [
+     960,
+     250
+    ],
+    [
+     960,
+     370
+    ],
+    [
+     560,
+     370
+    ],
+    [
+     560,
+     60
+    ]
+   ]
+  },
+  {
+   "id": "floor",
+   "type": "line",
+   "from": [
+    520,
+    60
+   ],
+   "to": [
+    1095,
+    60
+   ]
+  },
+  {
+   "id": "down",
+   "type": "arrow",
+   "from": [
+    880,
+    345
+   ],
+   "to": [
+    880,
+    250
+   ],
+   "color": "accent"
+  },
+  {
+   "id": "desk",
+   "type": "box",
+   "x": 700,
+   "y": 60,
+   "w": 180,
+   "h": 60,
+   "fill": "none",
+   "rests_on": [
+    "floor"
+   ]
+  },
+  {
+   "id": "bal",
+   "type": "box",
+   "x": 750,
+   "y": 120,
+   "w": 80,
+   "h": 36,
+   "rests_on": [
+    "desk"
+   ]
+  },
+  {
+   "id": "room1",
+   "type": "arrow",
+   "from": [
+    1090,
+    200
+   ],
+   "to": [
+    975,
+    200
+   ],
+   "color": "muted"
+  },
+  {
+   "id": "room2",
+   "type": "arrow",
+   "from": [
+    1090,
+    140
+   ],
+   "to": [
+    975,
+    140
+   ],
+   "color": "muted"
+  },
+  {
+   "id": "exh1",
+   "type": "line",
+   "from": [
+    560,
+    170
+   ],
+   "to": [
+    420,
+    170
+   ],
+   "color": "muted"
+  },
+  {
+   "id": "exh2",
+   "type": "line",
+   "from": [
+    380,
+    170
+   ],
+   "to": [
+    110,
+    170
+   ],
+   "color": "muted"
+  },
+  {
+   "id": "exh3",
+   "type": "arrow",
+   "from": [
+    70,
+    170
+   ],
+   "to": [
+    5,
+    170
+   ],
+   "color": "muted"
+  },
+  {
+   "id": "filt2",
+   "type": "box",
+   "x": 380,
+   "y": 152,
+   "w": 40,
+   "h": 36,
+   "fill": "none"
+  },
+  {
+   "id": "filt2d",
+   "type": "line",
+   "from": [
+    385,
+    156
+   ],
+   "to": [
+    415,
+    184
+   ],
+   "z": "front",
+   "allow_overlap": true
+  },
+  {
+   "id": "r2",
+   "type": "box",
+   "x": 70,
+   "y": 152,
+   "w": 40,
+   "h": 36,
+   "fill": "none"
+  },
+  {
+   "id": "r2z",
+   "type": "polyline",
+   "points": [
+    [
+     78,
+     184
+    ],
+    [
+     102,
+     177
+    ],
+    [
+     78,
+     170
+    ],
+    [
+     102,
+     163
+    ],
+    [
+     78,
+     156
+    ]
+   ],
+   "color": "accent",
+   "allow_overlap": true,
+   "z": "front"
+  },
+  {
+   "id": "loopa",
+   "type": "line",
+   "from": [
+    82,
+    482
+   ],
+   "to": [
+    82,
+    188
+   ],
+   "color": "accent"
+  },
+  {
+   "id": "loopb",
+   "type": "line",
+   "from": [
+    98,
+    482
+   ],
+   "to": [
+    98,
+    188
+   ],
+   "color": "accent"
+  },
+  {
+   "type": "text",
+   "x": 38,
+   "y": 545,
+   "text": "air neuf",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 305,
+   "y": 595,
+   "text": "centrale de traitement d'air",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 760,
+   "y": 545,
+   "text": "débit réduit hors pesée (mode éco)",
+   "color": "accent",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 125,
+   "y": 336,
+   "text": "récupération",
+   "ha": "left",
+   "color": "accent",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 125,
+   "y": 290,
+   "text": "par boucle d'eau glycolée",
+   "ha": "left",
+   "color": "accent",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 300,
+   "y": 112,
+   "text": "rejet sans recyclage d'air",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 580,
+   "y": 330,
+   "text": "cabine de pesée",
+   "ha": "left",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 580,
+   "y": 284,
+   "text": "en dépression",
+   "ha": "left",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 1095,
+   "y": 92,
+   "text": "air de la salle",
+   "ha": "right",
+   "color": "muted",
+   "fixed": true
+  }
+ ]
+}
