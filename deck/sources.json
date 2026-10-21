@@ -79,6 +79,13 @@
       "source": "eurovent_424",
       "quote": "W = qV · ∆p · t / (η · 1000)",
       "locator": "Eq. (1)"
+    },
+    {
+      "slide": 12,
+      "text": "0,5 par défaut",
+      "source": "eurovent_424",
+      "quote": "If fan efficiency and/or operating time are not known, the default values of Eurovent 4/21 can be used as a substitute: t = 6.000 h/a, η = 0,5",
+      "locator": "Section 2, after Eq. (1)"
     }
   ],
   "images": [
