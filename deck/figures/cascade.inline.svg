@@ -1,5 +1,5 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1680 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1680" height="660" style="aspect-ratio: 1680 / 660" data-viewbox="0 0 1680 660" data-min-text="28" data-slot="1680x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Vue en plan d'un couloir d'hôpital et de trois chambres : chambre d'isolement en pression basse, l'air y entre depuis le couloir ; chambre protégée en pression haute, l'air en sort vers le couloir ; chambre standard intermédiaire">
- <title>Vue en plan d'un couloir d'hôpital et de trois chambres : chambre d'isolement en pression basse, l'air y entre depuis le couloir ; chambre protégée en pression haute, l'air en sort vers le couloir ; chambre standard intermédiaire</title>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1680 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1680" height="660" style="aspect-ratio: 1680 / 660" data-viewbox="0 0 1680 660" data-min-text="28" data-slot="1680x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Vue en plan d'un couloir d'hôpital et de trois chambres : le couloir est à la pression la plus haute ; la chambre d'isolement (patient contagieux) et une chambre standard (patient non contagieux) sont en pression basse, l'air y entre depuis le couloir">
+ <title>Vue en plan d'un couloir d'hôpital et de trois chambres : le couloir est à la pression la plus haute ; la chambre d'isolement (patient contagieux) et une chambre standard (patient non contagieux) sont en pression basse, l'air y entre depuis le couloir</title>
  <defs>
   <style type="text/css">.tf-figure *{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
@@ -74,8 +74,8 @@ L 158.293333 310.605333
 " clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 4.48"/>
    </g>
    <g id="tf-cascade-tf-arrow--8" class="tf-arrow">
-    <path d="M 1496.917333 299.013333 
-L 1496.917333 485.736 
+    <path d="M 1496.917333 497.328 
+L 1496.917333 310.605333 
 " clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 4.48"/>
    </g>
    <g id="tf-cascade-tf-arrow--9" class="tf-arrow">
@@ -86,9 +86,9 @@ z
 " clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: var(--accent, #0E8A7E)"/>
    </g>
    <g id="tf-cascade-tf-arrow--10" class="tf-arrow">
-    <path d="M 1496.917333 497.328 
-L 1501.677333 484.448 
-L 1492.157333 484.448 
+    <path d="M 1496.917333 299.013333 
+L 1492.157333 311.893333 
+L 1501.677333 311.893333 
 z
 " clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: var(--accent, #0E8A7E)"/>
    </g>
@@ -101,29 +101,23 @@ z
    <g id="tf-cascade-tf-label--16" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="344.213333" y="296.978667" transform="rotate(-0 344.213333 296.978667)">l'air entre</text>
    </g>
-   <g id="tf-cascade-tf-label--17" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="809.013333" y="172.612" transform="rotate(-0 809.013333 172.612)">chambre standard</text>
-   </g>
-   <g id="tf-cascade-tf-label--18" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="809.013333" y="232.135333" transform="rotate(-0 809.013333 232.135333)">pression intermédiaire</text>
-   </g>
    <g id="tf-cascade-tf-label--19" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1280.010667" y="170.022" transform="rotate(-0 1280.010667 170.022)">chambre protégée</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1280.010667" y="170.022" transform="rotate(-0 1280.010667 170.022)">chambre standard</text>
    </g>
    <g id="tf-cascade-tf-label--20" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="1280.010667" y="232.036896" transform="rotate(-0 1280.010667 232.036896)">pression haute</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="1280.010667" y="232.036896" transform="rotate(-0 1280.010667 232.036896)">pression basse</text>
    </g>
    <g id="tf-cascade-tf-label--21" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1280.010667" y="296.978667" transform="rotate(-0 1280.010667 296.978667)">l'air sort</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1280.010667" y="296.978667" transform="rotate(-0 1280.010667 296.978667)">l'air entre</text>
    </g>
    <g id="tf-cascade-tf-label--22" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="344.213333" y="355.843562" transform="rotate(-0 344.213333 355.843562)">patient contagieux</text>
    </g>
    <g id="tf-cascade-tf-label--23" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1280.010667" y="356.082" transform="rotate(-0 1280.010667 356.082)">patient immunodéprimé</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1280.010667" y="356.082" transform="rotate(-0 1280.010667 356.082)">patient non contagieux</text>
    </g>
    <g id="tf-cascade-tf-label--24" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="840" y="486.226" transform="rotate(-0 840 486.226)">couloir : pression de référence</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="840" y="486.226" transform="rotate(-0 840 486.226)">couloir : pression la plus haute</text>
    </g>
   </g>
  </g>
