@@ -20,7 +20,7 @@
   },
   {
    "id": "choked_flow",
-   "latex": "\\dot{m} = C_d\\,A\\,p_0\\,\\dfrac{\\Psi}{\\sqrt{R\\,T_0}} \\qquad \\Psi \\approx 0{,}685 \\ \\ (\\mathrm{air})",
+   "latex": "\\dot{m} = C_d\\,A\\,p_0\\,\\dfrac{\\Psi}{\\sqrt{R\\,T_0}} \\qquad \\Psi = \\sqrt{\\gamma}\\,\\left(\\dfrac{2}{\\gamma+1}\\right)^{3} \\approx 0{,}685",
    "slot": "1680x360px",
    "out": "equations/choked_flow",
    "size": "fit"
