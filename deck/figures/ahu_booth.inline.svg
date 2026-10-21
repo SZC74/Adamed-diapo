@@ -577,9 +577,9 @@ z
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="880.717125" y="341.972" transform="rotate(-0 880.717125 341.972)">cabine de pesée</text>
    </g>
    <g id="tf-ahu-booth-tf-label--53" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1291.5275 312)">cabine en dépression</text>
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1310.460313 352)">l'air de la salle entre</text>
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1313.3675 392)">(inversion brève au</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1291.5275 318)">cabine en dépression</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1310.460313 356)">l'air de la salle entre</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1313.3675 394)">(inversion brève au</text>
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1279.450313 432)">changement de régime)</text>
    </g>
    <g id="tf-ahu-booth-tf-label--54" class="tf-label tf-ink">
@@ -595,18 +595,18 @@ z
   <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--accent-text, #0A6B62)" x="148" y="452">récupération par boucle d'eau glycolée</text>
  </g>
  <g id="tf-ahu-method" class="tf-annotation">
-  <rect x="1080" y="62" width="6" height="216" style="fill: var(--accent, #0E8A7E)"/>
-  <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; letter-spacing: 1.1px; fill: var(--accent-text, #0A6B62)" x="1100" y="86">MÉTHODE</text>
-  <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; fill: var(--accent-text, #0A6B62)" x="1100" y="124">1</text>
-  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="124">Millions de consignes en %</text>
-  <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; fill: var(--accent-text, #0A6B62)" x="1100" y="161">2</text>
-  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="161">Moyennes horaires (Python)</text>
-  <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; fill: var(--accent-text, #0A6B62)" x="1100" y="198">3</text>
-  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="198">× données constructeur</text>
-  <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; fill: var(--accent-text, #0A6B62)" x="1100" y="235">4</text>
-  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="235">Énergie horaire par composant</text>
-  <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; fill: var(--accent-text, #0A6B62)" x="1100" y="272">5</text>
-  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="272">Bilan annuel avec et sans mode éco</text>
+  <rect x="1080" y="70" width="6" height="200" style="fill: var(--accent, #0E8A7E)"/>
+  <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; letter-spacing: 1.1px; fill: var(--accent-text, #0A6B62)" x="1068" y="170" text-anchor="middle" transform="rotate(-90 1068 170)">MÉTHODE</text>
+  <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; fill: var(--accent-text, #0A6B62)" x="1100" y="96">1</text>
+  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="96">Millions de consignes en %</text>
+  <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; fill: var(--accent-text, #0A6B62)" x="1100" y="130">2</text>
+  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="130">Moyennes horaires (Python)</text>
+  <text style="font-weight: 700; font-size: 32px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--accent-text, #0A6B62)" x="1310" y="163" text-anchor="middle">×</text>
+  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1310" y="194" text-anchor="middle">données constructeur</text>
+  <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; fill: var(--accent-text, #0A6B62)" x="1100" y="228">3</text>
+  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="228">Énergie horaire par composant</text>
+  <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; fill: var(--accent-text, #0A6B62)" x="1100" y="262">4</text>
+  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="262">Bilan annuel avec et sans mode éco</text>
  </g>
  <defs>
   <clipPath id="tf-ahu-booth-pf0071cb59c">
