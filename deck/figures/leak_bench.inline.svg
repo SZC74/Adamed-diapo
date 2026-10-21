@@ -925,10 +925,10 @@ L 1594.139636 103.331636
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="409.429091" y="265.983636" transform="rotate(-0 409.429091 265.983636)">détendeur</text>
    </g>
    <g id="tf-leak-bench-tf-label--45" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="821.833494" y="92.015091" transform="rotate(-0 821.833494 92.015091)">manomètre : pression amont</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="826.731932" y="92.211966" transform="rotate(-0 826.731932 92.211966)">manomètre (pression amont)</text>
    </g>
    <g id="tf-leak-bench-tf-label--46" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="810.305455" y="287.900653" transform="rotate(-0 810.305455 287.900653)">tuyau, pression constante</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="810.305455" y="287.999091" transform="rotate(-0 810.305455 287.999091)">tuyau à pression constante</text>
    </g>
    <g id="tf-leak-bench-tf-label--47" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="960.757818" y="152.154545" transform="rotate(-0 960.757818 152.154545)">buse calibrée</text>
@@ -946,7 +946,7 @@ L 1594.139636 103.331636
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1522.974545" y="325.612182" transform="rotate(-0 1522.974545 325.612182)">mais pas de débit</text>
    </g>
    <g id="tf-leak-bench-tf-label--52" class="tf-label tf-ink">
-    <text style="font-weight: 700; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="358.560284" y="379.882727" transform="rotate(-0 358.560284 379.882727)">Étalonnage, pour chaque pression amont, puis coût</text>
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="327.833722" y="379.882727" transform="rotate(-0 327.833722 379.882727)">Étalonnage à chaque pression amont puis coût</text>
    </g>
    <g id="tf-leak-bench-tf-label--53" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="760.814545" y="468.146" transform="rotate(-0 760.814545 468.146)">deux lois d'étalonnage</text>

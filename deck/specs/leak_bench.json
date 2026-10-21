@@ -272,7 +272,7 @@
    "type": "text",
    "x": 630,
    "y": 578,
-   "text": "manomètre : pression amont",
+   "text": "manomètre (pression amont)",
    "ha": "left",
    "fixed": true
   },
@@ -280,7 +280,7 @@
    "type": "text",
    "x": 810,
    "y": 380,
-   "text": "tuyau, pression constante",
+   "text": "tuyau à pression constante",
    "fixed": true
   },
   {
@@ -324,7 +324,7 @@
    "type": "text",
    "x": 10,
    "y": 290,
-   "text": "Étalonnage, pour chaque pression amont, puis coût",
+   "text": "Étalonnage à chaque pression amont puis coût",
    "ha": "left",
    "bold": true,
    "color": "accent",

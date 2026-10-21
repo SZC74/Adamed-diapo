@@ -409,22 +409,22 @@ L 804.887586 291.251875
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--accent-text, #0A6B62)" x="93.043151" y="187.384167" transform="rotate(-0 93.043151 187.384167)">filtre actuel</text>
    </g>
    <g id="tf-filter-dp-tf-label--7" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="93.043151" y="543.293187" transform="rotate(-0 93.043151 543.293187)">filtre candidat, durée de vie supposée</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="93.043151" y="543.293187" transform="rotate(-0 93.043151 543.293187)">filtre candidat (durée de vie supposée)</text>
    </g>
    <g id="tf-filter-dp-tf-label--8" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--accent-text, #0A6B62)" x="821.636866" y="53.847604" transform="rotate(-0 821.636866 53.847604)">seuil, actuel</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--accent-text, #0A6B62)" x="821.636866" y="53.847604" transform="rotate(-0 821.636866 53.847604)">seuil actuel</text>
    </g>
    <g id="tf-filter-dp-tf-label--9" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="821.636866" y="264.212604" transform="rotate(-0 821.636866 264.212604)">seuil, candidat</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="821.636866" y="264.212604" transform="rotate(-0 821.636866 264.212604)">seuil candidat</text>
    </g>
    <g id="tf-filter-dp-tf-label--10" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--accent-text, #0A6B62)" x="821.636866" y="347.547042" transform="rotate(-0 821.636866 347.547042)">moyenne, actuel</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--accent-text, #0A6B62)" x="821.636866" y="347.547042" transform="rotate(-0 821.636866 347.547042)">moyenne actuelle</text>
    </g>
    <g id="tf-filter-dp-tf-label--11" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans';  fill: var(--ink, #14202B)" x="1054" y="384" text-anchor="end" transform="rotate(-0 1054 384)">écart : gain</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans';  fill: var(--ink, #14202B)" x="1054" y="384" text-anchor="end" transform="rotate(-0 1054 384)">gain</text>
    </g>
    <g id="tf-filter-dp-tf-label--12" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="821.636866" y="463.429354" transform="rotate(-0 821.636866 463.429354)">moyenne, candidat</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="821.636866" y="463.429354" transform="rotate(-0 821.636866 463.429354)">moyenne candidat</text>
    </g>
    <g id="tf-filter-dp-tf-label--13" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--ink, #14202B)" x="93.043151" y="35.687187" transform="rotate(-0 93.043151 35.687187)">profils illustratifs</text>

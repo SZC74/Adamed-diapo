@@ -123,7 +123,7 @@ z
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1280.010667" y="356.082" transform="rotate(-0 1280.010667 356.082)">patient immunodéprimé</text>
    </g>
    <g id="tf-cascade-tf-label--24" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="840" y="486.226" transform="rotate(-0 840 486.226)">couloir : pression de référence</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="840" y="486.226" transform="rotate(-0 840 486.226)">couloir à la pression de référence</text>
    </g>
   </g>
  </g>

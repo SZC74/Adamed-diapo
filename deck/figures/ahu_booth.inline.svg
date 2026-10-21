@@ -568,22 +568,22 @@ z
    </g>
    <g id="tf-ahu-booth-tf-label--50" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(187.459125 340.566)">centrale de traitement d'air</text>
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(159.001937 382.734)">filtrer, chauffer, refroidir, sécher</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(159.001937 382.734)">filtrer, chauffer, refroidir et sécher</text>
    </g>
    <g id="tf-ahu-booth-tf-label--51" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="804.144" y="111.896" transform="rotate(-0 804.144 111.896)">mode éco : débit réduit hors pesée</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="804.144" y="111.896" transform="rotate(-0 804.144 111.896)">débit réduit hors pesée (mode éco)</text>
    </g>
    <g id="tf-ahu-booth-tf-label--52" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="880.717125" y="341.972" transform="rotate(-0 880.717125 341.972)">cabine de pesée</text>
    </g>
    <g id="tf-ahu-booth-tf-label--53" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1291.5275 290.3)">cabine en dépression :</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1291.5275 290.3)">cabine en dépression</text>
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1310.460313 337.578)">l'air de la salle entre</text>
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1313.3675 380.586)">(inversion brève au</text>
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1279.450313 423.580875)">changement de régime)</text>
    </g>
    <g id="tf-ahu-booth-tf-label--54" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="361.92" y="509.061562" transform="rotate(-0 361.92 509.061562)">rejet, sans recyclage d'air</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="361.92" y="509.061562" transform="rotate(-0 361.92 509.061562)">rejet sans recyclage d'air</text>
    </g>
   </g>
  </g>
@@ -592,12 +592,12 @@ z
   <path d="M 125 203 L 125 543" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.6"/>
   <rect x="95" y="167" width="40" height="36" style="fill: var(--background, #F3F1EA); stroke: var(--ink, #14202B); stroke-width: 2.6"/><path d="M 103 171 L 127 178 L 103 185 L 127 192 L 103 199" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.6"/>
   <rect x="95" y="543.5" width="40" height="36" style="fill: var(--background, #F3F1EA); stroke: var(--ink, #14202B); stroke-width: 2.6"/><path d="M 103 547.5 L 127 554.5 L 103 561.5 L 127 568.5 L 103 575.5" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.6"/>
-  <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--accent-text, #0A6B62)" x="148" y="452">récupération : boucle d'eau glycolée</text>
+  <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--accent-text, #0A6B62)" x="148" y="452">récupération par boucle d'eau glycolée</text>
  </g>
  <g id="tf-ahu-method" class="tf-annotation">
   <rect x="1110" y="72" width="6" height="164" style="fill: var(--accent, #0E8A7E)"/>
   <text style="font-weight: 700; font-size: 28px; font-family: 'JetBrains Mono', monospace; letter-spacing: 1.1px; fill: var(--accent-text, #0A6B62)" x="1134" y="100">MÉTHODE</text>
-  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="144">1 an de données,</text>
+  <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="144">1 an de données</text>
   <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="186">plusieurs millions de lignes</text>
   <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="1134" y="228">traitées en Python</text>
  </g>
