@@ -22,7 +22,7 @@ L 153.116174 162.917656
    <g id="tf-ahu-booth-tf-polyline--1" class="tf-polyline">
     <path d="M 477.452489 162.917656 
 L 880.41579 162.917656 
-L 880.41579 276.926785 
+L 880.41579 274.96111 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
    <g id="tf-ahu-booth-tf-polyline--2" class="tf-polyline">
@@ -625,31 +625,38 @@ L 440.104671 162.917656
 L 410.619551 147.192259 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-label--38" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="52.866767" y="128.811539" transform="rotate(-0 52.866767 128.811539)">air neuf</text>
+   <g id="tf-ahu-booth-tf-polygon--38" class="tf-polygon">
+    <path d="M 705.470747 154.07212 
+L 705.470747 171.763192 
+L 725.127493 162.917656 
+z
+" clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--ink, #14202B)"/>
    </g>
    <g id="tf-ahu-booth-tf-label--39" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="315.284331" y="79.90811" transform="rotate(-0 315.284331 79.90811)">centrale de traitement d'air</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="52.866767" y="128.811539" transform="rotate(-0 52.866767 128.811539)">air neuf</text>
    </g>
    <g id="tf-ahu-booth-tf-label--40" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="762.475311" y="126.376851" transform="rotate(-0 762.475311 126.376851)">débit réduit hors pesée (mode éco)</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="315.284331" y="79.90811" transform="rotate(-0 315.284331 79.90811)">centrale de traitement d'air</text>
    </g>
    <g id="tf-ahu-booth-tf-label--41" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="223.420489" y="331.592976" transform="rotate(-0 223.420489 331.592976)">récupération</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="762.475311" y="126.376851" transform="rotate(-0 762.475311 126.376851)">débit réduit hors pesée (mode éco)</text>
    </g>
    <g id="tf-ahu-booth-tf-label--42" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="303.850176" y="376.803493" transform="rotate(-0 303.850176 376.803493)">par boucle d'eau glycolée</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="223.420489" y="331.592976" transform="rotate(-0 223.420489 331.592976)">récupération</text>
    </g>
    <g id="tf-ahu-booth-tf-label--43" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="310.370145" y="551.748536" transform="rotate(-0 310.370145 551.748536)">rejet sans recyclage d'air</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="303.850176" y="376.803493" transform="rotate(-0 303.850176 376.803493)">par boucle d'eau glycolée</text>
    </g>
    <g id="tf-ahu-booth-tf-label--44" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="692.017719" y="337.49" transform="rotate(-0 692.017719 337.49)">cabine de pesée</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="310.370145" y="551.748536" transform="rotate(-0 310.370145 551.748536)">rejet sans recyclage d'air</text>
    </g>
    <g id="tf-ahu-booth-tf-label--45" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="678.080219" y="382.700517" transform="rotate(-0 678.080219 382.700517)">en dépression</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="692.017719" y="337.49" transform="rotate(-0 692.017719 337.49)">cabine de pesée</text>
    </g>
    <g id="tf-ahu-booth-tf-label--46" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="678.080219" y="382.700517" transform="rotate(-0 678.080219 382.700517)">en dépression</text>
+   </g>
+   <g id="tf-ahu-booth-tf-label--47" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1008.632063" y="574.036844" transform="rotate(-0 1008.632063 574.036844)">air de la salle</text>
    </g>
   </g>

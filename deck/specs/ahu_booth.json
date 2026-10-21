@@ -187,9 +187,31 @@
     ],
     [
      880,
-     384
+     386
     ]
    ]
+  },
+  {
+   "id": "supply_dir",
+   "type": "polygon",
+   "points": [
+    [
+     702,
+     509
+    ],
+    [
+     702,
+     491
+    ],
+    [
+     722,
+     500
+    ]
+   ],
+   "fill": "ink",
+   "stroke": false,
+   "allow_overlap": true,
+   "z": "front"
   },
   {
    "id": "diff",
