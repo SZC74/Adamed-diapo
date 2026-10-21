@@ -286,27 +286,109 @@
    "color": "accent"
   },
   {
-   "id": "desk",
+   "id": "top",
    "type": "box",
-   "x": 700,
-   "y": 60,
-   "w": 180,
-   "h": 60,
-   "fill": "none",
-   "rests_on": [
+   "x": 690,
+   "y": 112,
+   "w": 200,
+   "h": 12,
+   "radius_px": 2
+  },
+  {
+   "id": "leg1",
+   "type": "line",
+   "from": [
+    708,
+    60
+   ],
+   "to": "top.bottom+0.09",
+   "touches": [
     "floor"
    ]
   },
   {
-   "id": "bal",
-   "type": "box",
-   "x": 750,
-   "y": 120,
-   "w": 80,
-   "h": 36,
-   "rests_on": [
-    "desk"
+   "id": "leg2",
+   "type": "line",
+   "from": [
+    872,
+    60
+   ],
+   "to": "top.bottom+0.91",
+   "touches": [
+    "floor"
    ]
+  },
+  {
+   "id": "base",
+   "type": "box",
+   "x": 762,
+   "y": 124,
+   "w": 92,
+   "h": 20,
+   "rests_on": [
+    "top"
+   ],
+   "radius_px": 2
+  },
+  {
+   "id": "disp",
+   "type": "box",
+   "x": 772,
+   "y": 129,
+   "w": 26,
+   "h": 10,
+   "fill": "ink",
+   "z": "front",
+   "allow_overlap": true
+  },
+  {
+   "id": "shield",
+   "type": "box",
+   "x": 770,
+   "y": 144,
+   "w": 76,
+   "h": 48,
+   "fill": "none",
+   "rests_on": [
+    "base"
+   ]
+  },
+  {
+   "id": "pan",
+   "type": "line",
+   "from": [
+    790,
+    152
+   ],
+   "to": [
+    826,
+    152
+   ],
+   "allow_overlap": true
+  },
+  {
+   "id": "pot1",
+   "type": "box",
+   "x": 704,
+   "y": 124,
+   "w": 20,
+   "h": 28,
+   "rests_on": [
+    "top"
+   ],
+   "radius_px": 2
+  },
+  {
+   "id": "pot2",
+   "type": "box",
+   "x": 730,
+   "y": 124,
+   "w": 16,
+   "h": 18,
+   "rests_on": [
+    "top"
+   ],
+   "radius_px": 2
   },
   {
    "id": "room1",
