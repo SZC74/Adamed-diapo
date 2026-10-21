@@ -2,7 +2,17 @@
  "version": 1,
  "deck": "index.html",
  "theme": "deck-theme.json",
- "figures": [],
+ "figures": [
+  {
+   "id": "leak_bench",
+   "skill": "technical-schematics-max",
+   "script": "schematic.py",
+   "spec": "specs/leak_bench.json",
+   "slot": "1680x660px",
+   "options": [],
+   "out": "figures/leak_bench"
+  }
+ ],
  "equations": [
   {
    "id": "eco_energy",

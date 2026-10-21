@@ -1,0 +1,402 @@
+{
+ "alt": "Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau à pression constante, buse calibrée et jet critique, observé par une caméra acoustique qui donne un score LeakQ et des décibels mais pas de débit. En dessous, l'étalonnage : pour chaque pression amont, le débit calculé à la buse et les indications de la caméra donnent deux lois, débit en fonction du score LeakQ et débit en fonction des décibels.",
+ "xlim": [
+  0,
+  1680
+ ],
+ "ylim": [
+  0,
+  660
+ ],
+ "elements": [
+  {
+   "id": "inlet",
+   "type": "arrow",
+   "from": [
+    10,
+    470
+   ],
+   "to": [
+    150,
+    470
+   ]
+  },
+  {
+   "id": "valve",
+   "type": "polygon",
+   "points": [
+    [
+     150,
+     440
+    ],
+    [
+     150,
+     500
+    ],
+    [
+     240,
+     440
+    ],
+    [
+     240,
+     500
+    ]
+   ],
+   "fill": "none"
+  },
+  {
+   "id": "p1",
+   "type": "line",
+   "from": [
+    240,
+    470
+   ],
+   "to": [
+    360,
+    470
+   ]
+  },
+  {
+   "id": "reg",
+   "type": "polygon",
+   "points": [
+    [
+     360,
+     440
+    ],
+    [
+     360,
+     500
+    ],
+    [
+     450,
+     440
+    ],
+    [
+     450,
+     500
+    ]
+   ],
+   "fill": "none"
+  },
+  {
+   "id": "regstem",
+   "type": "line",
+   "from": [
+    405,
+    470
+   ],
+   "to": [
+    405,
+    520
+   ],
+   "pass_through": true
+  },
+  {
+   "id": "regcap",
+   "type": "polygon",
+   "points": [
+    [
+     380,
+     520
+    ],
+    [
+     430,
+     520
+    ],
+    [
+     418,
+     548
+    ],
+    [
+     392,
+     548
+    ]
+   ],
+   "fill": "none"
+  },
+  {
+   "id": "p2",
+   "type": "line",
+   "from": [
+    450,
+    470
+   ],
+   "to": [
+    690,
+    470
+   ]
+  },
+  {
+   "id": "gstem",
+   "type": "line",
+   "from": [
+    570,
+    470
+   ],
+   "to": [
+    570,
+    528
+   ]
+  },
+  {
+   "id": "gauge",
+   "type": "circle",
+   "x": 570,
+   "y": 570,
+   "r": 42
+  },
+  {
+   "id": "needle",
+   "type": "line",
+   "from": [
+    570,
+    570
+   ],
+   "to": [
+    594,
+    594
+   ],
+   "allow_overlap": true,
+   "z": "front"
+  },
+  {
+   "id": "hose",
+   "type": "cable",
+   "from": [
+    690,
+    470
+   ],
+   "to": [
+    930,
+    470
+   ],
+   "sag": 45
+  },
+  {
+   "id": "nozzle",
+   "type": "box",
+   "x": 930,
+   "y": 454,
+   "w": 64,
+   "h": 32,
+   "fill": "ink",
+   "radius_px": 4
+  },
+  {
+   "id": "jet",
+   "type": "polygon",
+   "points": [
+    [
+     1000,
+     470
+    ],
+    [
+     1210,
+     433
+    ],
+    [
+     1210,
+     507
+    ]
+   ],
+   "fill": {
+    "color": "accent",
+    "alpha": 0.3
+   },
+   "stroke": false
+  },
+  {
+   "id": "strap",
+   "type": "box",
+   "x": 1386,
+   "y": 448,
+   "w": 18,
+   "h": 104,
+   "fill": "ink",
+   "radius_px": 5
+  },
+  {
+   "id": "cam",
+   "type": "box",
+   "x": 1400,
+   "y": 425,
+   "w": 260,
+   "h": 150,
+   "radius_px": 20
+  },
+  {
+   "id": "screen",
+   "type": "box",
+   "x": 1416,
+   "y": 441,
+   "w": 196,
+   "h": 118,
+   "fill": "ink",
+   "radius_px": 10,
+   "z": "front"
+  },
+  {
+   "id": "sight",
+   "type": "arrow",
+   "from": [
+    1225,
+    470
+   ],
+   "to": "strap",
+   "dash": true,
+   "color": "muted"
+  },
+  {
+   "type": "text",
+   "x": 80,
+   "y": 505,
+   "text": "réseau",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 195,
+   "y": 405,
+   "text": "vanne",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 405,
+   "y": 405,
+   "text": "détendeur",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 630,
+   "y": 578,
+   "text": "manomètre : pression amont",
+   "ha": "left",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 810,
+   "y": 380,
+   "text": "tuyau, pression constante",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 962,
+   "y": 520,
+   "text": "buse calibrée",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 1105,
+   "y": 395,
+   "text": "jet critique",
+   "color": "accent",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 1530,
+   "y": 620,
+   "text": "caméra acoustique",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 1530,
+   "y": 392,
+   "text": "score LeakQ et dB",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 1530,
+   "y": 342,
+   "text": "mais pas de débit",
+   "color": "muted",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 10,
+   "y": 290,
+   "text": "Étalonnage, pour chaque pression amont",
+   "ha": "left",
+   "bold": true,
+   "color": "accent",
+   "fixed": true
+  },
+  {
+   "id": "A",
+   "type": "box",
+   "x": 10,
+   "y": 160,
+   "w": 560,
+   "h": 80,
+   "label": "débit calculé à la buse",
+   "label_pos": "inside"
+  },
+  {
+   "id": "B",
+   "type": "box",
+   "x": 10,
+   "y": 40,
+   "w": 560,
+   "h": 80,
+   "label": "score LeakQ et dB lus sur la caméra",
+   "label_pos": "inside"
+  },
+  {
+   "id": "C",
+   "type": "box",
+   "x": 820,
+   "y": 40,
+   "w": 850,
+   "h": 200,
+   "fill": {
+    "color": "accent",
+    "alpha": 0.12
+   }
+  },
+  {
+   "type": "arrow",
+   "from": "A.right",
+   "to": "C.left+0.8"
+  },
+  {
+   "type": "arrow",
+   "from": "B.right",
+   "to": "C.left+0.2"
+  },
+  {
+   "type": "text",
+   "x": 1245,
+   "y": 195,
+   "text": "deux lois d'étalonnage",
+   "inside": "C",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 1040,
+   "y": 100,
+   "text": "débit = f(LeakQ)",
+   "size": 36,
+   "inside": "C",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 1450,
+   "y": 100,
+   "text": "débit = f(dB)",
+   "size": 36,
+   "inside": "C",
+   "fixed": true
+  }
+ ]
+}
