@@ -1,0 +1,22 @@
+{
+ "xlim": [0, 1680], "ylim": [0, 660],
+ "alt": "Vue en plan de deux chambres de patient à la pression atmosphérique et d'un couloir en pression haute. L'air entre dans chaque chambre depuis le couloir par la porte.",
+ "elements": [
+  {"id": "outer", "type": "polyline", "points": [[34, 101], [1646, 101], [1646, 560], [34, 560], [34, 101]]},
+  {"id": "w1", "type": "line", "from": [34, 262], "to": [150, 262]},
+  {"id": "w2", "type": "line", "from": [250, 262], "to": [1430, 262]},
+  {"id": "w3", "type": "line", "from": [1530, 262], "to": [1646, 262]},
+  {"id": "mid", "type": "line", "from": [840, 262], "to": [840, 560]},
+  {"type": "arrow", "from": [200, 140], "to": [200, 380], "color": "accent"},
+  {"type": "arrow", "from": [1480, 140], "to": [1480, 380], "color": "accent"},
+  {"type": "text", "x": 470, "y": 495, "text": "chambre", "fixed": true},
+  {"type": "text", "x": 470, "y": 440, "text": "pression atmosphérique", "color": "accent", "fixed": true},
+  {"type": "text", "x": 470, "y": 385, "text": "l'air entre", "fixed": true},
+  {"type": "text", "x": 470, "y": 330, "text": "patient", "color": "muted", "fixed": true},
+  {"type": "text", "x": 1210, "y": 495, "text": "chambre", "fixed": true},
+  {"type": "text", "x": 1210, "y": 440, "text": "pression atmosphérique", "color": "accent", "fixed": true},
+  {"type": "text", "x": 1210, "y": 385, "text": "l'air entre", "fixed": true},
+  {"type": "text", "x": 1210, "y": 330, "text": "patient", "color": "muted", "fixed": true},
+  {"type": "text", "x": 840, "y": 180, "text": "couloir en pression haute", "color": "accent", "fixed": true}
+ ]
+}

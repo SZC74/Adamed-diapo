@@ -11,6 +11,15 @@
    "slot": "1680x660px",
    "options": [],
    "out": "figures/leak_bench"
+  },
+  {
+   "id": "cascade",
+   "skill": "technical-schematics-max",
+   "script": "schematic.py",
+   "spec": "specs/cascade.json",
+   "slot": "1680x660px",
+   "options": [],
+   "out": "figures/cascade"
   }
  ],
  "equations": [
