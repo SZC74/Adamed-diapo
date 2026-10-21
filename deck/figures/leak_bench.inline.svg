@@ -1,5 +1,5 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1680 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1680" height="660" style="aspect-ratio: 1680 / 660" data-viewbox="0 0 1680 660" data-min-text="28" data-slot="1680x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau à pression constante, buse calibrée et jet critique, observé par une caméra acoustique qui donne un score LeakQ et des décibels mais pas de débit. En dessous, l'étalonnage : pour chaque pression amont, le débit calculé à la buse et les indications de la caméra donnent deux lois, débit en fonction du score LeakQ et débit en fonction des décibels.">
- <title>Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau à pression constante, buse calibrée et jet critique, observé par une caméra acoustique qui donne un score LeakQ et des décibels mais pas de débit. En dessous, l'étalonnage : pour chaque pression amont, le débit calculé à la buse et les indications de la caméra donnent deux lois, débit en fonction du score LeakQ et débit en fonction des décibels.</title>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1680 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1680" height="660" style="aspect-ratio: 1680 / 660" data-viewbox="0 0 1680 660" data-min-text="28" data-slot="1680x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau à pression constante, buse calibrée et jet critique, observé par une caméra acoustique qui donne un score LeakQ et des décibels mais pas de débit. En dessous, l'étalonnage : pour chaque pression amont, le débit calculé à la buse et les indications de la caméra donnent deux lois, débit en fonction du score LeakQ et débit en fonction des décibels, puis le coût annuel d'une fuite : débit fois 8 760 heures fois énergie spécifique de l'audit 2021 fois prix du kWh.">
+ <title>Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau à pression constante, buse calibrée et jet critique, observé par une caméra acoustique qui donne un score LeakQ et des décibels mais pas de débit. En dessous, l'étalonnage : pour chaque pression amont, le débit calculé à la buse et les indications de la caméra donnent deux lois, débit en fonction du score LeakQ et débit en fonction des décibels, puis le coût annuel d'une fuite : débit fois 8 760 heures fois énergie spécifique de l'audit 2021 fois prix du kWh.</title>
  <defs>
   <style type="text/css">.tf-figure *{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
@@ -157,12 +157,12 @@ L 927.087364 192.910077
 L 929.083636 191.425455 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 3.733333"/>
    </g>
-   <g id="tf-leak-bench-tf-line--34" class="tf-line">
+   <g id="tf-leak-bench-tf-line--38" class="tf-line">
     <path d="M 691.527273 191.425455 
 L 687.047273 191.425455 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667; stroke-linecap: round"/>
    </g>
-   <g id="tf-leak-bench-tf-cable--35" class="tf-cable">
+   <g id="tf-leak-bench-tf-cable--39" class="tf-cable">
     <path d="M 691.527273 191.425455 
 L 693.523545 192.910077 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 3.733333; stroke-linecap: round"/>
@@ -565,18 +565,18 @@ L 1631.650909 87.494545
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
    <g id="tf-leak-bench-tf-box--17" class="tf-box">
-    <path d="M 569.389091 419.083636 
-L 570.427388 419.248086 
-L 571.364049 419.725339 
-L 572.107388 420.468678 
-L 572.584641 421.405339 
-L 572.749091 422.443636 
-L 572.749091 494.909091 
-L 572.584641 495.947388 
-L 572.107388 496.884049 
-L 571.364049 497.627388 
-L 570.427388 498.104641 
-L 569.389091 498.269091 
+    <path d="M 440.712727 419.083636 
+L 441.751024 419.248086 
+L 442.687686 419.725339 
+L 443.431024 420.468678 
+L 443.908277 421.405339 
+L 444.072727 422.443636 
+L 444.072727 494.909091 
+L 443.908277 495.947388 
+L 443.431024 496.884049 
+L 442.687686 497.627388 
+L 441.751024 498.104641 
+L 440.712727 498.269091 
 L 21.810909 498.269091 
 L 20.772612 498.104641 
 L 19.835951 497.627388 
@@ -593,18 +593,18 @@ z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
    <g id="tf-leak-bench-tf-box--18" class="tf-box">
-    <path d="M 569.389091 419.083636 
-L 570.427388 419.248086 
-L 571.364049 419.725339 
-L 572.107388 420.468678 
-L 572.584641 421.405339 
-L 572.749091 422.443636 
-L 572.749091 494.909091 
-L 572.584641 495.947388 
-L 572.107388 496.884049 
-L 571.364049 497.627388 
-L 570.427388 498.104641 
-L 569.389091 498.269091 
+    <path d="M 440.712727 419.083636 
+L 441.751024 419.248086 
+L 442.687686 419.725339 
+L 443.431024 420.468678 
+L 443.908277 421.405339 
+L 444.072727 422.443636 
+L 444.072727 494.909091 
+L 443.908277 495.947388 
+L 443.431024 496.884049 
+L 442.687686 497.627388 
+L 441.751024 498.104641 
+L 440.712727 498.269091 
 L 21.810909 498.269091 
 L 20.772612 498.104641 
 L 19.835951 497.627388 
@@ -617,22 +617,22 @@ L 19.092612 420.468678
 L 19.835951 419.725339 
 L 20.772612 419.248086 
 L 21.810909 419.083636 
-L 569.389091 419.083636 
+L 440.712727 419.083636 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
    <g id="tf-leak-bench-tf-box--19" class="tf-box">
-    <path d="M 569.389091 537.861818 
-L 570.427388 538.026268 
-L 571.364049 538.503521 
-L 572.107388 539.24686 
-L 572.584641 540.183521 
-L 572.749091 541.221818 
-L 572.749091 613.687273 
-L 572.584641 614.72557 
-L 572.107388 615.662231 
-L 571.364049 616.40557 
-L 570.427388 616.882823 
-L 569.389091 617.047273 
+    <path d="M 440.712727 537.861818 
+L 441.751024 538.026268 
+L 442.687686 538.503521 
+L 443.431024 539.24686 
+L 443.908277 540.183521 
+L 444.072727 541.221818 
+L 444.072727 613.687273 
+L 443.908277 614.72557 
+L 443.431024 615.662231 
+L 442.687686 616.40557 
+L 441.751024 616.882823 
+L 440.712727 617.047273 
 L 21.810909 617.047273 
 L 20.772612 616.882823 
 L 19.835951 616.40557 
@@ -649,18 +649,18 @@ z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
    <g id="tf-leak-bench-tf-box--20" class="tf-box">
-    <path d="M 569.389091 537.861818 
-L 570.427388 538.026268 
-L 571.364049 538.503521 
-L 572.107388 539.24686 
-L 572.584641 540.183521 
-L 572.749091 541.221818 
-L 572.749091 613.687273 
-L 572.584641 614.72557 
-L 572.107388 615.662231 
-L 571.364049 616.40557 
-L 570.427388 616.882823 
-L 569.389091 617.047273 
+    <path d="M 440.712727 537.861818 
+L 441.751024 538.026268 
+L 442.687686 538.503521 
+L 443.431024 539.24686 
+L 443.908277 540.183521 
+L 444.072727 541.221818 
+L 444.072727 613.687273 
+L 443.908277 614.72557 
+L 443.431024 615.662231 
+L 442.687686 616.40557 
+L 441.751024 616.882823 
+L 440.712727 617.047273 
 L 21.810909 617.047273 
 L 20.772612 616.882823 
 L 19.835951 616.40557 
@@ -673,119 +673,187 @@ L 19.092612 539.24686
 L 19.835951 538.503521 
 L 20.772612 538.026268 
 L 21.810909 537.861818 
-L 569.389091 537.861818 
+L 440.712727 537.861818 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
    <g id="tf-leak-bench-tf-box--21" class="tf-box">
-    <path d="M 1658.189091 419.083636 
-L 1659.227388 419.248086 
-L 1660.164049 419.725339 
-L 1660.907388 420.468678 
-L 1661.384641 421.405339 
-L 1661.549091 422.443636 
-L 1661.549091 613.687273 
-L 1661.384641 614.72557 
-L 1660.907388 615.662231 
-L 1660.164049 616.40557 
-L 1659.227388 616.882823 
-L 1658.189091 617.047273 
-L 823.563636 617.047273 
-L 822.525339 616.882823 
-L 821.588678 616.40557 
-L 820.845339 615.662231 
-L 820.368086 614.72557 
-L 820.203636 613.687273 
-L 820.203636 422.443636 
-L 820.368086 421.405339 
-L 820.845339 420.468678 
-L 821.588678 419.725339 
-L 822.525339 419.248086 
-L 823.563636 419.083636 
+    <path d="M 1034.603636 419.083636 
+L 1035.641933 419.248086 
+L 1036.578595 419.725339 
+L 1037.321933 420.468678 
+L 1037.799186 421.405339 
+L 1037.963636 422.443636 
+L 1037.963636 613.687273 
+L 1037.799186 614.72557 
+L 1037.321933 615.662231 
+L 1036.578595 616.40557 
+L 1035.641933 616.882823 
+L 1034.603636 617.047273 
+L 566.210909 617.047273 
+L 565.172612 616.882823 
+L 564.235951 616.40557 
+L 563.492612 615.662231 
+L 563.015359 614.72557 
+L 562.850909 613.687273 
+L 562.850909 422.443636 
+L 563.015359 421.405339 
+L 563.492612 420.468678 
+L 564.235951 419.725339 
+L 565.172612 419.248086 
+L 566.210909 419.083636 
 z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--accent, #0E8A7E); opacity: 0.12"/>
    </g>
    <g id="tf-leak-bench-tf-box--22" class="tf-box">
-    <path d="M 1658.189091 419.083636 
-L 1659.227388 419.248086 
-L 1660.164049 419.725339 
-L 1660.907388 420.468678 
-L 1661.384641 421.405339 
-L 1661.549091 422.443636 
-L 1661.549091 613.687273 
-L 1661.384641 614.72557 
-L 1660.907388 615.662231 
-L 1660.164049 616.40557 
-L 1659.227388 616.882823 
-L 1658.189091 617.047273 
-L 823.563636 617.047273 
-L 822.525339 616.882823 
-L 821.588678 616.40557 
-L 820.845339 615.662231 
-L 820.368086 614.72557 
-L 820.203636 613.687273 
-L 820.203636 422.443636 
-L 820.368086 421.405339 
-L 820.845339 420.468678 
-L 821.588678 419.725339 
-L 822.525339 419.248086 
-L 823.563636 419.083636 
-L 1658.189091 419.083636 
+    <path d="M 1034.603636 419.083636 
+L 1035.641933 419.248086 
+L 1036.578595 419.725339 
+L 1037.321933 420.468678 
+L 1037.799186 421.405339 
+L 1037.963636 422.443636 
+L 1037.963636 613.687273 
+L 1037.799186 614.72557 
+L 1037.321933 615.662231 
+L 1036.578595 616.40557 
+L 1035.641933 616.882823 
+L 1034.603636 617.047273 
+L 566.210909 617.047273 
+L 565.172612 616.882823 
+L 564.235951 616.40557 
+L 563.492612 615.662231 
+L 563.015359 614.72557 
+L 562.850909 613.687273 
+L 562.850909 422.443636 
+L 563.015359 421.405339 
+L 563.492612 420.468678 
+L 564.235951 419.725339 
+L 565.172612 419.248086 
+L 566.210909 419.083636 
+L 1034.603636 419.083636 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-leak-bench-tf-arrow--23" class="tf-arrow">
+   <g id="tf-leak-bench-tf-box--23" class="tf-box">
+    <path d="M 1663.138182 419.083636 
+L 1664.176479 419.248086 
+L 1665.11314 419.725339 
+L 1665.856479 420.468678 
+L 1666.333732 421.405339 
+L 1666.498182 422.443636 
+L 1666.498182 613.687273 
+L 1666.333732 614.72557 
+L 1665.856479 615.662231 
+L 1665.11314 616.40557 
+L 1664.176479 616.882823 
+L 1663.138182 617.047273 
+L 1150.203636 617.047273 
+L 1149.165339 616.882823 
+L 1148.228678 616.40557 
+L 1147.485339 615.662231 
+L 1147.008086 614.72557 
+L 1146.843636 613.687273 
+L 1146.843636 422.443636 
+L 1147.008086 421.405339 
+L 1147.485339 420.468678 
+L 1148.228678 419.725339 
+L 1149.165339 419.248086 
+L 1150.203636 419.083636 
+z
+" clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--slide-bg, #F3F1EA)"/>
+   </g>
+   <g id="tf-leak-bench-tf-box--24" class="tf-box">
+    <path d="M 1663.138182 419.083636 
+L 1664.176479 419.248086 
+L 1665.11314 419.725339 
+L 1665.856479 420.468678 
+L 1666.333732 421.405339 
+L 1666.498182 422.443636 
+L 1666.498182 613.687273 
+L 1666.333732 614.72557 
+L 1665.856479 615.662231 
+L 1665.11314 616.40557 
+L 1664.176479 616.882823 
+L 1663.138182 617.047273 
+L 1150.203636 617.047273 
+L 1149.165339 616.882823 
+L 1148.228678 616.40557 
+L 1147.485339 615.662231 
+L 1147.008086 614.72557 
+L 1146.843636 613.687273 
+L 1146.843636 422.443636 
+L 1147.008086 421.405339 
+L 1147.485339 420.468678 
+L 1148.228678 419.725339 
+L 1149.165339 419.248086 
+L 1150.203636 419.083636 
+L 1663.138182 419.083636 
+" clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-leak-bench-tf-arrow--25" class="tf-arrow">
     <path d="M 18.450909 191.425455 
 L 145.433455 191.425455 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-leak-bench-tf-arrow--24" class="tf-arrow">
+   <g id="tf-leak-bench-tf-arrow--26" class="tf-arrow">
     <path d="M 1221.08 191.425455 
 L 1369.025116 165.317493 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke-dasharray: 14.933333,10.453333; stroke-dashoffset: 0; stroke: var(--muted, #56616B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-leak-bench-tf-arrow--25" class="tf-arrow">
-    <path d="M 572.749091 458.676364 
-L 808.611636 458.676364 
-" clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
-   </g>
-   <g id="tf-leak-bench-tf-arrow--26" class="tf-arrow">
-    <path d="M 572.749091 577.454545 
-L 808.611636 577.454545 
-" clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
-   </g>
    <g id="tf-leak-bench-tf-arrow--27" class="tf-arrow">
+    <path d="M 444.072727 458.676364 
+L 551.258909 458.676364 
+" clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-leak-bench-tf-arrow--28" class="tf-arrow">
+    <path d="M 444.072727 577.454545 
+L 551.258909 577.454545 
+" clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-leak-bench-tf-arrow--29" class="tf-arrow">
+    <path d="M 1037.963636 518.065455 
+L 1135.251636 518.065455 
+" clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-leak-bench-tf-arrow--30" class="tf-arrow">
     <path d="M 157.025455 191.425455 
 L 144.145455 186.665455 
 L 144.145455 196.185455 
 z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--ink, #14202B)"/>
    </g>
-   <g id="tf-leak-bench-tf-arrow--28" class="tf-arrow">
+   <g id="tf-leak-bench-tf-arrow--31" class="tf-arrow">
     <path d="M 1380.440727 163.302973 
 L 1366.929497 160.853759 
 L 1368.583933 170.228898 
 z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--muted, #56616B)"/>
    </g>
-   <g id="tf-leak-bench-tf-arrow--29" class="tf-arrow">
-    <path d="M 820.203636 458.676364 
-L 807.323636 453.916364 
-L 807.323636 463.436364 
+   <g id="tf-leak-bench-tf-arrow--32" class="tf-arrow">
+    <path d="M 562.850909 458.676364 
+L 549.970909 453.916364 
+L 549.970909 463.436364 
 z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--ink, #14202B)"/>
    </g>
-   <g id="tf-leak-bench-tf-arrow--30" class="tf-arrow">
-    <path d="M 820.203636 577.454545 
-L 807.323636 572.694545 
-L 807.323636 582.214545 
+   <g id="tf-leak-bench-tf-arrow--33" class="tf-arrow">
+    <path d="M 562.850909 577.454545 
+L 549.970909 572.694545 
+L 549.970909 582.214545 
 z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--ink, #14202B)"/>
    </g>
-   <g id="tf-leak-bench-tf-line--31" class="tf-line">
+   <g id="tf-leak-bench-tf-arrow--34" class="tf-arrow">
+    <path d="M 1146.843636 518.065455 
+L 1133.963636 513.305455 
+L 1133.963636 522.825455 
+z
+" clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--ink, #14202B)"/>
+   </g>
+   <g id="tf-leak-bench-tf-line--35" class="tf-line">
     <path d="M 572.749091 92.443636 
 L 596.504727 68.688 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-leak-bench-tf-box--32" class="tf-box">
+   <g id="tf-leak-bench-tf-box--36" class="tf-box">
     <path d="M 1594.139636 103.331636 
 L 1597.229806 103.821071 
 L 1600.017489 105.241466 
@@ -813,7 +881,7 @@ L 1420.135273 103.331636
 z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--ink, #14202B)"/>
    </g>
-   <g id="tf-leak-bench-tf-box--33" class="tf-box">
+   <g id="tf-leak-bench-tf-box--37" class="tf-box">
     <path d="M 1594.139636 103.331636 
 L 1597.229806 103.821071 
 L 1600.017489 105.241466 
@@ -841,53 +909,65 @@ L 1420.135273 103.331636
 L 1594.139636 103.331636 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-leak-bench-tf-label--36" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="295.6" y="468.896364" transform="rotate(-0 295.6 468.896364)">débit calculé à la buse</text>
-   </g>
-   <g id="tf-leak-bench-tf-label--37" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="295.6" y="587.674545" transform="rotate(-0 295.6 587.674545)">score LeakQ et dB lus sur la caméra</text>
-   </g>
-   <g id="tf-leak-bench-tf-label--38" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="87.738182" y="167.001818" transform="rotate(-0 87.738182 167.001818)">réseau</text>
-   </g>
-   <g id="tf-leak-bench-tf-label--39" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="201.567273" y="262.903636" transform="rotate(-0 201.567273 262.903636)">vanne</text>
-   </g>
    <g id="tf-leak-bench-tf-label--40" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="409.429091" y="265.983636" transform="rotate(-0 409.429091 265.983636)">détendeur</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="231.261818" y="468.896364" transform="rotate(-0 231.261818 468.896364)">débit calculé à la buse</text>
    </g>
    <g id="tf-leak-bench-tf-label--41" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="821.833494" y="92.015091" transform="rotate(-0 821.833494 92.015091)">manomètre : pression amont</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="231.261818" y="586.47142" transform="rotate(-0 231.261818 586.47142)">score LeakQ et dB (caméra)</text>
    </g>
    <g id="tf-leak-bench-tf-label--42" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="810.305455" y="287.900653" transform="rotate(-0 810.305455 287.900653)">tuyau, pression constante</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="87.738182" y="167.001818" transform="rotate(-0 87.738182 167.001818)">réseau</text>
    </g>
    <g id="tf-leak-bench-tf-label--43" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="960.757818" y="152.154545" transform="rotate(-0 960.757818 152.154545)">buse calibrée</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="201.567273" y="262.903636" transform="rotate(-0 201.567273 262.903636)">vanne</text>
    </g>
    <g id="tf-leak-bench-tf-label--44" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="1102.301818" y="272.913381" transform="rotate(-0 1102.301818 272.913381)">jet critique</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="409.429091" y="265.983636" transform="rotate(-0 409.429091 265.983636)">détendeur</text>
    </g>
    <g id="tf-leak-bench-tf-label--45" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1522.974545" y="50.442727" transform="rotate(-0 1522.974545 50.442727)">caméra acoustique</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="821.833494" y="92.015091" transform="rotate(-0 821.833494 92.015091)">manomètre : pression amont</text>
    </g>
    <g id="tf-leak-bench-tf-label--46" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1522.974545" y="278.711273" transform="rotate(-0 1522.974545 278.711273)">score LeakQ et dB</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="810.305455" y="287.900653" transform="rotate(-0 810.305455 287.900653)">tuyau, pression constante</text>
    </g>
    <g id="tf-leak-bench-tf-label--47" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1522.974545" y="325.612182" transform="rotate(-0 1522.974545 325.612182)">mais pas de débit</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="960.757818" y="152.154545" transform="rotate(-0 960.757818 152.154545)">buse calibrée</text>
    </g>
    <g id="tf-leak-bench-tf-label--48" class="tf-label tf-ink">
-    <text style="font-weight: 700; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="291.146222" y="379.882727" transform="rotate(-0 291.146222 379.882727)">Étalonnage, pour chaque pression amont</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="1102.301818" y="272.913381" transform="rotate(-0 1102.301818 272.913381)">jet critique</text>
    </g>
    <g id="tf-leak-bench-tf-label--49" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1240.876364" y="471.115455" transform="rotate(-0 1240.876364 471.115455)">deux lois d'étalonnage</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1522.974545" y="50.442727" transform="rotate(-0 1522.974545 50.442727)">caméra acoustique</text>
    </g>
    <g id="tf-leak-bench-tf-label--50" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 36px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1037.963636" y="569.251307" transform="rotate(-0 1037.963636 569.251307)">débit = f(LeakQ)</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1522.974545" y="278.711273" transform="rotate(-0 1522.974545 278.711273)">score LeakQ et dB</text>
    </g>
    <g id="tf-leak-bench-tf-label--51" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 36px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1443.789091" y="569.251307" transform="rotate(-0 1443.789091 569.251307)">débit = f(dB)</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1522.974545" y="325.612182" transform="rotate(-0 1522.974545 325.612182)">mais pas de débit</text>
+   </g>
+   <g id="tf-leak-bench-tf-label--52" class="tf-label tf-ink">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="358.560284" y="379.882727" transform="rotate(-0 358.560284 379.882727)">Étalonnage, pour chaque pression amont, puis coût</text>
+   </g>
+   <g id="tf-leak-bench-tf-label--53" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="800.407273" y="468.146" transform="rotate(-0 800.407273 468.146)">deux lois d'étalonnage</text>
+   </g>
+   <g id="tf-leak-bench-tf-label--54" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 34px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="800.407273" y="535.943244" transform="rotate(-0 800.407273 535.943244)">débit = f(LeakQ)</text>
+   </g>
+   <g id="tf-leak-bench-tf-label--55" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 34px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="800.407273" y="590.383244" transform="rotate(-0 800.407273 590.383244)">débit = f(dB)</text>
+   </g>
+   <g id="tf-leak-bench-tf-label--56" class="tf-label tf-ink">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1406.176" y="464.074148" transform="rotate(-0 1406.176 464.074148)">coût annuel d'une fuite</text>
+   </g>
+   <g id="tf-leak-bench-tf-label--57" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1406.176" y="510.468727" transform="rotate(-0 1406.176 510.468727)">débit × 8 760 h</text>
+   </g>
+   <g id="tf-leak-bench-tf-label--58" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1406.176" y="553.327239" transform="rotate(-0 1406.176 553.327239)">× énergie spécifique (audit 2021)</text>
+   </g>
+   <g id="tf-leak-bench-tf-label--59" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1406.176" y="598.703562" transform="rotate(-0 1406.176 598.703562)">× prix du kWh</text>
    </g>
   </g>
  </g>

@@ -1,5 +1,5 @@
 {
- "alt": "Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau à pression constante, buse calibrée et jet critique, observé par une caméra acoustique qui donne un score LeakQ et des décibels mais pas de débit. En dessous, l'étalonnage : pour chaque pression amont, le débit calculé à la buse et les indications de la caméra donnent deux lois, débit en fonction du score LeakQ et débit en fonction des décibels.",
+ "alt": "Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau à pression constante, buse calibrée et jet critique, observé par une caméra acoustique qui donne un score LeakQ et des décibels mais pas de débit. En dessous, l'étalonnage : pour chaque pression amont, le débit calculé à la buse et les indications de la caméra donnent deux lois, débit en fonction du score LeakQ et débit en fonction des décibels, puis le coût annuel d'une fuite : débit fois 8 760 heures fois énergie spécifique de l'audit 2021 fois prix du kWh.",
  "xlim": [
   0,
   1680
@@ -324,7 +324,7 @@
    "type": "text",
    "x": 10,
    "y": 290,
-   "text": "Étalonnage, pour chaque pression amont",
+   "text": "Étalonnage, pour chaque pression amont, puis coût",
    "ha": "left",
    "bold": true,
    "color": "accent",
@@ -335,7 +335,7 @@
    "type": "box",
    "x": 10,
    "y": 160,
-   "w": 560,
+   "w": 430,
    "h": 80,
    "label": "débit calculé à la buse",
    "label_pos": "inside"
@@ -345,17 +345,17 @@
    "type": "box",
    "x": 10,
    "y": 40,
-   "w": 560,
+   "w": 430,
    "h": 80,
-   "label": "score LeakQ et dB lus sur la caméra",
+   "label": "score LeakQ et dB (caméra)",
    "label_pos": "inside"
   },
   {
    "id": "C",
    "type": "box",
-   "x": 820,
+   "x": 560,
    "y": 40,
-   "w": 850,
+   "w": 480,
    "h": 200,
    "fill": {
     "color": "accent",
@@ -374,28 +374,74 @@
   },
   {
    "type": "text",
-   "x": 1245,
-   "y": 195,
+   "x": 800,
+   "y": 198,
    "text": "deux lois d'étalonnage",
    "inside": "C",
    "fixed": true
   },
   {
    "type": "text",
-   "x": 1040,
-   "y": 100,
+   "x": 800,
+   "y": 133,
    "text": "débit = f(LeakQ)",
-   "size": 36,
+   "size": 34,
    "inside": "C",
    "fixed": true
   },
   {
    "type": "text",
-   "x": 1450,
-   "y": 100,
+   "x": 800,
+   "y": 78,
    "text": "débit = f(dB)",
-   "size": 36,
+   "size": 34,
    "inside": "C",
+   "fixed": true
+  },
+  {
+   "id": "D",
+   "type": "box",
+   "x": 1150,
+   "y": 40,
+   "w": 525,
+   "h": 200
+  },
+  {
+   "type": "arrow",
+   "from": "C.right",
+   "to": "D.left"
+  },
+  {
+   "type": "text",
+   "x": 1412,
+   "y": 205,
+   "text": "coût annuel d'une fuite",
+   "inside": "D",
+   "fixed": true,
+   "bold": true
+  },
+  {
+   "type": "text",
+   "x": 1412,
+   "y": 158,
+   "text": "débit × 8 760 h",
+   "inside": "D",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 1412,
+   "y": 112,
+   "text": "× énergie spécifique (audit 2021)",
+   "inside": "D",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 1412,
+   "y": 66,
+   "text": "× prix du kWh",
+   "inside": "D",
    "fixed": true
   }
  ]
