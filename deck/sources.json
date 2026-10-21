@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "sources": [
+    {"id": "adamed_pracuj", "citation": "Adamed Pharma, profil employeur, pracodawcy.pracuj.pl, consulté en octobre 2026",
+     "url": "https://pracodawcy.pracuj.pl/company/18797168", "accessed": "2026-10-21", "kind": "web"},
+    {"id": "eurovent_424", "citation": "Eurovent 4/24 - 2023, Energy consumption evaluation of air filters for general ventilation purposes, First Edition (Update 1), 30 May 2024",
+     "url": "https://eurovent.eu/wp-content/uploads/publications-files/eurovent-rec-4-24-energy-consumption-evaluation-2023-en-update-1.pdf",
+     "local": "sources/eurovent_4_24.txt", "accessed": "2026-10-21", "kind": "report"},
+    {"id": "ward_smith_1979", "citation": "Ward-Smith A. J., Critical flowmetering: the characteristics of cylindrical nozzles with sharp upstream edges, Int. J. Heat and Fluid Flow, 1979",
+     "kind": "paper"},
+    {"id": "fluke_ii500", "citation": "Fluke, ii500 Acoustic Imager, page produit et manuel utilisateur",
+     "url": "https://www.fluke.com/en/product/industrial-imaging/sonic-industrial-imagers/fluke-ii500", "kind": "web"},
+    {"id": "choked_flow_wiki", "citation": "Wikipedia, Choked flow, consulté en octobre 2026",
+     "url": "https://en.wikipedia.org/wiki/Choked_flow", "accessed": "2026-10-21", "kind": "web"},
+    {"id": "r_air", "citation": "Constante spécifique de l'air sec, R = 287 J/(kg·K) (valeur usuelle)",
+     "url": "https://en.wikipedia.org/wiki/Gas_constant", "kind": "web"},
+    {"id": "audit2021", "citation": "Clé citée sur la slide de réserve « Mode éco : énergie annuelle » ; aucune référence correspondante dans la liste du deck (source à identifier)",
+     "kind": "report"}
+  ],
+  "claims": [
+    {"slide": 2, "text": "3 milliards", "source": "adamed_pracuj", "qualifiers": ["groupe Adamed", "comprimés par an"]},
+    {"slide": 12, "text": "2 Δp0 + Δpfinal / 3", "source": "eurovent_424",
+     "quote": "∆p = 2/3 ∆p0 + 1/3 ∆pfinal, where ∆pfinal is the predefined final pressure drop at which filters are changed", "locator": "Section 2.2, Eq. (3)",
+     "qualifiers": ["condition based method"]},
+    {"slide": 12, "text": "W = qV Δp t / (1000 η)", "source": "eurovent_424",
+     "quote": "W = qV · ∆p · t / (η · 1000)", "locator": "Eq. (1)"}
+  ],
+  "images": [
+    {"slide": 1, "match": "Vue aérienne du centre de production", "credit": "Biuro Prasowe ALSTAL Grupa Budowlana, via Adamed Pharma",
+     "license": "photo de presse diffusée par Adamed ; autorisation d'usage non documentée",
+     "depicts": "centre de production et logistique Adamed de Pabianice"},
+    {"slide": 1, "match": "Logo Adamed", "credit": "Adamed Pharma", "license": "logo de l'entreprise d'accueil, usage dans le cadre du stage"},
+    {"slide": 1, "match": "Logo Génie des procédés", "credit": "Master Génie des procédés, UGA", "license": "logo de la formation"},
+    {"slide": 8, "match": "Logo Adamed", "credit": "Adamed Pharma", "license": "logo de l'entreprise d'accueil, usage dans le cadre du stage"},
+    {"slide": 8, "match": "Logo Génie des procédés", "credit": "Master Génie des procédés, UGA", "license": "logo de la formation"}
+  ],
+  "data": []
+}

@@ -1,0 +1,511 @@
+Eurovent Industry Recommendation / Code of Good Practice
+
+
+
+
+  Eurovent 4/24 - 2023
+
+  Energy consumption evaluation of
+  air filters for general ventilation
+  purposes
+  First Edition (Update 1)
+  Published on 30 May 2024 by
+  Eurovent, 80 Bd A. Reyers Ln, 1030 Brussels, Belgium
+  secretariat@eurovent.eu
+
+
+
+
+Eurovent AISBL / IVZW / INPA    80 Bd. A. Reyers Ln   Phone: +32 (0)466 90 04 01   Fortis Bank
+European Industry Association   1030 Brussels         secretariat@eurovent.eu      IBAN: BE 31 210043999555
+www.eurovent.eu                 BELGIUM               Follow us on LinkedIn!       BIC: GEBABEBB
+Eurovent 4/24 – 2023
+                                                                                                  Page 2 of 12
+
+
+Document history
+This Eurovent Industry Recommendation / Code of Good Practice supersedes all of its previous
+editions, which automatically become obsolete with the publication of this document.
+
+Modifications
+This Eurovent publication was modified as against previous editions in the following manner:
+
+Modifications as against        Key changes
+1st edition                     Correction of errors in Section 4 and minor editorial amendments
+1st edition (update 1)          Present document
+
+Preface
+In a nutshell
+The purpose of this Recommendation is to provide a generic methodology for estimating energy
+consumption of air filters for general ventilation under actual operating conditions, taking into
+consideration:
+    - Wide range of airflow rate
+    - Actual filter dimensions
+    - Approach to the filter change (condition based and time based method)
+    - Actual operating time
+    - Actual fan efficiency
+
+The document is built on the methodology defined in Eurovent 4/21 and implements the ISO 16890
+classification, as well as its testing methods. This Recommendation, together with Eurovent 4/21
+and Eurovent 4/25, forms a set of Eurovent documents for evaluation of energy consumption and
+energy efficiency of air filters. The differences between the scope of respective Recommendations
+are the following:
+    - Eurovent 4/21 is an integral Recommendation for energy rating and filter performance
+         comparison at standard reference conditions as a basis for the certification programme
+    - Eurovent 4/25 is a simplified version of this Recommendation to propose a consistent
+         evaluation of energy consumption of air filters in the revised Regulation (EU) 1253/2014
+
+
+Authors
+This document was published by the Eurovent Association and was prepared in a joint effort by
+participants of the Product Group ‘Air Filters’ (PG-FIL), which represents a vast majority of all
+manufacturers of these products active on the EMEA market.
+
+Copyright
+© Eurovent, 2023
+
+Unless otherwise stated hereafter, this publication may be reproduced in whole or in part, provided
+acknowledgement of the source is made. For any use or reproduction of photos or other material that
+is not owned by Eurovent, permission must be sought directly from the copyright holders.
+
+Suggested citation
+Eurovent AISBL / IVZW / INPA. (2023). Eurovent 4/24 – 2023 (Update 1) - Energy consumption evaluation
+of air filters for general ventilation purposes. Brussels: Eurovent.
+
+Eurovent AISBL / IVZW / INPA    80 Bd. A. Reyers Ln   Phone: +32 (0)466 90 04 01    Fortis Bank
+European Industry Association   1030 Brussels         secretariat@eurovent.eu       IBAN: BE 31 210043999555
+www.eurovent.eu                 BELGIUM               Follow us on LinkedIn!        BIC: GEBABEBB
+Eurovent 4/24 – 2023
+                                                                                                 Page 3 of 12
+
+
+Important remarks
+Eurovent does not grant any certification based on this document. All certification-related issues
+are managed by the association’s independent subunit Eurovent Certita Certification in Paris. For
+more information, visit www.eurovent-certification.com.
+
+
+
+
+Eurovent AISBL / IVZW / INPA    80 Bd. A. Reyers Ln   Phone: +32 (0)466 90 04 01   Fortis Bank
+European Industry Association   1030 Brussels         secretariat@eurovent.eu      IBAN: BE 31 210043999555
+www.eurovent.eu                 BELGIUM               Follow us on LinkedIn!       BIC: GEBABEBB
+Eurovent 4/24 – 2023
+                                                                                                 Page 4 of 12
+
+
+Contents
+Eurovent 4/24 - 2023 ____________________________________________________________________ 1
+Document history ______________________________________________________________________ 2
+     Modifications ________________________________________________________________________ 2
+Preface _______________________________________________________________________________ 2
+     In a nutshell _________________________________________________________________________ 2
+     Authors _____________________________________________________________________________ 2
+     Copyright____________________________________________________________________________ 2
+       Suggested citation __________________________________________________________________ 2
+     Important remarks ___________________________________________________________________ 3
+1.     Introduction _______________________________________________________________________ 5
+2.     Energy consumption related to air filters _______________________________________________ 6
+     2.1   Time based method ______________________________________________________________ 6
+     2.2   Condition based method __________________________________________________________ 7
+3.     Symbols __________________________________________________________________________ 8
+4.     Example __________________________________________________________________________ 9
+5.     Literature ________________________________________________________________________ 10
+Annex 1 ______________________________________________________________________________ 11
+     Filter family ________________________________________________________________________ 11
+About Eurovent________________________________________________________________________ 12
+     Our Member Associations _____________________________________________________________ 12
+
+
+
+
+Eurovent AISBL / IVZW / INPA    80 Bd. A. Reyers Ln   Phone: +32 (0)466 90 04 01   Fortis Bank
+European Industry Association   1030 Brussels         secretariat@eurovent.eu      IBAN: BE 31 210043999555
+www.eurovent.eu                 BELGIUM               Follow us on LinkedIn!       BIC: GEBABEBB
+Eurovent 4/24 – 2023
+                                                                                                     Page 5 of 12
+
+
+1. Introduction
+The present document describes a procedure to estimate the energy consumption of air filters for
+general ventilation. The focus is on estimation under different operating conditions, including actual
+air flow rate, filter size, operating time and fan efficiency. Due to the large number of variables,
+comparing the energy performance of filters under different conditions is complex. For filter
+comparison, the dedicated Eurovent 4/21 is recommended.
+
+The energy consumption of air filters can be determined as a function of the volume flow rate, the fan
+efficiency, the operation time, and the average pressure drop. Due to the dust loading during
+operation, the pressure drop of an air filter is increasing. The related energy consumption during a
+certain period of time can be calculated from the integral average of the pressure drop over this period
+of time.
+
+Typically, air filters are replaced when reaching a predefined final pressure drop (condition based
+method). Alternatively, based on hygiene considerations, air filters are changed based on a fixed time
+schedule (time based method). For example, in Germany, the VDI Recommendation 6022 recommends
+changing filters on a yearly base (first filter stage) or every two years (second filter stage). The time
+based method typically applies when the final pressure drop is not reached before the predefined
+change time is reached.
+
+The aim of this document is to assess the average yearly energy consumption based on a laboratory
+test procedure, which can be the basis to give the user of an air filter an in-depth guidance for filter
+selection. It has to be noted that to reduce the energy consumption, by using more energy efficient
+filters, requires that the speed of the fan can be adjusted to supply a constant air volume flow rate. If
+the fan is operated at a fixed speed, lowering the (average) pressure drop of the air filters will result in
+an increased volume flow rate. In the worst case, this may even result in a situation where the fan is
+operated in a region with lower efficiency resulting in an increased overall energy consumption.
+
+It also has to be noted that the methods provided in this document are based on laboratory test data
+with standardised test conditions, which may differ significantly from the individual application in a
+building ventilation unit. Hence, the average yearly energy consumption calculated in this document
+can be used as a rough estimation and relates only to the contribution of the air filters involved.
+
+Fine dust filters with an efficiency ePM10 ≥ 50% and a respective face velocity higher than 1,2 m/s (1.500
+m3/h for 592 mm x 592 mm filter size) are rated according to this guideline.
+
+
+
+
+Eurovent AISBL / IVZW / INPA    80 Bd. A. Reyers Ln     Phone: +32 (0)466 90 04 01     Fortis Bank
+European Industry Association   1030 Brussels           secretariat@eurovent.eu        IBAN: BE 31 210043999555
+www.eurovent.eu                 BELGIUM                 Follow us on LinkedIn!         BIC: GEBABEBB
+Eurovent 4/24 – 2023
+                                                                                                     Page 6 of 12
+
+
+2. Energy consumption related to air filters
+The energy consumption of a fan in an air handling unit can be evaluated as a function of the volume
+flow rate supplied by the fan, the fan efficiency, the operation time, and the difference of the total
+pressure (static plus dynamic pressure) after the fan and the static pressure of the ambient air
+(assuming that the fan sucks in air from a static reservoir). Typically, the volume flow rate supplied by
+the fan and the pressure difference the fan has to overcome, are related to each other by the
+characteristic fan curve. The efficiency of the fan is a function of the fan speed. The actual fan
+efficiency also strongly depends on the design and the layout of the fan and can be in the best case as
+high as 0,80 or even higher, and in the worst case as low as 0,25 or even lower.
+
+The portion of the total yearly energy consumption which is related to the filters’ pressure drop can be
+calculated using Eq. (1):
+
+                 q V  p  t
+(1)       W=
+                   1000
+As given above, there are four variables to determine before calculating: The air volume flow rate q V,
+the average pressure drop ̅̅̅̅
+                            ∆𝑝, the operating time t and the fan efficiency η. If fan efficiency and/or
+operating time are not known, the default values of Eurovent 4/21 can be used as a substitute:
+
+t = 6.000 h/a
+
+η = 0,5
+
+Equation (1) is common for both the time based and condition based method. However, in case the
+yearly energy consumption is calculated using the time based method, ̅̅̅̅   ∆𝑝 calculated according to Eq.
+(2) shall be used as the average filter pressure drop. For the condition base method, ̅̅̅̅
+                                                                                         ∆𝑝 calculated
+according to Eq. (3), (3a) or (3b) is substituted as the average filter pressure drop.
+
+2.1       Time based method
+In case filters are changed according to a fixed time schedule, the operating time of the filters is
+known, and the pressure drop curve and the final pressure drop have to be determined to calculate the
+average pressure drop. As a laboratory test method, the average pressure drop is determined from a
+loading of the filter according to ISO 16890-3 using a synthetic test dust specified in ISO 15957 as L2 (AC
+Fine).
+
+The average pressure drop can be estimated in laboratory with the following method. This has to be
+done with the volume flow rate of the actual application. To compare different filters for one
+application, qV, t, η and dimensions must be the same for all filters.
+
+The rating shall be carried out for a full-size filter element (face dimension 592 mm x 592 mm
+according to EN 15805) as described below. See Annex 1 on how to deal with different face dimensions
+of the filter. The filter face velocity has to be above 1,2 m/s.
+
+1.    Carry out a full test according to the ISO 16890 series of standards at nominal volume flow rate and
+      determine the ePMx efficiencies and the ISO ePMx group as described in ISO 16890-1.
+
+2.    Load the filter with ISO L2 dust (AC Fine) according to the procedure described in ISO 16890-3,
+      feeding the total amount of dust given in Table 1 (rounded up to 10 g) or to the final pressure drop
+Eurovent AISBL / IVZW / INPA     80 Bd. A. Reyers Ln    Phone: +32 (0)466 90 04 01     Fortis Bank
+European Industry Association    1030 Brussels          secretariat@eurovent.eu        IBAN: BE 31 210043999555
+www.eurovent.eu                  BELGIUM                Follow us on LinkedIn!         BIC: GEBABEBB
+Eurovent 4/24 – 2023
+                                                                                                            Page 7 of 12
+
+
+      (300 Pa), whichever comes first. During the course of dust loading, the pressure drop curve versus
+      dust fed shall be recorded with at least nine data points (mi, ∆𝑝𝑖 ) including the initial data point (m0
+      = 0 g, ∆𝑝0 ) (minimum of eight loading steps). For the last loading step, the total amount of dust fed
+      mn (n ≥ 8) shall be equal or slightly larger than the amount of dust Mx given in Table 1. If the last
+      loading step results in a total amount of dust that is slightly higher than M x, linear interpolation
+      can be used to define the values at the exact Mx. The dust loading increments should give a
+      smooth curve pressure drop versus dust fed. The total amount of dust that shall be fed to the filter
+      is defined in Table 1, depending on the ISO classification.
+
+       ISO group                 ISO ePM1                    ISO ePM2,5                  ISO ePM10
+       Amount of dust fed Mx for 𝑞𝑉 ∙ 200 g                    𝑞𝑉
+                                                                   ∙ 250 g
+                                                                                           𝑞𝑉
+                                                                                               ∙ 400 g
+       the flow rate qV (m3/s)*  0.944                       0.944                       0.944
+
+      Table 1: Dust amount used for Eq. (2)
+
+
+      *The amount of dust is based on estimated dust concentrations in real life: ePM 1: ~10 µg/m3, ePM2.5:
+      ~12 µg/m3, ePM10: ~20 µg/m3
+
+3.    Calculate the average pressure drop by using Eq. (2) from the n+1 data points pressure drop versus
+      mass of dust fed.
+
+      ̅̅̅̅
+      ∆𝑝𝑖 = 0,5 ∙ (∆𝑝𝑖 + ∆𝑝𝑖−1 ) where 𝑖 = 1 … 𝑛 − 1
+                         ∆𝑝 −∆𝑝
+      ̅̅̅̅
+      ∆𝑝𝑛 = ∆𝑝𝑛−1 + 0,5 ∙ 𝑛 𝑛−1 ∙ (𝑀𝑥 − 𝑚𝑛−1 ) where 𝑚𝑛−1 < 𝑀𝑥 and 𝑚𝑛 ≥ 𝑀𝑥
+                                 𝑚𝑛 −𝑚𝑛−1
+
+      ∆𝑚𝑖 = 𝑚𝑖 − 𝑚𝑖−1 and ∆𝑚𝑛 = 𝑀𝑥 − 𝑚𝑛−1
+
+(2)   ̅̅̅̅ = 1 ∗ ∑𝑛𝑖=1 ∆𝑝
+      ∆𝑝               ̅̅̅̅𝑖 ∗ ∆𝑚𝑖
+              𝑀𝑋
+
+4.    Calculate the yearly energy consumption W related to the filter using Eq. (1).
+
+All data used for the energy efficiency evaluation ( ePMx efficiency, ISO ePMx rating, and pressure drop
+curve) shall result from the same filter specimen.
+
+2.2        Condition based method
+In case filters are changed when they have reached the final pressure drop, the average pressure drop
+is not time dependent (as long as the time interval for calculating the average pressure drop always
+considers full filter lifetime intervals), and the only variable to determine the average pressure drop is
+the shape of the pressure drop curve as a function of the time. In this case, the average pressure drop
+can be estimated by using Eq. (3):
+
+(3)        ̅̅̅̅ = 2 ∆𝑝0 + 1 ∆𝑝final
+           ∆𝑝     3       3
+
+where ∆pfinal is the predefined final pressure drop at which filters are changed.
+
+In case the final pressure drop is defined as a multiple x of the initial pressure drop Eq. (3) can be also
+written as Eq. (3a):
+
+
+Eurovent AISBL / IVZW / INPA          80 Bd. A. Reyers Ln   Phone: +32 (0)466 90 04 01        Fortis Bank
+European Industry Association         1030 Brussels         secretariat@eurovent.eu           IBAN: BE 31 210043999555
+www.eurovent.eu                       BELGIUM               Follow us on LinkedIn!            BIC: GEBABEBB
+Eurovent 4/24 – 2023
+                                                                                                     Page 8 of 12
+
+
+(3a)                            ̅̅̅̅ = ∆𝑝0 (2 + 1 𝑥)
+          ∆𝑝final = 𝑥 ∙ ∆𝑝0 and ∆𝑝          3   3
+
+assuming, after EN 13053, that the multiplier x equals 3, the equation becomes ̅̅̅̅
+                                                                                ∆𝑝 = 1.67 ∙ ∆𝑝0
+In case the final pressure is defined as the initial pressure drop increased by a certain value p, Eq. (3)
+can be also written as Eq. (3b):
+
+(3b)                             ̅̅̅̅ = ∆𝑝0 + ∆𝑝
+          ∆𝑝final = ∆𝑝0 + ∆𝑝 and ∆𝑝            3
+
+assuming, after EN 13053, that p equals 100 Pa, the equation becomes ̅̅̅̅
+                                                                       ∆𝑝 = ∆𝑝0 + 33.3
+                                                                                  ̅̅̅̅ determined
+Calculate the yearly energy consumption W related to the filter using Eq. (1) and ∆𝑝
+according to (3), (3a) or (3b).
+
+3. Symbols
+ePMx        Rated efficiency as defined in ISO 16890-1 (values rounded downwards to the nearest
+            multiple of 5% points)
+η           Efficiency of a fan for the transmission of electrical energy into energy content of the
+            air flow field
+            The total fan efficiency used in this document corresponds to ηtot as defined in EN
+            16798-3:2017, chapter 9.5
+i           Number of the dust loading steps
+mi          Total amount of dust fed to an air filter after the dust loading step i                  [g]
+Δmi         Dust increment fed to an air filter during loading step i                                [g]
+Mx          Amount of L2 dust fed to the test filter in accordance with ISO 16890-3                  [g]
+            Used to calculate the average pressure drop
+            Mx represents one of the three values M10, M2,5, and M1 defined in Table 1
+n           Total number of dust loading steps used to feed the amount of test dust Mx to the air
+            filter (n ≥ 8)
+∆𝑝0         Initial pressure drop of an air filter                                                   [Pa]
+∆𝑝𝑖         Pressure drop of an air filter after dust loading step i                                 [Pa]
+̅̅̅̅𝑖
+∆𝑝          Average of the pressure drops of an air filter measured before and after the dust
+            loading step i
+̅̅̅̅
+∆𝑝          Average pressure drop of an air filter                                                   [Pa]
+∆pfinal     Predefined final pressure drop at which filters are changed                                [Pa]
+qV          Air volume flow rate at filter                                                             [m³/s]
+qV(act)     Air volume flow rate at filter with face dimension other than 592 x 592 mm used to         [m³/s]
+            calculate W(act) according to Annex 1
+t           Time of operation                                                                          [h]
+W           Yearly energy consumption                                                                  [kWh]
+W(act)      Yearly energy consumption of a filter with face dimensions other than 592 x 592 mm [kWh]
+            calculated according to Annex 1
+
+
+
+
+Eurovent AISBL / IVZW / INPA     80 Bd. A. Reyers Ln     Phone: +32 (0)466 90 04 01    Fortis Bank
+European Industry Association    1030 Brussels           secretariat@eurovent.eu       IBAN: BE 31 210043999555
+www.eurovent.eu                  BELGIUM                 Follow us on LinkedIn!        BIC: GEBABEBB
+Eurovent 4/24 – 2023
+                                                                                                                    Page 9 of 12
+
+
+4. Example
+As an example, the calculation method is shown based on test results for a panel filter rated as ISO
+ePM1 50% at 0,277 m³/s according to EN ISO 16890.
+
+The Dimensions of the filter for width x height x depth are 592 mm x 287 mm x 50 mm. According to
+Annex 1, this filter could be calculated with a test filter in the same filter family. In this case, a filter
+with dimensions 592 mm x 592 mm x 50 mm and an accordingly fitted volume flow rate of 0,556 m3/s.
+
+At this flow rate, 117,8 g test dust are required in total according to Table 1.
+
+
+
+
+Figure 1: Pressure drop as a function of the dust loading at 0,944 m³/s according to EN ISO 16890-3. The straight orange line
+marks the average pressure drop.
+
+
+                                Dust feed              Pressure drop             Dust increment        Av. pressure drop
+         Step                                                                                               ̅̅̅̅
+                                 mi [g]                   ∆𝑝𝑖 [Pa]                   Δmi [g]                ∆𝑝𝑖 [Pa]
+            0                        0                        78
+            1                        30                      82                           30                   80,0
+            2                       40                       84                           10                   83,0
+            3                        55                      88                           15                   86,0
+            4                        65                       91                          10                   89,5
+            5                       80                       96                           15                   93,5
+            6                       90                       99                           10                    97,5
+            7                       105                      105                          15                   102,0
+            8                       120                      111                          15                   107,6
+Table 2: Test data for the pressure drop according to EN ISO 16890-3 as a function of the AC Fine dust feed.
+
+
+Linear interpolation between steps 7 and 8 results in an average pressure drop of 107.56 Pa for the last
+step up to 117.8 g test dust. By using Eq. (3) with the data given in Table 2, the average pressure drop
+              ̅̅̅̅ = 90,8 Pa and the yearly energy consumption to W = 301,9 kWh/a for the 592 mm x 287
+calculates to ∆𝑝
+mm x 50 mm filter.
+
+
+
+
+Eurovent AISBL / IVZW / INPA          80 Bd. A. Reyers Ln          Phone: +32 (0)466 90 04 01         Fortis Bank
+European Industry Association         1030 Brussels                secretariat@eurovent.eu            IBAN: BE 31 210043999555
+www.eurovent.eu                       BELGIUM                      Follow us on LinkedIn!             BIC: GEBABEBB
+Eurovent 4/24 – 2023
+                                                                                                      Page 10 of 12
+
+
+5. Literature
+[1]       Goodfellow, H.; Tähti, E.: Industrial Ventilation, Academic Press, 2001
+
+[2]       EN ISO 16890-1:2017: Air filters for general ventilation — Part 1: Technical specifications,
+          requirements and classification system based upon particulate matter efficiency (ePM), 2017
+
+[3]       EN ISO 16890-3:2017: Air filters for general ventilation — Part 3: Determination of the
+          gravimetric efficiency and the airflow resistance versus the mass of test dust captured, 2017
+
+[4]       Mayer, M.; Caesar, T.; Klaus, J.: Energy efficiency classification of air filters, Proc. 10th World
+          Filt. Cong., Vol. 3, p. 313 – 317, April 14 – 18, 2008, Leipzig, Germany
+
+[5]       EN 15805:2009: Particulate air filters for general ventilation. Standardised dimensions, 2009
+
+[6]       EN 16798-3:2017: Energy performance of buildings - Part 3: Ventilation for non-residential
+          buildings - Performance requirements for ventilation and room-conditioning systems, 2017
+
+[7]       EN 13053:2019: Ventilation for buildings - Air handling units - Rating and performance for
+          units, components and sections, 2019
+
+
+
+
+Eurovent AISBL / IVZW / INPA     80 Bd. A. Reyers Ln      Phone: +32 (0)466 90 04 01     Fortis Bank
+European Industry Association    1030 Brussels            secretariat@eurovent.eu        IBAN: BE 31 210043999555
+www.eurovent.eu                  BELGIUM                  Follow us on LinkedIn!         BIC: GEBABEBB
+Eurovent 4/24 – 2023
+                                                                                                    Page 11 of 12
+
+
+Annex 1
+Filter with face dimensions different than the standard size 592 mm x 592 mm can still be estimated
+with a standard sized filter of the same filter family. After carrying out a test with a standard sized
+filter, the energy consumption of the nonstandard filter in the same filter family is calculated with the
+following formula:
+                                                            𝑞v (𝑎𝑐𝑡)
+                                             𝑊(𝑎𝑐𝑡) = 𝑊 ∙
+                                                               𝑞𝑉
+
+where W(act) is the energy consumption and qv(act) the volume flow rate of the nonstandard sized filter
+under consideration. W is the energy consumption and qv the volume flow rate of the tested 592 mm x
+592 mm filter.
+
+Filter family
+Filters are part of the same filter family under the following conditions drawn on EPC 11 FIL – 04-2020
+‘Technical certification rules of the Eurovent Certified Performance Mark – Air Filters’:
+
+1.   The same filter material
+
+2.   The same basic construction (e.g. bag, V-type, etc.)
+
+3.   The same face velocity: Rated airflow / min. net filter area (does not have to be published); the
+     airflow rate shall be adapted to the face area with acceptance criteria of +/- 10%
+
+4.   The same length/depth of the overall filter element with acceptance criteria of +/- 10% or 50 mm
+     whatever is the smaller
+
+5.   For Bag and V-Type filters, the same ratio of filter medium area to front face area with acceptance
+     criteria of +/- 10%
+
+6.   Same initial pressure drop with acceptance criteria of +/- 10%
+
+7.   The same ePMx group
+
+8.   The same ISO efficiency rating
+
+9.   Published data available about: Basic construction, filter media, filter class available via internet
+     or other published sales brochures
+
+
+
+
+Eurovent AISBL / IVZW / INPA    80 Bd. A. Reyers Ln     Phone: +32 (0)466 90 04 01     Fortis Bank
+European Industry Association   1030 Brussels           secretariat@eurovent.eu        IBAN: BE 31 210043999555
+www.eurovent.eu                 BELGIUM                 Follow us on LinkedIn!         BIC: GEBABEBB
+Eurovent 4/24 – 2023
+                                                                                                Page 12 of 12
+
+
+About Eurovent
+Eurovent is Europe’s Industry Association for Indoor Climate (HVAC), Process Cooling, and Food Cold
+Chain Technologies. Its members from throughout Europe represent more than 1.000 organisations,
+the majority small and medium-sized manufacturers. Based on objective and verifiable data, these
+account for a combined annual turnover of more than 30bn Euros, employing around 150.000 people
+within the association’s geographic area. This makes Eurovent one of the largest cross-regional
+industry committees of its kind. The organisation’s activities are based on highly valued democratic
+decision-making principles, ensuring a level playing field for the entire industry independent from
+organisation sizes or membership fees.
+
+Our Member Associations
+Our Member Associations are major national sector associations from Europe that represent
+manufacturers in the area of Indoor Climate (HVAC), Process Cooling, Food Cold Chain, and Industrial
+Ventilation technologies.
+
+The more than 1.000 manufacturers within our network (Eurovent ‘Affiliated Manufacturers’ and
+‘Corresponding Members’) are represented in Eurovent activities in a democratic and transparent
+manner.
+
+→ For in-depth information and a list of all our members, visit www.eurovent.eu
+
+
+
+
+Eurovent AISBL / IVZW / INPA    80 Bd. A. Reyers Ln   Phone: +32 (0)466 90 04 01   Fortis Bank
+European Industry Association   1030 Brussels         secretariat@eurovent.eu      IBAN: BE 31 210043999555
+www.eurovent.eu                 BELGIUM               Follow us on LinkedIn!       BIC: GEBABEBB
+
