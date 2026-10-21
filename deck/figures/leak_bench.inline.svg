@@ -355,8 +355,8 @@ L 946.418051 371.40579
    </g>
    <g id="tf-leak-bench-tf-polygon--12" class="tf-polygon">
     <path d="M 958.65072 386.193572 
-L 1150.891886 327.042444 
-L 1150.891886 445.3447 
+L 1150.891886 352.296 
+L 1150.891886 420.091 
 z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--accent, #0E8A7E); opacity: 0.3"/>
    </g>
