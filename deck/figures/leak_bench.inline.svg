@@ -419,11 +419,6 @@ z
    <rect x="1366" y="166" width="20" height="104" rx="6" style="fill: var(--ink, #14202B)"/>
    <rect x="1380" y="142" width="262" height="152" rx="22" style="fill: var(--background, #F3F1EA); stroke: var(--ink, #14202B); stroke-width: 3"/>
    <rect x="1394" y="156" width="204" height="124" rx="12" style="fill: var(--ink, #14202B)"/>
-   <rect x="1420" y="170" width="152" height="96" rx="3" style="fill: var(--muted, #56616B)"/>
-   <circle cx="1480" cy="224" r="22" style="fill: var(--accent, #0E8A7E); opacity: 0.45"/>
-   <circle cx="1480" cy="224" r="10" style="fill: var(--accent, #0E8A7E)"/>
-   <circle cx="1407" cy="264" r="7" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 3"/>
-   <rect x="1610" y="200.0" width="14" height="36" rx="4" style="fill: var(--accent, #0E8A7E)"/>
   </g>
   <g id="tf-leak-bench-calibration" class="tf-calibration">
    <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="722" y="521">pression constante</text>
