@@ -1,112 +1,108 @@
-# Deck review: 7.5 / 10
+# Deck review: 7.8 / 10
 
 Reviewer: subagent
-Build: `d768d0032c4616c6` · 2026-10-21T16:10:33
+Build: `1301504c1c2a6276` · 2026-10-21T16:23:19
 
-The deck is clean and honest about the limits of each study. The diagrams for the eco mode, the critical-flow bench and the Eurovent filter profiles explain the method clearly, and the backup equations (Eurovent Eq. 1 and 3, the choked-nozzle law with Psi = 0.685 and the 1.89 ratio) check out against their sources. Its weakest point is that an energy-savings deck never shows a single quantified saving: slides 3, 6 and 7 assert that gains justify further work but show no kWh, PLN or %, and the filters slide's notes present an estimate as certain ("le gain d'énergie est sûr"), although Eurovent calls its method a rough estimate that also needs a variable-speed fan. Backup slide R2 cites a source key (audit2021) that matches no reference.
+Clear, honest seven-minute story: three energy topics under GMP, each ending in a concrete decision, and the formulas checked against Eurovent 4/24 and the choked-flow source (Eq. 3, Eq. 1, 1.89, R = 287 and Psi = 0.685 all verify). The weakest part is the evidence behind the results: the eco-mode gain is not shown even as a ratio, the leak bench never shows its calibration curve, slide 4 does not say how the candidate filter's replacement threshold is set (the figure's gain depends on it), and the 3 billion tablets source, Ward-Smith and the internal audit could not be opened.
 
 | Gate | Count |
 |---|---|
-| failed source checks | 2 |
+| failed source checks | 0 |
 | unsourced numbers | 0 |
 | images without credit/licence | 0 |
 | image problems | 0 |
 
-## Source checks that failed
-
-- **Slide 4: Notes : « Le gain d'énergie est sûr »**: qualifier mismatch (eurovent_424). Source: “can be used as a rough estimation ... requires that the speed of the fan can be adjusted to supply a constant air volume flow rate”. The source presents the result as an estimate that depends on a variable-speed fan. The talk presents it as certain.
-- **Slide 11: Modèle E_an = τ E_plein + (1−τ) E_réduit ; P_batterie = u P_max (cité audit2021)**: not found (audit2021). sources.json: « aucune référence correspondante dans la liste du deck (source à identifier) ». There is no citation, URL or file. The cited source does not exist.
-
 ## Slides, lowest score first
 
-### Slide 11: Mode éco : énergie annuelle pondérée par le temps de pesée (6.3)
+### Slide 3: Mode éco des cabines de pesée : réduction du débit d'air neuf hors pesée (6.8)
 
-message 7, evidence 3, honesty 3, legibility 9, consistency 8, timing 8
+message 7, evidence 4, honesty 7, legibility 8, consistency 7, timing 8
 
-- [high] The slide cites 'audit2021', which sources.json describes as 'aucune référence correspondante dans la liste du deck (source à identifier)'. The eco-mode model is credited to a source that does not exist in the deck. **Fix:** Either cite the actual site audit (title, author, date) and add it to slide 9, or remove the citation and label the model 'modèle de l'auteur, hypothèses ci-dessous'.
-- [medium] Only the heating and cooling coils are modelled (P = u·Pmax). The fan electricity saved at reduced flow is not mentioned, and the slide does not say how τ was measured. **Fix:** Add a line: 'ventilateur : [inclus via loi de similitude / négligé]' and 'τ mesuré sur [registre de pesée / signal de présence], valeur Z %'.
+- [medium] The conclusion says the gain is sufficient to justify a regulation study, but the slide shows no number, ratio or method: the reader must take the claim on trust. **Fix:** Add a non-confidential indicator under the diagram, e.g. the gain as a percentage of the booth AHU's annual energy, or its split (thermal vs fan), plus the method line '1 an de supervision, ~N millions de lignes, Python'.
+- [low] The AHU label says 'filtrer, chauffer, refroidir, sécher' but only three symbols are drawn (zigzag, box with diagonal, fan); no heating or cooling coil symbol is recognisable, and the zigzag reuses the filter symbol drawn on the exhaust. **Fix:** Draw separate filter, heating coil (+), cooling coil (-) and fan symbols, or label each box under the AHU.
 
-### Slide 4: Filtres à faible perte de charge : perte de charge moyenne selon Eurovent 4/24 (6.5)
+### Slide 6: Application de traitement des relevés : débit et coût annuel par fuite (6.8)
 
-message 7, evidence 6, honesty 3, legibility 7, consistency 8, timing 8
+message 6, evidence 4, honesty 6, legibility 8, consistency 8, timing 9
 
-- [high] The notes say 'Le gain d'énergie est sûr'. Eurovent 4/24 calls its result 'a rough estimation' and says the saving 'requires that the speed of the fan can be adjusted to supply a constant air volume flow rate'. With a fixed-speed fan the flow rate rises instead, and consumption can even go up. **Fix:** Say 'gain estimé selon la convention Eurovent, à condition que le ventilateur soit à vitesse variable (débit constant)' and add this condition to the Énergie box. State whether the site's AHU fans are variable-speed.
-- [low] The chart gives the candidate filter a lower replacement threshold (≈1.8) than the current one (3). The gain shown depends on that illustrative choice, and the slide does not say whether the site would keep the same threshold. **Fix:** Draw both filters with the site's real threshold rule (same Δp_final, or the manufacturer's value), or add 'seuils illustratifs' next to the threshold labels.
-- [low] The candidate's mean line (y = 1) sits at the same level as the current filter's clean value, and the end of the teal curve is hidden under the orange one near x = 2.6. The 'écart : gain' gap is therefore hard to read. **Fix:** Add a bracket or arrow between the two dotted mean lines labelled 'gain', and end both curves at the same x before they overlap.
+- [medium] The title promises 'débit et coût annuel par fuite', but the Terrain band says real leaks are below the bench domain: current field estimates are extrapolations, and the notes' 'résultats assez cohérents' has no evidence on the slide. **Fix:** Retitle e.g. 'Application : débit et coût estimés par fuite, calibration à étendre aux faibles débits' and add one line of field evidence (n fuites relevées, k hors plage calibrée).
+- [low] Fluke's ii500 product page says the tool 'estimates relative leak size and cost' (LeakQ 1-10); a jury may ask why the app is needed. **Fix:** Add one phrase: 'la caméra ne donne qu'un indice relatif (LeakQ 1-10), pas de débit en L/min'.
 
-### Slide 3: Mode éco des cabines de pesée : réduction du débit d'air neuf hors pesée (6.7)
+### Slide 11: Mode éco : énergie annuelle pondérée par le temps de pesée (7.3)
 
-message 7, evidence 3, honesty 6, legibility 8, consistency 9, timing 7
+message 7, evidence 5, honesty 7, legibility 8, consistency 8, timing 9
 
-- [high] The conclusion says 'le gain brut justifie une étude', but the slide gives no gain at all: no kWh/an, no PLN/an, no % of AHU energy, no value of tau. The jury cannot judge whether the gain justifies anything. **Fix:** Add one number with its basis next to the diagram, e.g. 'gain brut estimé : X MWh/an (Y PLN/an), τ = Z %, 1 an de supervision'. If the values are confidential, say so and give an order of magnitude or a % of the cabin's energy.
-- [low] The notes rely on 'un an de données, plusieurs millions de lignes', but neither the period nor the data source appears on the slide. **Fix:** Add a source line: 'Données : supervision GTC, [mois année]–[mois année], pas de N min'.
-
-### Slide 6: Application de traitement des relevés : débit et coût annuel par fuite (7.0)
-
-message 7, evidence 3, honesty 7, legibility 8, consistency 9, timing 8
-
-- [high] The values are masked on the mockup, and the claim that field results were 'assez cohérents pour justifier l'achat d'un rotamètre' (notes) is not quantified. The leak study shows no result and no calibration curve. **Fix:** Show the bench calibration (flow vs score and vs dB, with the calibrated range shaded) or at least 'N fuites relevées, écart score/dB ±X %'. If the values are confidential, write 'valeurs confidentielles' rather than just 'masquées'.
-- [low] 'Photo de la caméra : score, dB et distance' is fine for the ii500 (Fluke: 'Leak size scale (1-10)', 'distance-estimation feature'). Fluke's higher models (ii905/ii915) do give leak rate and cost, so the jury may ask why they were not used. **Fix:** Prepare a one-line answer, e.g. 'ii500 disponible sur site ; les ii905/915 estiment le débit mais sans référence locale'.
-
-### Slide 9: Références (7.3)
-
-message 8, evidence 6, honesty 6, legibility 9, consistency 6, timing 9
-
-- [medium] The list does not match the sources used: the Wikipedia 'Gas constant' page (r_air, cited on R4) is missing, and R2 cites a key 'audit2021' that matches no reference. **Fix:** Add 'Wikipédia, Gas constant, consulté en octobre 2026'. Either add the real audit reference used for the eco-mode model, or remove the audit2021 citation from R2.
-- [low] The Ward-Smith and Fluke entries are incomplete: Ward-Smith has no volume, pages or DOI, and Fluke has no URL, date or manual version. **Fix:** Complete them: Ward-Smith with volume(issue), pages and DOI; Fluke with the URL and the manual edition and date.
-
-### Slide 5: Banc de référence : buse calibrée en écoulement critique (7.5)
-
-message 8, evidence 5, honesty 7, legibility 9, consistency 8, timing 8
-
-- [medium] The critical-flow formula (R4) needs the upstream temperature T0, but the bench shows only a pressure gauge. Neither the nozzle size nor the pressure and flow range of the bench is given. **Fix:** Add a thermometer, or the note 'T0 = température ambiante', to the diagram, plus one line with the bench domain: 'buse Ø x mm, p0 = a–b bar, débit = c–d L/min'.
-- [low] The slide cites Fluke and Ward-Smith 1979 in its markup, but no source is visible. The Ward-Smith paper has no URL or local copy, so it could not be checked. **Fix:** Add a small source line 'Réf. 2, 3', and give the Ward-Smith entry its volume, pages and DOI in sources.json and on slide 9.
+- [low] The slide cites the internal 2021 energy audit, but nothing on it says which input comes from the audit, and the audit is not public; how the fan electricity at reduced flow is obtained is not stated. **Fix:** Write 'P_max : audit énergétique 2021' (or whatever input it supplies) and add 'ventilateur à débit réduit : mesuré en supervision / lois de similitude'.
 
 ### Slide 2: Site pharmaceutique sous GMP : toute modification d'installation est soumise à validation (7.7)
 
-message 6, evidence 6, honesty 8, legibility 9, consistency 9, timing 8
+message 6, evidence 6, honesty 7, legibility 9, consistency 9, timing 9
 
-- [medium] The title claims that every change to an installation must be validated under GMP. Nothing on the slide supports it: the biggest element is the group's tablet count, which says nothing about the constraint. **Fix:** Add a one-line reference for the change-control requirement (EU GMP Annex 15, qualification and validation / change control) under the DÉMARCHE band, or move the GMP sentence into the DÉMARCHE band and make the title about the three topics.
-- [low] The '3 milliards' figure is a group-wide number taken from an undated employer profile. More recent press figures (PAP) give about 3.5 billion per year, so 'plus de 3 milliards' is still true. **Fix:** Keep 'plus de 3 milliards', and write 'groupe Adamed, tous sites' in the label so nobody reads it as Pabianice output.
+- [medium] The title claims the GMP validation constraint, but the dominant element is a group-level production figure (3 milliards) that does not support it; the constraint itself only appears in the title and the bottom 'Démarche' band. **Fix:** Shrink the 3 milliards stat to a secondary line and give the visual weight to the constraint, e.g. a short chain 'modification -> change control -> requalification' or 'toute modification = dossier de validation'.
+- [medium] The cited source for 'plus de 3 milliards de comprimés par an' (pracodawcy.pracuj.pl) is behind a Cloudflare challenge and has no local copy, so it could not be checked; press reports give 3.2 to 3.5 billion depending on year. **Fix:** Save a PDF or screenshot of the pracuj.pl page in sources/ and set 'local', or cite a reachable dated source (e.g. the PAP article giving 3.5 mld tabletek rocznie) with its year.
+- [low] 'GMP' is never expanded on the slides for a French jury. **Fix:** Write 'BPF / GMP (bonnes pratiques de fabrication)' the first time it appears.
 
-### Slide 7: Livrables et décisions associées (7.7)
+### Slide 4: Filtres à faible perte de charge : perte de charge moyenne selon Eurovent 4/24 (7.7)
 
-message 8, evidence 4, honesty 7, legibility 9, consistency 9, timing 9
+message 8, evidence 8, honesty 6, legibility 8, consistency 8, timing 8
 
-- [medium] The summary lists deliverables and decisions but no outcome size. None of the three cards carries the estimated saving that would make each decision worthwhile. **Fix:** Add one figure per card under the title (e.g. '≈ X MWh/an', 'Δp moyen −Y %', 'Z PLN/an par fuite type'), or 'non chiffré' where nothing could be quantified.
+- [medium] The candidate filter's threshold is drawn at 3 x its own initial pressure drop (1.8), not at the site's current threshold (3). The gain depends on this choice: with the same absolute threshold of 3, Eurovent Eq. (3) gives a candidate mean of (2x0.6+3)/3 = 1.4 instead of 1.0, which removes most of the shown gap. The slide does not say which rule applies. **Fix:** State the threshold rule on the slide ('seuil = 3 x Δp0, EN 13053' or 'seuil identique du site') and, if the site keeps a fixed final Δp, redraw the candidate with that threshold.
+- [low] The x-axis runs to about 3.6 lifetimes but both curves stop at 2.6, and the current filter's third cycle is cut mid-cycle; Eurovent's lifetime-independent average holds only over full lifetime intervals. **Fix:** End the axis at 2.6 and stop the current filter at t = 2 (or extend both to a common full-cycle boundary, e.g. 3.9 = 3 x 1.3).
+- [low] Y-axis 'rapportée à l'état neuf' does not say which filter's new state is the reference (the candidate starts at 0.6). **Fix:** Write 'rapportée à l'état neuf du filtre actuel'.
 
-### Slide 1: Évaluation d'économies d'énergie sur un site pharmaceutique sous contrainte GMP (7.8)
+### Slide 5: Banc de référence : buse calibrée en écoulement critique (7.8)
 
-message 8, evidence 7, honesty 7, legibility 9, consistency 7, timing 9
+message 7, evidence 6, honesty 7, legibility 9, consistency 9, timing 9
 
-- [medium] The source entry for the aerial photo records its licence as 'autorisation d'usage non documentée'. The photo comes from a construction firm's press office (ALSTAL) via Adamed. Adamed's news page about ALSTAL's Pabianice extension shows no such credit. **Fix:** Get written permission from Adamed communications (or use an Adamed image whose use is documented) and record it in sources.json before the deck PDF is circulated.
-- [low] The kicker says 'STAGE M1' and the Formation cell says 'M2 GDP, UGA'. Read side by side, the jury may take them as a contradiction. **Fix:** Make it explicit, e.g. kicker 'STAGE DE M1 / ADAMED PHARMA' and Formation 'M2 GDP, UGA (en cours)'.
-
-### Slide 10: Cascade de pression : l'air s'écoule de la pression la plus haute vers la plus basse (7.8)
-
-message 8, evidence 6, honesty 8, legibility 9, consistency 8, timing 8
-
-- [low] The cascade is explained with a hospital analogy and no source. A pharma jury may ask for the GMP equivalent (typical Δp between grades). **Fix:** Add one line with a pharmaceutical reference, e.g. 'GMP : 10–15 Pa entre classes adjacentes (EU GMP Annexe 1)', or the site's actual setpoint for the weighing booth.
+- [medium] The manometer is drawn upstream of the flexible hose, so it reads the pressure before the hose loss, not p0 at the nozzle inlet used in the critical-flow formula (R4); T0 is needed too but no temperature measurement is drawn. **Fix:** Move the gauge to just upstream of the nozzle (or state 'perte de charge du tuyau négligeable, vérifiée') and add a thermometer or the note 'T0 = température ambiante'.
+- [medium] The bench's result (camera score/dB against computed flow, with its range) is never shown, although slide 6's estimates rest on it. **Fix:** Add a small calibration plot here: computed flow (L/min) vs dB and vs score, with the bench domain marked; it can carry masked costs but the flow axis is not confidential.
+- [low] The slide cites Ward-Smith and Fluke in its data but shows no visible source line. **Fix:** Add 'Sources : Ward-Smith 1979 ; Fluke ii500' under the diagram.
 
 ### Slide 8: Bilan et enseignements (8.0)
 
 message 8, evidence 6, honesty 8, legibility 9, consistency 9, timing 8
 
-- [low] The competences are generic ('Traitement de données volumineuses') and are not tied to the evidence on earlier slides. **Fix:** Make them concrete with the scale: e.g. 'Python : 1 an de supervision, ~N millions de lignes'.
+- [low] Right column has only two lessons and a large empty band; the strongest lesson in the notes ('aller voir l'installation avant de calculer') is not on the slide. **Fix:** Rephrase the first lesson as 'Aller voir l'installation avant de calculer : 1 à 2 semaines perdues sur les filtres'.
 
-### Slide 13: Banc : débit d'une buse en écoulement critique (8.2)
+### Slide 10: Cascade de pression : l'air s'écoule de la pression la plus haute vers la plus basse (8.0)
 
-message 8, evidence 8, honesty 8, legibility 8, consistency 9, timing 8
+message 8, evidence 6, honesty 8, legibility 9, consistency 8, timing 9
 
-- [low] The Cd value used is not given and its source (Ward-Smith 1979) could not be checked: there is no URL or copy. The legend wraps onto a second line in small type. **Fix:** Give the Cd value used (e.g. 'Cd ≈ 0,8x pour L/D = …') with its page in Ward-Smith, and split the legend into two shorter lines.
+- [low] Backup slide with no source for the pressure-cascade principle; the standard room's 'pression intermédiaire' is not placed relative to the corridor's 'pression de référence' and has no arrow. **Fix:** Add a source (e.g. EU GMP Annex 1 or ASHRAE 170) and either draw a small arrow or write 'pression ≈ couloir' for the standard room.
 
-### Slide 12: Filtres : perte de charge moyenne selon Eurovent 4/24 (8.5)
+### Slide 7: Livrables et décisions associées (8.2)
 
-message 8, evidence 9, honesty 8, legibility 9, consistency 9, timing 8
+message 8, evidence 6, honesty 8, legibility 9, consistency 9, timing 9
 
-- [low] The legend gives units for every input but not for the result W. Eurovent gives W in kWh/year. The slide also omits the source's condition that the fan must keep a constant flow (variable speed). **Fix:** Append 'W : énergie annuelle (kWh)' to the legend and 'valable à débit constant (ventilateur à vitesse variable)'.
+- [low] Statuses are assertions with no date or owner, so 'proposé' and 'à engager' read as open-ended. **Fix:** Add an owner or horizon to each status, e.g. 'essai pilote proposé, CTA X, T1 2027'.
+
+### Slide 1: Évaluation d'économies d'énergie sur un site pharmaceutique sous contrainte GMP (8.3)
+
+message 8, evidence 8, honesty 8, legibility 9, consistency 8, timing 9
+
+- [low] Kicker reads 'STAGE M1' while the Formation cell reads 'M2 GDP, UGA' and the notes say 'je suis en M2'; a jury may read this as a contradiction. **Fix:** Write 'STAGE DE M1 (2025)' in the kicker or 'Formation : M2 GDP, UGA (stage réalisé en M1)' so the two levels are explained.
+- [low] The aerial photo's licence is recorded as 'autorisation d'usage non documentée'; credit is present and the image matches the Pabianice production and logistics centre built by ALSTAL. **Fix:** Get a one-line written OK from Adamed communication (or link the Adamed/ALSTAL press page it comes from) and record it in sources.json.
+
+### Slide 9: Références (8.3)
+
+message 8, evidence 8, honesty 8, legibility 9, consistency 8, timing 9
+
+- [low] Web references have no URL, Fluke has no access date, and 'Wikipédia, Choked flow' is the English Wikipedia; the source for R = 287 J/(kg·K) is not listed. **Fix:** Add the URLs and access dates (pracuj.pl, fluke.com, en.wikipedia.org/wiki/Choked_flow) and write 'Wikipedia (en)'.
+
+### Slide 13: Banc : débit d'une buse en écoulement critique (8.3)
+
+message 8, evidence 7, honesty 9, legibility 8, consistency 9, timing 9
+
+- [low] C_d is attributed to Ward-Smith 1979 but its value, the nozzle diameter and the pressure range used are not given, so the bench flow cannot be reproduced from the slide. **Fix:** Add 'C_d = … (Ward-Smith 1979, buse d = … mm), p0 = … à … bar abs'.
+
+### Slide 12: Filtres : perte de charge moyenne selon Eurovent 4/24 (8.7)
+
+message 8, evidence 9, honesty 9, legibility 9, consistency 8, timing 9
+
+- [low] The legend gives no unit for W, and the condition under which Eq. (3) applies (filter replaced at a fixed final Δp) is implicit. **Fix:** Add 'W : énergie annuelle (kWh/an)' and '(remplacement au seuil, méthode condition based)'.
 
 ## Not verified (source unreachable)
 
-- Slide 5: Au-delà du rapport de pression critique, débit indépendant de l'aval (buse, Ward-Smith 1979) (ward_smith_1979)
-- Slide 13: Cd : coefficient de décharge (Ward-Smith 1979) (ward_smith_1979)
+- Slide 2: Groupe Adamed : plus de 3 milliards de comprimés produits par an (adamed_pracuj)
+- Slide 13: C_d : coefficient de décharge (Ward-Smith 1979) (ward_smith_1979)
+- Slide 11: Inputs of the eco-mode energy model (audit énergétique 2021) (audit2021)
