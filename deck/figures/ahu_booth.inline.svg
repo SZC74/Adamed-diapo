@@ -898,6 +898,9 @@ L 796.46313 517.721928
    <g id="tf-ahu-booth-tf-label--58" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1008.632063" y="574.036844" transform="rotate(-0 1008.632063 574.036844)">air de la salle</text>
    </g>
+   <g id="tf-ahu-booth-tf-label--59" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="255.690824" y="622.372823" transform="rotate(-0 255.690824 622.372823)">GTB : gestion technique du bâtiment</text>
+   </g>
   </g>
  </g>
  <defs>

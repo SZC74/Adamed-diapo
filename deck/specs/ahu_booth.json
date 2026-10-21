@@ -613,6 +613,15 @@
    "ha": "right",
    "color": "muted",
    "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 0,
+   "y": 40,
+   "text": "GTB : gestion technique du bâtiment",
+   "ha": "left",
+   "color": "muted",
+   "fixed": true
   }
  ]
 }
