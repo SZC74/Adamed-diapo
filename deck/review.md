@@ -1,116 +1,111 @@
-# Deck review: 7.8 / 10
+# Deck review: 7.7 / 10
 
 Reviewer: subagent
-Build: `5cae9de6717705a6` · 2026-10-21T17:47:10
+Build: `6041e1a0a51ae327` · 2026-10-21T21:00:28
 
-Clear, honest storyline (three energy topics under GMP constraint, each ending in a decision) and every formula I could check is correct: Eurovent 4/24 Eq. (1) and (3), the EN 13053 x=3 threshold, the choked-flow equation (Psi = 0.685, critical ratio 1.893, R = 287) and the CDC isolation-room principle all hold. The weakest point is evidence: the main slides carry no quantified result at all (gains internal, values masked), the 8 760 h and L/min figures hide unstated assumptions (continuous pressurisation, reference conditions), and two cited sources (pracuj.pl for the 3 billion tablets, the 2021 audit) could not be opened.
+The deck is clear and well structured: each topic slide has a question, a method and a result, the schematics are clean, and the equations in the backup slides check out against Eurovent 4/24, the Wikipedia choked-flow article and a recomputation (Ψ ≈ 0,685, 1,2^3,5 ≈ 1,89, R ≈ 287). Its weakest point is evidence. Slides 3 and 6 claim results ('Oui', 'le principe marche sur le terrain') with no figure, and the speaker notes for slide 6 say the field leaks fell below the bench's calibrated range. The backup slide R1 shows hospital patient rooms in a pharmaceutical-plant talk, and the '3 milliards' source could not be opened.
 
 | Gate | Count |
 |---|---|
 | failed source checks | 0 |
 | unsourced numbers | 0 |
 | images without credit/licence | 0 |
-| image problems | 1 |
-
-## Images
-
-- **Slide 1**: Aerial photo of the Adamed production and logistics centre in Pabianice (ADAMED logos visible; ALSTAL was the contractor for this centre, consistent with the credit). The credit is shown, but the licence is recorded as 'autorisation d'usage non documentée'. Documented permission is needed before the deck is sent or posted.
+| image problems | 0 |
 
 ## Slides, lowest score first
 
-### Slide 3: Mode éco des cabines de pesée : réduction du débit d'air neuf hors pesée (7.2)
+### Slide 6: Application de traitement des relevés (6.5)
 
-message 7, evidence 4, honesty 7, legibility 8, consistency 9, timing 8
+message 6, evidence 4, honesty 5, legibility 8, consistency 7, timing 9
 
-- [medium] The conclusion 'gain brut ... suffisant pour justifier une étude' rests on no visible number: no order of magnitude, share or input value is shown, so the jury has to take the result on trust. **Fix:** If the amounts are confidential, show a relative value (for example 'about X % of the booths' HVAC energy' or a rounded MWh/an range), or at least the drivers (τ, flow reduction ratio, 1 year of supervision data).
-- [low] The method (one year of supervision data, millions of rows, Python recalculation at reduced flow) appears only in the speaker notes. **Fix:** Add one line under the diagram: 'Méthode : 1 an de supervision, recalcul à débit réduit (détail R2)'.
+- [medium] 'Le principe marche sur le terrain' is unsupported, and the notes partly contradict it: the real leaks were smaller than the bench range, so the field readings fell outside the calibrated laws. **Fix:** Replace with 'Sur le terrain, les fuites relevées sont sous la plage du banc : un rotamètre a été acheté pour étendre l'étalonnage aux petits débits', and add the number of leaks surveyed if available.
+- [low] This is the only topic slide without a 'Question :' line, which breaks the question → method → result pattern of slides 3 to 5. **Fix:** Add 'Question : Comment traiter des dizaines de relevés sans ressaisie ?' under the title.
 
-### Slide 6: Application de traitement des relevés : débit et coût annuel par fuite (7.2)
+### Slide 3: Mode éco des cabines de pesée (6.7)
 
-message 7, evidence 5, honesty 6, legibility 8, consistency 8, timing 9
+message 7, evidence 4, honesty 6, legibility 8, consistency 9, timing 6
 
-- [medium] Flow is shown in L/min with no reference conditions. The nozzle gives a mass flow, and the audit's specific energy refers to a defined volume (free air or normal m³), so the cost depends on that choice. **Fix:** Label the unit 'NL/min (1,013 bar, 0 °C)' or 'L/min d'air libre', matching the basis of the audit's kWh/m³.
-- [medium] 'débits réels inférieurs au domaine du banc' gives no numbers, so the size of the extrapolation problem is invisible. **Fix:** Give both ranges, for example 'banc : x–y NL/min ; fuites relevées : typiquement < z NL/min'.
+- [medium] The result 'Oui. Le gain justifie...' has no number at all. The notes say the amounts stay internal, so the audience must take the conclusion on trust. **Fix:** Show a normalised result that leaks no amounts, e.g. 'gain ≈ X % de l'énergie annuelle des cabines, surtout thermique'. Or give an order of magnitude in MWh/an.
+- [medium] Why the eco mode is unused (a site test showed the negative pressure briefly reversing at regime changes) is only in the notes, yet it is the reason the question exists. **Fix:** Add under the question: 'Mode existant mais inutilisé : la dépression s'inverse brièvement aux changements de régime'.
+- [low] The notes run to 180 words in 80 s (about 135 words/min), which is tight for a 7-minute talk with only 15 s of slack. **Fix:** Cut the description of the glycol loop from the notes; the schematic already shows it.
 
-### Slide 11: Mode éco : énergie annuelle pondérée par le temps de pesée (7.3)
+### Slide 10: L'air s'écoule de la pression haute vers la basse (6.8)
 
-message 7, evidence 5, honesty 7, legibility 8, consistency 8, timing 9
+message 6, evidence 6, honesty 7, legibility 9, consistency 4, timing 9
 
-- [medium] E_réduit, the term the whole gain depends on, is not defined: the slide does not say how the reduced flow changes the coil and fan energy (same enthalpy change per m³? fan affinity law?). **Fix:** Add one line, for example 'E_réduit : mêmes Δh par m³ d'air × débit réduit ; ventilateur : P ∝ q³ (ou mesure)'.
-- [low] The 2021 audit is attached to this slide but nothing on it uses the audit, and E has no unit. **Fix:** Move the audit2021 cite to slide 5 and add 'E : kWh/an'.
+- [medium] The pressure-cascade backup shows two hospital patient rooms ('chambre', 'patient') fed by a pressurised corridor. The talk is about a pharmaceutical plant whose weighing booth is in negative pressure relative to its room (slide 3). The example is off-topic and invites the wrong question. **Fix:** Redraw with the site's own case: room (or corridor) at higher pressure → weighing booth in negative pressure, with the airflow through the open front as on slide 3.
 
-### Slide 4: Filtres à faible perte de charge : perte de charge moyenne selon Eurovent 4/24 (7.5)
+### Slide 2: Un site GMP impose de valider toute modification d'installation (7.2)
 
-message 7, evidence 7, honesty 7, legibility 8, consistency 8, timing 8
+message 6, evidence 5, honesty 6, legibility 9, consistency 9, timing 8
 
-- [medium] The illustrative profiles give the candidate filter a lifetime about 1.3 times the current one, while the 'Coût' box says its lifetime is unknown and must be found by a pilot test. The figure presents as given what the slide says is open. **Fix:** Draw both filters with the same lifetime (the energy comparison does not depend on it under the condition-based method), or label the candidate cycle 'durée de vie supposée, à mesurer'.
-- [low] The orange 'moyenne, candidat' dotted line sits exactly on the current filter's clean level (1.0), where the teal curve restarts, so the two read as one line. **Fix:** Add a tick label 'Δp0 actuel' at 1 and make the candidate mean line heavier, or move its label next to the line end.
-- [low] The title names the method, not the finding. **Fix:** For example: 'Filtres : gain d'énergie calculable (Eurovent 4/24), rentabilité suspendue à la durée de vie'.
+- [medium] The cited source (pracodawcy.pracuj.pl) could not be opened: Cloudflare blocks it. A PAP report (Polskie Radio) gives a newer figure of 3.5 billion tablets a year. 'Plus de 3 milliards' is therefore not wrong, but the large '3 milliards' understates it, and the source cannot be checked. **Fix:** Save a local copy or a screenshot of the pracuj.pl page in sources/. Or show '3,5 milliards de comprimés par an' and cite PAP/Polskie Radio with its date.
+- [medium] The title says a GMP site requires validating every change to an installation, but nothing on the slide supports it. The large number (tablet volume) does not prove the title, so the message is split. **Fix:** Add one line with its source, e.g. 'EU GMP, Annexe 15 : toute modification passe par la maîtrise des changements (change control)'. Shrink the 3-milliards block to supporting context.
 
-### Slide 5: Banc de référence : buse calibrée en écoulement critique (7.5)
+### Slide 4: Filtres à faible perte de charge (7.3)
 
-message 8, evidence 7, honesty 6, legibility 8, consistency 8, timing 8
+message 7, evidence 6, honesty 6, legibility 8, consistency 9, timing 8
 
-- [medium] 'débit × 8 760 h' assumes the compressed-air network is pressurised all year, and the slide does not say so. If the network is shut down at weekends or during stoppages, the leak cost is overstated. **Fix:** Write '8 760 h (réseau sous pression en continu, hypothèse)' or use the network's actual pressurised hours from the 2021 audit.
-- [medium] No source is visible on the slide. In the data, 8 760 h is cited to Ward-Smith 1979 and the Fluke ii500, which do not contain it, and the 'énergie spécifique (audit 2021)' is not linked to the audit source (that link sits on slide 11). **Fix:** Add a source line 'Ward-Smith 1979 ; Wikipédia, Choked flow ; Fluke ii500 ; audit énergétique 2021', move the audit2021 cite here, and mark 8 760 h as a calculation (365 × 24).
-- [low] The bench's pressure and flow range is not given, so slide 6's statement that field flows fall below the bench domain cannot be judged. **Fix:** Add the tested range, for example 'p0 = a–b bar, débit = x–y NL/min', in the calibration box.
+- [medium] The chart sets the candidate's replacement threshold at 3 × its own (lower) initial Δp, so 'seuil candidat' sits at 1.8 instead of 3. If the site changes filters at a fixed final Δp in Pa, the candidate's average is (2·0,6+3)/3 = 1,4, not 1,0, and the drawn gain shrinks by about 60 %. The slide does not say which replacement rule the comparator assumes. **Fix:** State the rule on the slide ('seuil = 3 × Δp0, EN 13053, cf. Eurovent 4/24 éq. 3a'). Or draw the candidate with the site's real final Δp and note that the gain depends on this choice.
+- [low] The result gives no value (no minimum lifetime, no price ratio), so the slide shows the method but not the answer. **Fix:** Add one result line, e.g. 'rentable si durée de vie ≥ N mois (vs M mois actuels)', or a normalised ratio if the prices are confidential.
+- [low] The 'seuil candidat' label sits on the y=2 grid line, above its dashed line at 1.8, and could be read as a threshold at 2. **Fix:** Move the label just above the orange dashed line, or stop the grid line short of the label.
 
-### Slide 1: Évaluation d'économies d'énergie sur un site pharmaceutique sous contrainte GMP (7.8)
-
-message 8, evidence 7, honesty 7, legibility 9, consistency 7, timing 9
-
-- [medium] The aerial photo is credited, but its licence is recorded as 'autorisation d'usage non documentée' (Adamed press photo by ALSTAL). **Fix:** Get a written OK from Adamed communications (an e-mail is enough) and record it in sources.json, or replace it with a photo you took or one with a stated licence.
-- [low] The kicker says 'STAGE M1' but the Formation field says 'M2 GDP', and the notes open with 'je suis en M2'. A jury may read this as a contradiction. **Fix:** Write 'Stage de M1 · présenté en M2' or 'Formation : M2 GDP (stage réalisé en M1)'.
-
-### Slide 2: Site pharmaceutique sous GMP : toute modification d'installation est soumise à validation (7.8)
+### Slide 7: Trois livrables, trois décisions pour le site (7.8)
 
 message 7, evidence 6, honesty 7, legibility 9, consistency 9, timing 9
 
-- [medium] The cited source for '3 milliards de comprimés par an' (pracodawcy.pracuj.pl) returns HTTP 403 and cannot be checked. Trade press found by search gives about 3.2 billion tablets a year, which is consistent but is not the cited page. **Fix:** Cite a reachable, dated source (Adamed press release or annual report, or an archived copy of the pracuj page) and keep 'groupe Adamed' as the qualifier.
-- [low] The title claims that any change to an installation must be validated under GMP. That is the key constraint of the talk, but nothing on the slide supports it, while the big number (group output) does not support the title. **Fix:** Add a short source line such as 'EU GMP, Annexe 15 (qualification et validation, maîtrise des changements)', or shrink the 3 milliards block so the GMP constraint becomes the visual focus.
+- [low] The title says 'trois décisions', but two items are proposals ('Essai pilote proposé', 'Étude de la régulation à engager'); only the rotameter purchase has happened. **Fix:** Retitle 'Trois livrables et leurs suites', or mark each card 'décidé' or 'proposé'.
+- [low] The lower third of the slide is empty. **Fix:** Add one line per card with the key figure or owner, or move the cards down to centre them.
 
-### Slide 8: Bilan et enseignements (7.8)
+### Slide 11: Mode éco : énergie annuelle pondérée par le temps de pesée (8.0)
 
-message 7, evidence 6, honesty 8, legibility 9, consistency 9, timing 8
+message 8, evidence 6, honesty 8, legibility 8, consistency 9, timing 9
 
-- [low] The generic title 'Bilan et enseignements' wastes the last impression. **Fix:** Lead with the main lesson, for example 'Bilan : voir l'installation avant de calculer'.
+- [low] The slide carries a data-cite to the 2021 audit (internal, not checkable), but nothing visible on it draws on the audit. The cite looks misplaced; the audit is used for the specific energy on slide 5. **Fix:** Remove the audit2021 cite from R2, or add the quantity it provides (e.g. the source of P_max).
+- [low] The heat recovery by the glycol loop (slide 3) does not appear in the energy model, so it is unclear whether E counts gross or net coil energy. **Fix:** Add to the legend: 'énergie des batteries après récupération (boucle glycolée)', or state that the recovery is ignored.
 
-### Slide 9: Références (8.0)
+### Slide 1: Évaluation d'économies d'énergie sur un site pharmaceutique sous contrainte GMP (8.2)
 
-message 8, evidence 8, honesty 8, legibility 8, consistency 7, timing 9
+message 8, evidence 8, honesty 8, legibility 9, consistency 7, timing 9
 
-- [low] R = 287 J/(kg·K) on R4 is cited to Wikipedia 'Gas constant', which is missing from the list. The Fluke and Wikipedia entries have no URL, and the Fluke entry has no access date. **Fix:** Add 'Wikipédia, Gas constant, consulté en octobre 2026' and the URLs with access dates for the web entries.
+- [low] The kicker says 'STAGE M1' but the info block says 'Formation M2 GDP, UGA', and the notes say 'je suis en M2'. A jury may ask which year the internship counts for. **Fix:** Write 'Stage de M1 (2025-2026)' or 'Stage M1 · aujourd'hui en M2 GDP' so both facts are explicit.
+- [low] The photo licence rests on 'confirmé par l'auteur du deck auprès d'Adamed', with no written record cited. **Fix:** Keep the e-mail or written permission from Adamed/ALSTAL with the deck sources.
 
-### Slide 13: Banc : débit d'une buse en écoulement critique (8.0)
+### Slide 5: Banc d'étalonnage de la caméra (8.2)
 
-message 8, evidence 8, honesty 8, legibility 7, consistency 8, timing 9
+message 8, evidence 8, honesty 7, legibility 9, consistency 9, timing 8
 
-- [low] Cd is attributed to Ward-Smith 1979, but the value used, and the nozzle L/D it depends on, are not given. **Fix:** Add 'Cd = … (L/D = …, Ward-Smith 1979)'.
-- [low] 'au-dessus de 1,2^3,5 = 1,89' is easy to misread with decimal commas in the exponent, and the four-line legend is dense. **Fix:** Write 'valable si p0/patm > 1,89 (= 1,2^3,5 pour γ = 1,4)' and split the legend into two short lines.
-- [low] The molar mass of air is given as 0,02897 kg/mol. The cited source gives 28.964917 g/mol, i.e. 0,02896 kg/mol (no effect on 287). **Fix:** Write 0,02896 kg/mol.
+- [medium] The pressure gauge sits upstream of a hose labelled 'à pression constante'. Under flow, the hose loses pressure, so the gauge reading is higher than the nozzle's p0 and the calculated flow is overestimated. T0, needed in the formula, is not measured on the schematic. **Fix:** Measure p0 at the nozzle inlet, or state that the hose pressure drop was checked and is negligible. Add a thermometer (or 'T0 = température ambiante') to the bench.
+- [low] '× 8 760 h (réseau sous pression)' assumes the network is pressurised all year. The data-cite points to Ward-Smith and Fluke, which do not support that assumption. **Fix:** Write 'hypothèse : réseau sous pression 24 h/24, 365 j/an' and cite the 2021 audit or the compressor logs.
 
-### Slide 7: Livrables et décisions associées (8.2)
+### Slide 8: Bilan et enseignements (8.2)
 
-message 8, evidence 6, honesty 8, legibility 9, consistency 9, timing 9
+message 7, evidence 6, honesty 9, legibility 9, consistency 9, timing 9
 
-- [low] The title is a topic label. The slide's point (each deliverable hands a decision to the site) is only in the subheading. **Fix:** Use a message title, for example 'Trois livrables, trois décisions désormais entre les mains du site'.
+- [low] The first lesson puts two sentences side by side (sensors identified late; one to two weeks lost on filters) without saying how they connect. **Fix:** Rewrite as 'Recenser les capteurs existants avant de calculer : des mesures déjà en place sur les filtres m'auraient fait gagner une à deux semaines.'
 
-### Slide 12: Filtres : perte de charge moyenne selon Eurovent 4/24 (8.2)
+### Slide 9: Références (8.3)
 
-message 8, evidence 9, honesty 8, legibility 8, consistency 7, timing 9
+message 8, evidence 8, honesty 8, legibility 9, consistency 8, timing 9
 
-- [low] Eq. (3) applies only to the condition-based method (filter changed at Δpfinal), and the slide does not say so. W has no unit. **Fix:** Add 'méthode à seuil (condition based), Eurovent 4/24 Éq. (1) et (3) · W : kWh/an', and state the t and η used (Eurovent defaults: 6 000 h/a, η = 0,5).
-- [low] The legend sets Δp0 and Δp_final in italic with an italic subscript, while the equation uses an upright Δ and a roman 'final'. **Fix:** Typeset the legend symbols the same way as the equation.
+- [low] Slide R4 cites the gas-constant source (r_air, Wikipedia 'Gas constant'), but it is missing from the list. The Fluke entry has no URL and no access date, and the pracuj.pl entry has no URL. **Fix:** Add 'Wikipédia, Gas constant, consulté en octobre 2026', and give the URLs or access dates for Fluke ii500 and pracuj.pl.
 
-### Slide 10: Cascade de pression : l'air s'écoule de la pression la plus haute vers la plus basse (8.5)
+### Slide 13: Banc : débit d'une buse en écoulement critique (8.5)
 
-message 9, evidence 8, honesty 8, legibility 9, consistency 8, timing 9
+message 9, evidence 8, honesty 8, legibility 8, consistency 9, timing 9
 
-- [low] The diagram is correct against CDC 2003, but no source is shown on the slide. **Fix:** Add 'Source : CDC, MMWR 52 (RR-10), 2003' under the diagram.
+- [low] The 1,89 choking threshold assumes an ideal nozzle. For short cylindrical nozzles with sharp upstream edges (the subject of the cited Ward-Smith paper), Cd can vary with the pressure ratio and L/D. The Ward-Smith content itself could not be checked (paywalled). **Fix:** Give the nozzle's L/D, the Cd value used and the pressure ratios tested, and keep a local copy of Ward-Smith 1979 in sources/.
+- [low] M_air is written 0,02897 kg/mol; the cited source gives 28,9649 g/mol (0,02896). It makes no difference to R = 287. **Fix:** Write 0,02896 kg/mol or '≈ 0,029 kg/mol'.
+
+### Slide 12: Filtres : perte de charge moyenne selon Eurovent 4/24 (8.8)
+
+message 9, evidence 9, honesty 9, legibility 8, consistency 9, timing 9
+
+- [low] The formula Δp̄ = (2Δp0 + Δpfinal)/3 is Eurovent's condition-based method (filters changed at a predefined final Δp), but the slide does not name that qualifier. **Fix:** Add '(méthode « condition based » : remplacement au seuil Δp_final, éq. 3)' to the legend.
 
 ## Not verified (source unreachable)
 
-- Slide 2: Groupe Adamed : plus de 3 milliards de comprimés produits par an (adamed_pracuj)
-- Slide 5: énergie spécifique (audit 2021) (audit2021)
-- Slide 11: Mode éco : énergie annuelle pondérée par le temps de pesée (audit 2021 cité) (audit2021)
-- Slide 13: Cd : coefficient de décharge (Ward-Smith 1979) (ward_smith_1979)
+- Slide 2: plus de 3 milliards de comprimés par an (groupe Adamed) (adamed_pracuj)
+- Slide 5: énergie spécifique de l'audit 2021 (audit2021)
+- Slide 11: R2 cite l'audit énergétique 2021 (audit2021)
+- Slide 13: C_d : coefficient de décharge (Ward-Smith 1979) (ward_smith_1979)
