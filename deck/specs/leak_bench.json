@@ -355,7 +355,7 @@
    "type": "box",
    "x": 560,
    "y": 40,
-   "w": 480,
+   "w": 400,
    "h": 200,
    "fill": {
     "color": "accent",
@@ -374,7 +374,7 @@
   },
   {
    "type": "text",
-   "x": 800,
+   "x": 760,
    "y": 198,
    "text": "deux lois d'étalonnage",
    "inside": "C",
@@ -382,7 +382,7 @@
   },
   {
    "type": "text",
-   "x": 800,
+   "x": 760,
    "y": 133,
    "text": "débit = f(LeakQ)",
    "size": 34,
@@ -391,7 +391,7 @@
   },
   {
    "type": "text",
-   "x": 800,
+   "x": 760,
    "y": 78,
    "text": "débit = f(dB)",
    "size": 34,
@@ -401,9 +401,9 @@
   {
    "id": "D",
    "type": "box",
-   "x": 1150,
+   "x": 1060,
    "y": 40,
-   "w": 525,
+   "w": 615,
    "h": 200
   },
   {
@@ -413,7 +413,7 @@
   },
   {
    "type": "text",
-   "x": 1412,
+   "x": 1367,
    "y": 205,
    "text": "coût annuel d'une fuite",
    "inside": "D",
@@ -422,15 +422,15 @@
   },
   {
    "type": "text",
-   "x": 1412,
+   "x": 1367,
    "y": 158,
-   "text": "débit × 8 760 h",
+   "text": "débit × 8 760 h (réseau sous pression)",
    "inside": "D",
    "fixed": true
   },
   {
    "type": "text",
-   "x": 1412,
+   "x": 1367,
    "y": 112,
    "text": "× énergie spécifique (audit 2021)",
    "inside": "D",
@@ -438,7 +438,7 @@
   },
   {
    "type": "text",
-   "x": 1412,
+   "x": 1367,
    "y": 66,
    "text": "× prix du kWh",
    "inside": "D",

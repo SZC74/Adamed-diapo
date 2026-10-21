@@ -677,18 +677,18 @@ L 440.712727 537.861818
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
    <g id="tf-leak-bench-tf-box--21" class="tf-box">
-    <path d="M 1034.603636 419.083636 
-L 1035.641933 419.248086 
-L 1036.578595 419.725339 
-L 1037.321933 420.468678 
-L 1037.799186 421.405339 
-L 1037.963636 422.443636 
-L 1037.963636 613.687273 
-L 1037.799186 614.72557 
-L 1037.321933 615.662231 
-L 1036.578595 616.40557 
-L 1035.641933 616.882823 
-L 1034.603636 617.047273 
+    <path d="M 955.418182 419.083636 
+L 956.456479 419.248086 
+L 957.39314 419.725339 
+L 958.136479 420.468678 
+L 958.613732 421.405339 
+L 958.778182 422.443636 
+L 958.778182 613.687273 
+L 958.613732 614.72557 
+L 958.136479 615.662231 
+L 957.39314 616.40557 
+L 956.456479 616.882823 
+L 955.418182 617.047273 
 L 566.210909 617.047273 
 L 565.172612 616.882823 
 L 564.235951 616.40557 
@@ -705,18 +705,18 @@ z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--accent, #0E8A7E); opacity: 0.12"/>
    </g>
    <g id="tf-leak-bench-tf-box--22" class="tf-box">
-    <path d="M 1034.603636 419.083636 
-L 1035.641933 419.248086 
-L 1036.578595 419.725339 
-L 1037.321933 420.468678 
-L 1037.799186 421.405339 
-L 1037.963636 422.443636 
-L 1037.963636 613.687273 
-L 1037.799186 614.72557 
-L 1037.321933 615.662231 
-L 1036.578595 616.40557 
-L 1035.641933 616.882823 
-L 1034.603636 617.047273 
+    <path d="M 955.418182 419.083636 
+L 956.456479 419.248086 
+L 957.39314 419.725339 
+L 958.136479 420.468678 
+L 958.613732 421.405339 
+L 958.778182 422.443636 
+L 958.778182 613.687273 
+L 958.613732 614.72557 
+L 958.136479 615.662231 
+L 957.39314 616.40557 
+L 956.456479 616.882823 
+L 955.418182 617.047273 
 L 566.210909 617.047273 
 L 565.172612 616.882823 
 L 564.235951 616.40557 
@@ -729,7 +729,7 @@ L 563.492612 420.468678
 L 564.235951 419.725339 
 L 565.172612 419.248086 
 L 566.210909 419.083636 
-L 1034.603636 419.083636 
+L 955.418182 419.083636 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
    <g id="tf-leak-bench-tf-box--23" class="tf-box">
@@ -745,18 +745,18 @@ L 1665.856479 615.662231
 L 1665.11314 616.40557 
 L 1664.176479 616.882823 
 L 1663.138182 617.047273 
-L 1150.203636 617.047273 
-L 1149.165339 616.882823 
-L 1148.228678 616.40557 
-L 1147.485339 615.662231 
-L 1147.008086 614.72557 
-L 1146.843636 613.687273 
-L 1146.843636 422.443636 
-L 1147.008086 421.405339 
-L 1147.485339 420.468678 
-L 1148.228678 419.725339 
-L 1149.165339 419.248086 
-L 1150.203636 419.083636 
+L 1061.12 617.047273 
+L 1060.081703 616.882823 
+L 1059.145042 616.40557 
+L 1058.401703 615.662231 
+L 1057.92445 614.72557 
+L 1057.76 613.687273 
+L 1057.76 422.443636 
+L 1057.92445 421.405339 
+L 1058.401703 420.468678 
+L 1059.145042 419.725339 
+L 1060.081703 419.248086 
+L 1061.12 419.083636 
 z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
@@ -773,18 +773,18 @@ L 1665.856479 615.662231
 L 1665.11314 616.40557 
 L 1664.176479 616.882823 
 L 1663.138182 617.047273 
-L 1150.203636 617.047273 
-L 1149.165339 616.882823 
-L 1148.228678 616.40557 
-L 1147.485339 615.662231 
-L 1147.008086 614.72557 
-L 1146.843636 613.687273 
-L 1146.843636 422.443636 
-L 1147.008086 421.405339 
-L 1147.485339 420.468678 
-L 1148.228678 419.725339 
-L 1149.165339 419.248086 
-L 1150.203636 419.083636 
+L 1061.12 617.047273 
+L 1060.081703 616.882823 
+L 1059.145042 616.40557 
+L 1058.401703 615.662231 
+L 1057.92445 614.72557 
+L 1057.76 613.687273 
+L 1057.76 422.443636 
+L 1057.92445 421.405339 
+L 1058.401703 420.468678 
+L 1059.145042 419.725339 
+L 1060.081703 419.248086 
+L 1061.12 419.083636 
 L 1663.138182 419.083636 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
@@ -809,8 +809,8 @@ L 551.258909 577.454545
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
    <g id="tf-leak-bench-tf-arrow--29" class="tf-arrow">
-    <path d="M 1037.963636 518.065455 
-L 1135.251636 518.065455 
+    <path d="M 958.778182 518.065455 
+L 1046.168 518.065455 
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
    <g id="tf-leak-bench-tf-arrow--30" class="tf-arrow">
@@ -842,9 +842,9 @@ z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--ink, #14202B)"/>
    </g>
    <g id="tf-leak-bench-tf-arrow--34" class="tf-arrow">
-    <path d="M 1146.843636 518.065455 
-L 1133.963636 513.305455 
-L 1133.963636 522.825455 
+    <path d="M 1057.76 518.065455 
+L 1044.88 513.305455 
+L 1044.88 522.825455 
 z
 " clip-path="url(#tf-leak-bench-pf0071cb59c)" style="fill: var(--ink, #14202B)"/>
    </g>
@@ -949,25 +949,25 @@ L 1594.139636 103.331636
     <text style="font-weight: 700; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="358.560284" y="379.882727" transform="rotate(-0 358.560284 379.882727)">Étalonnage, pour chaque pression amont, puis coût</text>
    </g>
    <g id="tf-leak-bench-tf-label--53" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="800.407273" y="468.146" transform="rotate(-0 800.407273 468.146)">deux lois d'étalonnage</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="760.814545" y="468.146" transform="rotate(-0 760.814545 468.146)">deux lois d'étalonnage</text>
    </g>
    <g id="tf-leak-bench-tf-label--54" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 34px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="800.407273" y="535.943244" transform="rotate(-0 800.407273 535.943244)">débit = f(LeakQ)</text>
+    <text style="font-weight: 600; font-size: 34px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="760.814545" y="535.943244" transform="rotate(-0 760.814545 535.943244)">débit = f(LeakQ)</text>
    </g>
    <g id="tf-leak-bench-tf-label--55" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 34px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="800.407273" y="590.383244" transform="rotate(-0 800.407273 590.383244)">débit = f(dB)</text>
+    <text style="font-weight: 600; font-size: 34px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="760.814545" y="590.383244" transform="rotate(-0 760.814545 590.383244)">débit = f(dB)</text>
    </g>
    <g id="tf-leak-bench-tf-label--56" class="tf-label tf-ink">
-    <text style="font-weight: 700; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1406.176" y="464.074148" transform="rotate(-0 1406.176 464.074148)">coût annuel d'une fuite</text>
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1361.634182" y="464.074148" transform="rotate(-0 1361.634182 464.074148)">coût annuel d'une fuite</text>
    </g>
    <g id="tf-leak-bench-tf-label--57" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1406.176" y="510.468727" transform="rotate(-0 1406.176 510.468727)">débit × 8 760 h</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1361.634182" y="507.935602" transform="rotate(-0 1361.634182 507.935602)">débit × 8 760 h (réseau sous pression)</text>
    </g>
    <g id="tf-leak-bench-tf-label--58" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1406.176" y="553.327239" transform="rotate(-0 1406.176 553.327239)">× énergie spécifique (audit 2021)</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1361.634182" y="553.327239" transform="rotate(-0 1361.634182 553.327239)">× énergie spécifique (audit 2021)</text>
    </g>
    <g id="tf-leak-bench-tf-label--59" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1406.176" y="598.703562" transform="rotate(-0 1406.176 598.703562)">× prix du kWh</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1361.634182" y="598.703562" transform="rotate(-0 1361.634182 598.703562)">× prix du kWh</text>
    </g>
   </g>
  </g>

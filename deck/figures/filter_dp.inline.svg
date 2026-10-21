@@ -409,7 +409,7 @@ L 804.887586 291.251875
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--accent-text, #0A6B62)" x="93.043151" y="187.384167" transform="rotate(-0 93.043151 187.384167)">filtre actuel</text>
    </g>
    <g id="tf-filter-dp-tf-label--7" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="93.043151" y="543.293187" transform="rotate(-0 93.043151 543.293187)">filtre candidat</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="93.043151" y="543.293187" transform="rotate(-0 93.043151 543.293187)">filtre candidat, durée de vie supposée</text>
    </g>
    <g id="tf-filter-dp-tf-label--8" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--accent-text, #0A6B62)" x="821.636866" y="53.847604" transform="rotate(-0 821.636866 53.847604)">seuil, actuel</text>
@@ -421,7 +421,7 @@ L 804.887586 291.251875
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--accent-text, #0A6B62)" x="821.636866" y="347.547042" transform="rotate(-0 821.636866 347.547042)">moyenne, actuel</text>
    </g>
    <g id="tf-filter-dp-tf-label--11" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--ink, #14202B)" x="821.636866" y="403.784375" transform="rotate(-0 821.636866 403.784375)">écart : gain</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans';  fill: var(--ink, #14202B)" x="1054" y="384" text-anchor="end" transform="rotate(-0 1054 384)">écart : gain</text>
    </g>
    <g id="tf-filter-dp-tf-label--12" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="821.636866" y="463.429354" transform="rotate(-0 821.636866 463.429354)">moyenne, candidat</text>
@@ -430,6 +430,11 @@ L 804.887586 291.251875
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--ink, #14202B)" x="93.043151" y="35.687187" transform="rotate(-0 93.043151 35.687187)">profils illustratifs</text>
    </g>
   </g>
+ </g>
+<g id="tf-filter-gap-arrow" class="tf-annotation">
+  <path d="M 1072 324 L 1072 422" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.6"/>
+  <path d="M 1072 316.6 L 1065.5 330 L 1078.5 330 Z" style="fill: var(--ink, #14202B)"/>
+  <path d="M 1072 429.5 L 1065.5 416 L 1078.5 416 Z" style="fill: var(--ink, #14202B)"/>
  </g>
  <defs>
   <clipPath id="tf-filter-dp-pb1073de67c">
