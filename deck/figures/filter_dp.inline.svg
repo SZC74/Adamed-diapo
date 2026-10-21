@@ -1,0 +1,439 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1100" height="660" style="aspect-ratio: 1100 / 660" data-viewbox="0 0 1100 660" data-min-text="28" data-slot="1100x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Profils illustratifs de perte de charge du filtre actuel et du filtre candidat, ce dernier avec une durée de vie plus longue, chacun avec son seuil de remplacement et sa moyenne conventionnelle Eurovent ; l'écart entre les deux moyennes représente le gain d'énergie">
+ <title>Profils illustratifs de perte de charge du filtre actuel et du filtre candidat, ce dernier avec une durée de vie plus longue, chacun avec son seuil de remplacement et sa moyenne conventionnelle Eurovent ; l'écart entre les deux moyennes représente le gain d'énergie</title>
+ <defs>
+  <style type="text/css">.tf-figure *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="tf-filter-dp-figure_1">
+  <g id="tf-filter-dp-patch_1">
+   <path d="M 0 660 
+L 1100 660 
+L 1100 0 
+L 0 0 
+L 0 660 
+z
+" style="fill: none; opacity: 0"/>
+  </g>
+  <g id="tf-filter-dp-axes_1">
+   <g id="tf-filter-dp-patch_2">
+    <path d="M 79.085417 562.973333 
+L 1098 562.973333 
+L 1098 2 
+L 79.085417 2 
+L 79.085417 562.973333 
+z
+" style="fill: none"/>
+   </g>
+   <g id="tf-filter-dp-tf-grid--14" class="tf-grid">
+    <path d="M 79.085417 562.973333 
+L 79.085417 2 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke: var(--grid, #D6D3C8); stroke-width: 1.493333"/>
+    <path d="M 358.240097 562.973333 
+L 358.240097 2 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke: var(--grid, #D6D3C8); stroke-width: 1.493333"/>
+    <path d="M 637.394777 562.973333 
+L 637.394777 2 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke: var(--grid, #D6D3C8); stroke-width: 1.493333"/>
+    <path d="M 79.085417 431.495208 
+L 814.636866 431.495208 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke: var(--grid, #D6D3C8); stroke-width: 1.493333"/>
+    <path d="M 1080.355616 431.495208 
+L 1098 431.495208 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke: var(--grid, #D6D3C8); stroke-width: 1.493333"/>
+    <path d="M 79.085417 256.191042 
+L 814.636866 256.191042 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke: var(--grid, #D6D3C8); stroke-width: 1.493333"/>
+    <path d="M 1019.293116 256.191042 
+L 1098 256.191042 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke: var(--grid, #D6D3C8); stroke-width: 1.493333"/>
+    <path d="M 79.085417 80.886875 
+L 1098 80.886875 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke: var(--grid, #D6D3C8); stroke-width: 1.493333"/>
+   </g>
+   <g id="tf-filter-dp-matplotlib.axis_1">
+    <g id="tf-filter-dp-xtick_1">
+     <g id="tf-filter-dp-line2d_1">
+      <defs>
+       <path id="tf-filter-dp-m40fbd2bab6" d="M 0 0 
+L 0 7.466667 
+" style="stroke: var(--ink, #14202B); stroke-width: 1.866667"/>
+      </defs>
+      <g>
+       <use xlink:href="#tf-filter-dp-m40fbd2bab6" x="79.085417" y="562.973333" style="fill: var(--ink, #14202B); stroke: var(--ink, #14202B); stroke-width: 1.866667"/>
+      </g>
+     </g>
+     <g id="tf-filter-dp-text_1">
+      <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="79.085417" y="605.066667" transform="rotate(-0 79.085417 605.066667)">0</text>
+     </g>
+    </g>
+    <g id="tf-filter-dp-xtick_2">
+     <g id="tf-filter-dp-line2d_2">
+      <g>
+       <use xlink:href="#tf-filter-dp-m40fbd2bab6" x="358.240097" y="562.973333" style="fill: var(--ink, #14202B); stroke: var(--ink, #14202B); stroke-width: 1.866667"/>
+      </g>
+     </g>
+     <g id="tf-filter-dp-text_2">
+      <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="358.240097" y="605.066667" transform="rotate(-0 358.240097 605.066667)">1</text>
+     </g>
+    </g>
+    <g id="tf-filter-dp-xtick_3">
+     <g id="tf-filter-dp-line2d_3">
+      <g>
+       <use xlink:href="#tf-filter-dp-m40fbd2bab6" x="637.394777" y="562.973333" style="fill: var(--ink, #14202B); stroke: var(--ink, #14202B); stroke-width: 1.866667"/>
+      </g>
+     </g>
+     <g id="tf-filter-dp-text_3">
+      <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="637.394777" y="605.066667" transform="rotate(-0 637.394777 605.066667)">2</text>
+     </g>
+    </g>
+    <g id="tf-filter-dp-text_4">
+     <text style="font-weight: 600; font-size: 30px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="588.542708" y="650.5" transform="rotate(-0 588.542708 650.5)">Temps de fonctionnement (durées de vie du filtre actuel)</text>
+    </g>
+   </g>
+   <g id="tf-filter-dp-matplotlib.axis_2">
+    <g id="tf-filter-dp-ytick_1">
+     <g id="tf-filter-dp-line2d_4">
+      <defs>
+       <path id="tf-filter-dp-ma7e277bdad" d="M 0 0 
+L -7.466667 0 
+" style="stroke: var(--ink, #14202B); stroke-width: 1.866667"/>
+      </defs>
+      <g>
+       <use xlink:href="#tf-filter-dp-ma7e277bdad" x="79.085417" y="431.495208" style="fill: var(--ink, #14202B); stroke: var(--ink, #14202B); stroke-width: 1.866667"/>
+      </g>
+     </g>
+     <g id="tf-filter-dp-text_5">
+      <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: end; fill: var(--ink, #14202B)" x="64.152083" y="445.075208" transform="rotate(-0 64.152083 445.075208)">1</text>
+     </g>
+    </g>
+    <g id="tf-filter-dp-ytick_2">
+     <g id="tf-filter-dp-line2d_5">
+      <g>
+       <use xlink:href="#tf-filter-dp-ma7e277bdad" x="79.085417" y="256.191042" style="fill: var(--ink, #14202B); stroke: var(--ink, #14202B); stroke-width: 1.866667"/>
+      </g>
+     </g>
+     <g id="tf-filter-dp-text_6">
+      <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: end; fill: var(--ink, #14202B)" x="64.152083" y="269.771042" transform="rotate(-0 64.152083 269.771042)">2</text>
+     </g>
+    </g>
+    <g id="tf-filter-dp-ytick_3">
+     <g id="tf-filter-dp-line2d_6">
+      <g>
+       <use xlink:href="#tf-filter-dp-ma7e277bdad" x="79.085417" y="80.886875" style="fill: var(--ink, #14202B); stroke: var(--ink, #14202B); stroke-width: 1.866667"/>
+      </g>
+     </g>
+     <g id="tf-filter-dp-text_7">
+      <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: end; fill: var(--ink, #14202B)" x="64.152083" y="94.466875" transform="rotate(-0 64.152083 94.466875)">3</text>
+     </g>
+    </g>
+    <g id="tf-filter-dp-text_8">
+     <text style="font-weight: 600; font-size: 30px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="31.105" y="282.486667" transform="rotate(-90 31.105 282.486667)">Perte de charge, rapportée à l'état neuf</text>
+    </g>
+   </g>
+   <g id="tf-filter-dp-tf-rule--2" class="tf-rule tf-muted">
+    <path d="M 79.085417 80.886875 
+L 1098 80.886875 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke-dasharray: 8.978667,3.882667; stroke-dashoffset: 0; stroke: var(--accent, #0E8A7E); stroke-width: 2.426667"/>
+   </g>
+   <g id="tf-filter-dp-tf-rule--3" class="tf-rule tf-muted">
+    <path d="M 79.085417 314.61992 
+L 1098 314.61992 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke-dasharray: 2.426667,4.004; stroke-dashoffset: 0; stroke: var(--accent, #0E8A7E); stroke-width: 2.426667"/>
+   </g>
+   <g id="tf-filter-dp-tf-rule--4" class="tf-rule tf-muted">
+    <path d="M 79.085417 291.251875 
+L 1098 291.251875 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke-dasharray: 8.978667,3.882667; stroke-dashoffset: 0; stroke: #c0571e; stroke-width: 2.426667"/>
+   </g>
+   <g id="tf-filter-dp-tf-rule--5" class="tf-rule tf-muted">
+    <path d="M 79.085417 431.495208 
+L 1098 431.495208 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke-dasharray: 2.426667,4.004; stroke-dashoffset: 0; stroke: #c0571e; stroke-width: 2.426667"/>
+   </g>
+   <g id="tf-filter-dp-patch_3">
+    <path d="M 79.085417 562.973333 
+L 79.085417 2 
+" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 1.866667; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="tf-filter-dp-patch_4">
+    <path d="M 79.085417 562.973333 
+L 1098 562.973333 
+" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 1.866667; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="tf-filter-dp-tf-series--0" class="tf-series reveal tf-step tf-step-0" data-reveal="0">
+    <path d="M 79.085417 431.495208 
+L 83.803131 431.390026 
+L 88.54876 431.092009 
+L 93.266474 430.583627 
+L 98.012104 429.88241 
+L 102.729818 428.970828 
+L 107.475448 427.866412 
+L 112.193162 426.551631 
+L 116.938791 425.044015 
+L 121.656505 423.343565 
+L 126.402135 421.415219 
+L 131.119849 419.311569 
+L 135.865479 416.997554 
+L 140.583193 414.473174 
+L 145.328822 411.755959 
+L 150.046536 408.82838 
+L 154.792166 405.707965 
+L 159.50988 402.394717 
+L 164.25551 398.853573 
+L 168.973224 395.137124 
+L 173.718853 391.210311 
+L 178.436567 387.073133 
+L 183.182197 382.74312 
+L 187.899911 378.220272 
+L 192.645541 373.48706 
+L 197.363255 368.543482 
+L 202.108884 363.40707 
+L 206.826598 358.077823 
+L 211.572228 352.538212 
+L 221.035572 340.845424 
+L 230.498915 328.363767 
+L 239.962259 315.058181 
+L 249.425603 300.963726 
+L 258.888946 286.062872 
+L 268.35229 270.338088 
+L 277.815634 253.824435 
+L 287.278977 236.504384 
+L 296.742321 218.377933 
+L 306.205665 199.427553 
+L 315.669008 179.688303 
+L 325.132352 159.142655 
+L 334.595696 137.790608 
+L 344.059039 115.632161 
+L 353.522383 92.667315 
+L 358.240097 80.886875 
+L 358.240097 431.495208 
+L 362.957811 431.390026 
+L 367.703441 431.092009 
+L 372.421155 430.583627 
+L 377.166784 429.88241 
+L 381.884498 428.970828 
+L 386.630128 427.866412 
+L 391.347842 426.551631 
+L 396.093472 425.044015 
+L 400.811186 423.343565 
+L 405.556815 421.415219 
+L 410.274529 419.311569 
+L 415.020159 416.997554 
+L 419.737873 414.473174 
+L 424.483503 411.755959 
+L 429.201217 408.82838 
+L 433.946846 405.707965 
+L 438.66456 402.394717 
+L 443.41019 398.853573 
+L 448.127904 395.137124 
+L 452.873534 391.210311 
+L 457.591248 387.073133 
+L 462.336877 382.74312 
+L 467.054591 378.220272 
+L 471.800221 373.48706 
+L 476.517935 368.543482 
+L 481.263565 363.40707 
+L 485.981279 358.077823 
+L 490.726908 352.538212 
+L 500.190252 340.845424 
+L 509.653596 328.363767 
+L 519.116939 315.058181 
+L 528.580283 300.963726 
+L 538.043627 286.062872 
+L 547.50697 270.338088 
+L 556.970314 253.824435 
+L 566.433658 236.504384 
+L 575.897001 218.377933 
+L 585.360345 199.427553 
+L 594.823689 179.688303 
+L 604.287032 159.142655 
+L 613.750376 137.790608 
+L 623.21372 115.632161 
+L 632.677063 92.667315 
+L 637.394777 80.886875 
+L 637.394777 431.495208 
+L 643.061617 431.354965 
+L 648.756373 430.916705 
+L 654.423213 430.197958 
+L 660.117968 429.181193 
+L 665.784808 427.866412 
+L 671.451648 426.271144 
+L 677.146404 424.39539 
+L 682.813244 422.204088 
+L 688.507999 419.749829 
+L 694.174839 416.997554 
+L 699.841679 413.947261 
+L 705.536435 410.616482 
+L 711.203275 406.987686 
+L 716.870115 403.060873 
+L 722.56487 398.853573 
+L 728.23171 394.365786 
+L 733.926466 389.579982 
+L 739.593306 384.496161 
+L 745.260146 379.131854 
+L 750.954901 373.48706 
+L 759.469119 364.458895 
+L 765.135959 358.077823 
+L 770.830715 351.398735 
+L 779.344932 340.845424 
+L 787.85915 329.643488 
+L 793.52599 321.807391 
+L 799.220746 313.690808 
+L 804.887586 305.276208 
+L 804.887586 305.276208 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 3.733333; stroke-linecap: square"/>
+   </g>
+   <g id="tf-filter-dp-tf-series--1" class="tf-series reveal tf-step tf-step-0" data-reveal="0">
+    <path d="M 79.085417 501.616875 
+L 85.22682 501.564284 
+L 91.396138 501.371449 
+L 97.537541 501.073432 
+L 103.678944 500.652702 
+L 109.848262 500.109259 
+L 115.989665 499.443103 
+L 122.131068 498.654235 
+L 128.300387 497.742653 
+L 134.44179 496.725889 
+L 140.583193 495.568881 
+L 146.752511 494.306691 
+L 152.893914 492.921788 
+L 159.035317 491.396642 
+L 165.204636 489.766313 
+L 171.346039 488.013272 
+L 177.487441 486.137517 
+L 183.65676 484.15658 
+L 189.798163 482.0354 
+L 195.939566 479.809037 
+L 202.108884 477.44243 
+L 208.250287 474.970642 
+L 214.39169 472.37614 
+L 220.561009 469.641395 
+L 226.702412 466.801468 
+L 232.843815 463.838827 
+L 239.013133 460.771004 
+L 245.154536 457.562938 
+L 251.295939 454.232159 
+L 257.465257 450.796197 
+L 263.60666 447.219992 
+L 269.775979 443.538605 
+L 275.917382 439.734504 
+L 282.058785 435.807691 
+L 288.228103 431.758165 
+L 294.369506 427.585925 
+L 300.510909 423.290973 
+L 306.680228 418.890839 
+L 312.821631 414.350461 
+L 318.963034 409.7049 
+L 325.132352 404.919097 
+L 331.273755 400.02811 
+L 337.415158 395.014411 
+L 343.584476 389.877999 
+L 349.725879 384.618874 
+L 355.867282 379.237036 
+L 362.036601 373.750016 
+L 368.178004 368.122752 
+L 374.319407 362.372775 
+L 380.488725 356.517616 
+L 386.630128 350.539744 
+L 392.771531 344.439159 
+L 398.940849 338.215861 
+L 405.082252 331.86985 
+L 411.223655 325.401127 
+L 417.392974 318.80969 
+L 423.534377 312.09554 
+L 429.67578 305.276208 
+L 435.845098 298.316633 
+L 441.986501 291.251875 
+L 441.986501 501.616875 
+L 448.127904 501.564284 
+L 454.297223 501.371449 
+L 460.438626 501.073432 
+L 466.580028 500.652702 
+L 472.749347 500.109259 
+L 478.89075 499.443103 
+L 485.032153 498.654235 
+L 491.201471 497.742653 
+L 497.342874 496.725889 
+L 503.484277 495.568881 
+L 509.653596 494.306691 
+L 515.794999 492.921788 
+L 521.936402 491.396642 
+L 528.10572 489.766313 
+L 534.247123 488.013272 
+L 540.388526 486.137517 
+L 546.557844 484.15658 
+L 552.699247 482.0354 
+L 558.84065 479.809037 
+L 565.009969 477.44243 
+L 571.151372 474.970642 
+L 577.292775 472.37614 
+L 583.462093 469.641395 
+L 589.603496 466.801468 
+L 595.744899 463.838827 
+L 601.914218 460.771004 
+L 608.05562 457.562938 
+L 614.197023 454.232159 
+L 620.366342 450.796197 
+L 626.507745 447.219992 
+L 632.677063 443.538605 
+L 638.818466 439.734504 
+L 644.959869 435.807691 
+L 651.129188 431.758165 
+L 657.270591 427.585925 
+L 663.411994 423.290973 
+L 669.581312 418.890839 
+L 675.722715 414.350461 
+L 681.864118 409.7049 
+L 688.033436 404.919097 
+L 694.174839 400.02811 
+L 700.316242 395.014411 
+L 706.485561 389.877999 
+L 712.626964 384.618874 
+L 718.768367 379.237036 
+L 724.937685 373.750016 
+L 731.079088 368.122752 
+L 737.220491 362.372775 
+L 743.38981 356.517616 
+L 749.531212 350.539744 
+L 755.672615 344.439159 
+L 761.841934 338.215861 
+L 767.983337 331.86985 
+L 774.12474 325.401127 
+L 780.294058 318.80969 
+L 786.435461 312.09554 
+L 792.576864 305.276208 
+L 798.746183 298.316633 
+L 804.887586 291.251875 
+" clip-path="url(#tf-filter-dp-pb1073de67c)" style="fill: none; stroke: #c0571e; stroke-width: 3.733333; stroke-linecap: square"/>
+   </g>
+   <g id="tf-filter-dp-tf-label--6" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--accent-text, #0A6B62)" x="93.043151" y="187.384167" transform="rotate(-0 93.043151 187.384167)">filtre actuel</text>
+   </g>
+   <g id="tf-filter-dp-tf-label--7" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="93.043151" y="543.293187" transform="rotate(-0 93.043151 543.293187)">filtre candidat</text>
+   </g>
+   <g id="tf-filter-dp-tf-label--8" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--accent-text, #0A6B62)" x="821.636866" y="53.847604" transform="rotate(-0 821.636866 53.847604)">seuil, actuel</text>
+   </g>
+   <g id="tf-filter-dp-tf-label--9" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="821.636866" y="264.212604" transform="rotate(-0 821.636866 264.212604)">seuil, candidat</text>
+   </g>
+   <g id="tf-filter-dp-tf-label--10" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--accent-text, #0A6B62)" x="821.636866" y="347.547042" transform="rotate(-0 821.636866 347.547042)">moyenne, actuel</text>
+   </g>
+   <g id="tf-filter-dp-tf-label--11" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--ink, #14202B)" x="821.636866" y="403.784375" transform="rotate(-0 821.636866 403.784375)">écart : gain</text>
+   </g>
+   <g id="tf-filter-dp-tf-label--12" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: #9e4416" x="821.636866" y="463.429354" transform="rotate(-0 821.636866 463.429354)">moyenne, candidat</text>
+   </g>
+   <g id="tf-filter-dp-tf-label--13" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: start; fill: var(--ink, #14202B)" x="93.043151" y="35.687187" transform="rotate(-0 93.043151 35.687187)">profils illustratifs</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="tf-filter-dp-pb1073de67c">
+   <rect x="79.085417" y="2" width="1018.914583" height="560.973333"/>
+  </clipPath>
+ </defs>
+</svg>

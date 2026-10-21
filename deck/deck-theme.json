@@ -1,57 +1,58 @@
 {
-  "version": 2,
-  "target": "html",
-  "language": "fr",
-  "stage_px": [
-    1920,
-    1080
-  ],
-  "fonts": {
-    "display": "assets/fonts/InstrumentSans-700.ttf",
-    "body": "assets/fonts/InstrumentSans-600.ttf",
-    "css_families": {
-      "display": "Instrument Sans",
-      "body": "Instrument Sans"
-    },
-    "weights": {
-      "display": 700,
-      "body": 600
-    },
-    "sources": {
-      "display": {
-        "source": "deck",
-        "parts": 1
-      },
-      "body": {
-        "source": "deck",
-        "parts": 1
-      }
-    }
+ "version": 2,
+ "target": "html",
+ "language": "fr",
+ "stage_px": [
+  1920,
+  1080
+ ],
+ "fonts": {
+  "display": "assets/fonts/InstrumentSans-700.ttf",
+  "body": "assets/fonts/InstrumentSans-600.ttf",
+  "css_families": {
+   "display": "Instrument Sans",
+   "body": "Instrument Sans"
   },
-  "colors": {
-    "background": "#F3F1EA",
-    "ink": "#14202B",
-    "accent": "#0E8A7E",
-    "muted": "#56616B",
-    "grid": "#D6D3C8",
-    "accent_text": "#0A6B62"
+  "weights": {
+   "display": 700,
+   "body": 600
   },
-  "css_vars": {
-    "background": "--slide-bg",
-    "ink": "--ink",
-    "accent": "--accent",
-    "muted": "--muted",
-    "grid": "--grid",
-    "accent_text": "--accent-text",
-    "font_display": "--font-display",
-    "font_body": "--font-body"
+  "sources": {
+   "display": {
+    "source": "deck",
+    "parts": 1
+   },
+   "body": {
+    "source": "deck",
+    "parts": 1
+   }
   },
-  "tone": "light",
-  "background_pattern": null,
-  "min_text_px": 28.0,
-  "source": "index.html",
-  "notes": [
-    "display font lacks ±²³ΔΩμσ→√≈≤≥: these render from DejaVu Sans",
-    "body font lacks ±²³ΔΩμσ→√≈≤≥: these render from DejaVu Sans"
-  ]
+  "math": "cm"
+ },
+ "colors": {
+  "background": "#F3F1EA",
+  "ink": "#14202B",
+  "accent": "#0E8A7E",
+  "muted": "#56616B",
+  "grid": "#D6D3C8",
+  "accent_text": "#0A6B62"
+ },
+ "css_vars": {
+  "background": "--slide-bg",
+  "ink": "--ink",
+  "accent": "--accent",
+  "muted": "--muted",
+  "grid": "--grid",
+  "accent_text": "--accent-text",
+  "font_display": "--font-display",
+  "font_body": "--font-body"
+ },
+ "tone": "light",
+ "background_pattern": null,
+ "min_text_px": 28.0,
+ "source": "index.html",
+ "notes": [
+  "display font lacks ±²³ΔΩμσ→√≈≤≥: these render from DejaVu Sans",
+  "body font lacks ±²³ΔΩμσ→√≈≤≥: these render from DejaVu Sans"
+ ]
 }

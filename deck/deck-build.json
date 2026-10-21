@@ -8,19 +8,22 @@
    "id": "eco_energy",
    "latex": "E_\\mathrm{an} = \\tau\\,E_\\mathrm{plein} + (1-\\tau)\\,E_\\mathrm{r\\acute{e}duit} \\\\ P_\\mathrm{batterie} = u\\,P_\\mathrm{max}",
    "slot": "1680x360px",
-   "out": "equations/eco_energy"
+   "out": "equations/eco_energy",
+   "size": "fit"
   },
   {
    "id": "eurovent_mean",
    "latex": "\\overline{\\Delta p} = \\dfrac{2\\,\\Delta p_0 + \\Delta p_\\mathrm{final}}{3} \\qquad W = \\dfrac{q_V\\,\\overline{\\Delta p}\\,t}{1000\\,\\eta}",
    "slot": "1680x360px",
-   "out": "equations/eurovent_mean"
+   "out": "equations/eurovent_mean",
+   "size": "fit"
   },
   {
    "id": "choked_flow",
    "latex": "\\dot{m} = C_d\\,A\\,p_0\\,\\dfrac{\\Psi}{\\sqrt{R\\,T_0}} \\qquad \\Psi \\approx 0{,}685 \\ \\ (\\mathrm{air})",
    "slot": "1680x360px",
-   "out": "equations/choked_flow"
+   "out": "equations/choked_flow",
+   "size": "fit"
   }
  ],
  "values": [
@@ -37,5 +40,6 @@
   "min_review_score": 7,
   "allow_pending_assets": false
  },
- "language": "fr"
+ "language": "fr",
+ "talk_minutes": 7
 }

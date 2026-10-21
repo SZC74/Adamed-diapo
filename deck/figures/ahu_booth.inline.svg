@@ -1,0 +1,595 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1680 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1680" height="660" style="aspect-ratio: 1680 / 660" data-viewbox="0 0 1680 660" data-min-text="28" data-slot="1680x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Centrale de traitement d'air suspendue au plafond, alimentée en air neuf, qui souffle par une gaine dans une cabine de pesée ; la cabine est en dépression et l'air de la salle entre par sa façade ouverte ; l'air extrait est filtré et rejeté dehors sous la centrale, sans recyclage">
+ <title>Centrale de traitement d'air suspendue au plafond, alimentée en air neuf, qui souffle par une gaine dans une cabine de pesée ; la cabine est en dépression et l'air de la salle entre par sa façade ouverte ; l'air extrait est filtré et rejeté dehors sous la centrale, sans recyclage</title>
+ <defs>
+  <style type="text/css">.tf-figure *{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="tf-ahu-booth-figure_1">
+  <g id="tf-ahu-booth-patch_1">
+   <path d="M 0 660 
+L 1680 660 
+L 1680 0 
+L 0 0 
+L 0 660 
+z
+" style="fill: none; opacity: 0"/>
+  </g>
+  <g id="tf-ahu-booth-axes_1">
+   <g id="tf-ahu-booth-tf-line--0" class="tf-line">
+    <path d="M 27.264 615.354 
+L 1670.664 615.354 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--1" class="tf-line">
+    <path d="M 63.12 615.354 
+L 63.12 41.658 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--2" class="tf-line">
+    <path d="M 1640.784 615.354 
+L 1640.784 41.658 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--3" class="tf-line">
+    <path d="M 63.12 41.658 
+L 1640.784 41.658 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--4" class="tf-line">
+    <path d="M 218.496 113.37 
+L 218.496 41.658 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--5" class="tf-line">
+    <path d="M 505.344 113.37 
+L 505.344 41.658 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--6" class="tf-line">
+    <path d="M 302.16 256.794 
+L 302.16 113.37 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--7" class="tf-line">
+    <path d="M 421.68 256.794 
+L 421.68 113.37 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-polyline--8" class="tf-polyline">
+    <path d="M 224.472 232.89 
+L 260.328 208.986 
+L 224.472 185.082 
+L 260.328 161.178 
+L 224.472 137.274 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--9" class="tf-line">
+    <path d="M 332.04 235.878 
+L 391.8 134.286 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--10" class="tf-line">
+    <path d="M 63.12 167.154 
+L 182.64 167.154 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--11" class="tf-line">
+    <path d="M 63.12 203.01 
+L 182.64 203.01 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-polyline--12" class="tf-polyline">
+    <path d="M 541.2 167.154 
+L 1037.208 167.154 
+L 1037.208 292.65 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-polyline--13" class="tf-polyline">
+    <path d="M 541.2 203.01 
+L 1001.352 203.01 
+L 1001.352 292.65 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-polyline--14" class="tf-polyline">
+    <path d="M 1228.44 424.122 
+L 1228.44 292.65 
+L 750.36 292.65 
+L 750.36 615.354 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--15" class="tf-line">
+    <path d="M 923.664 504.798 
+L 923.664 615.354 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--16" class="tf-line">
+    <path d="M 1138.8 504.798 
+L 1138.8 615.354 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--17" class="tf-line">
+    <path d="M 750.36 543.642 
+L 630.84 543.642 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--18" class="tf-line">
+    <path d="M 750.36 579.498 
+L 630.84 579.498 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-polyline--19" class="tf-polyline">
+    <path d="M 586.02 576.51 
+L 597.972 546.63 
+L 609.924 576.51 
+L 621.876 546.63 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--20" class="tf-line">
+    <path d="M 577.056 543.642 
+L 63.12 543.642 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--21" class="tf-line">
+    <path d="M 577.056 579.498 
+L 63.12 579.498 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--45" class="tf-line">
+    <path d="M 63.12 41.658 
+L 63.12 46.138 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667; stroke-linecap: round"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--46" class="tf-line">
+    <path d="M 1640.784 41.658 
+L 1640.784 46.138 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667; stroke-linecap: round"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--47" class="tf-line">
+    <path d="M 63.12 41.658 
+L 67.6 41.658 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667; stroke-linecap: round"/>
+   </g>
+   <g id="tf-ahu-booth-tf-line--48" class="tf-line">
+    <path d="M 1640.784 41.658 
+L 1636.304 41.658 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667; stroke-linecap: round"/>
+   </g>
+   <g id="tf-ahu-booth-tf-box--22" class="tf-box">
+    <path d="M 537.84 113.37 
+L 538.878297 113.53445 
+L 539.814958 114.011703 
+L 540.558297 114.755042 
+L 541.03555 115.691703 
+L 541.2 116.73 
+L 541.2 253.434 
+L 541.03555 254.472297 
+L 540.558297 255.408958 
+L 539.814958 256.152297 
+L 538.878297 256.62955 
+L 537.84 256.794 
+L 186 256.794 
+L 184.961703 256.62955 
+L 184.025042 256.152297 
+L 183.281703 255.408958 
+L 182.80445 254.472297 
+L 182.64 253.434 
+L 182.64 116.73 
+L 182.80445 115.691703 
+L 183.281703 114.755042 
+L 184.025042 114.011703 
+L 184.961703 113.53445 
+L 186 113.37 
+L 537.84 113.37 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-box--23" class="tf-box">
+    <path d="M 388.44 134.286 
+L 389.478297 134.45045 
+L 390.414958 134.927703 
+L 391.158297 135.671042 
+L 391.63555 136.607703 
+L 391.8 137.646 
+L 391.8 232.518 
+L 391.63555 233.556297 
+L 391.158297 234.492958 
+L 390.414958 235.236297 
+L 389.478297 235.71355 
+L 388.44 235.878 
+L 335.4 235.878 
+L 334.361703 235.71355 
+L 333.425042 235.236297 
+L 332.681703 234.492958 
+L 332.20445 233.556297 
+L 332.04 232.518 
+L 332.04 137.646 
+L 332.20445 136.607703 
+L 332.681703 135.671042 
+L 333.425042 134.927703 
+L 334.361703 134.45045 
+L 335.4 134.286 
+L 388.44 134.286 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-circle--24" class="tf-circle">
+    <path d="M 523.272 185.082 
+L 523.18054 182.317299 
+L 522.906559 179.564687 
+L 522.451255 176.836201 
+L 521.816619 174.143771 
+L 521.005427 171.499172 
+L 520.021225 168.913967 
+L 518.868317 166.39946 
+L 517.551745 163.966648 
+L 516.077265 161.626168 
+L 514.451326 159.388254 
+L 512.681036 157.262692 
+L 510.774137 155.258777 
+L 508.738968 153.385272 
+L 506.584427 151.650368 
+L 504.319935 150.061652 
+L 501.955396 148.626071 
+L 499.501148 147.349903 
+L 496.967923 146.238727 
+L 494.366799 145.297404 
+L 491.709149 144.530048 
+L 489.006595 143.940016 
+L 486.270953 143.529887 
+L 483.514188 143.301455 
+L 480.748352 143.255718 
+L 477.985541 143.392877 
+L 475.237835 143.712333 
+L 472.51725 144.212687 
+L 469.835682 144.891752 
+L 467.204856 145.746559 
+L 464.636277 146.77337 
+L 462.141176 147.967695 
+L 459.730465 149.324311 
+L 457.414683 150.837287 
+L 455.203959 152.500006 
+L 453.107957 154.305197 
+L 451.135845 156.244968 
+L 449.296245 158.310836 
+L 447.597201 160.493767 
+L 446.046143 162.784217 
+L 444.649854 165.172169 
+L 443.414439 167.647181 
+L 442.345299 170.198432 
+L 441.447111 172.814764 
+L 440.723802 175.484739 
+L 440.178534 178.196679 
+L 439.813692 180.938727 
+L 439.630871 183.698893 
+L 439.630871 186.465107 
+L 439.813692 189.225273 
+L 440.178534 191.967321 
+L 440.723802 194.679261 
+L 441.447111 197.349236 
+L 442.345299 199.965568 
+L 443.414439 202.516819 
+L 444.649854 204.991831 
+L 446.046143 207.379783 
+L 447.597201 209.670233 
+L 449.296245 211.853164 
+L 451.135845 213.919032 
+L 453.107957 215.858803 
+L 455.203959 217.663994 
+L 457.414683 219.326713 
+L 459.730465 220.839689 
+L 462.141176 222.196305 
+L 464.636277 223.39063 
+L 467.204856 224.417441 
+L 469.835682 225.272248 
+L 472.51725 225.951313 
+L 475.237835 226.451667 
+L 477.985541 226.771123 
+L 480.748352 226.908282 
+L 483.514188 226.862545 
+L 486.270953 226.634113 
+L 489.006595 226.223984 
+L 491.709149 225.633952 
+L 494.366799 224.866596 
+L 496.967923 223.925273 
+L 499.501148 222.814097 
+L 501.955396 221.537929 
+L 504.319935 220.102348 
+L 506.584427 218.513632 
+L 508.738968 216.778728 
+L 510.774137 214.905223 
+L 512.681036 212.901308 
+L 514.451326 210.775746 
+L 516.077265 208.537832 
+L 517.551745 206.197352 
+L 518.868317 203.76454 
+L 520.021225 201.250033 
+L 521.005427 198.664828 
+L 521.816619 196.020229 
+L 522.451255 193.327799 
+L 522.906559 190.599313 
+L 523.18054 187.846701 
+L 523.272 185.082 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-polygon--25" class="tf-polygon">
+    <path d="M 462.3168 210.1812 
+L 462.3168 159.9828 
+L 506.5392 185.082 
+L 462.3168 210.1812 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-polygon--26" class="tf-polygon">
+    <path d="M 977.448 292.65 
+L 1061.112 292.65 
+L 1040.196 310.578 
+L 998.364 310.578 
+L 977.448 292.65 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-box--27" class="tf-box">
+    <path d="M 1159.344 495.834 
+L 1160.382297 495.99845 
+L 1161.318958 496.475703 
+L 1162.062297 497.219042 
+L 1162.53955 498.155703 
+L 1162.704 499.194 
+L 1162.704 501.438 
+L 1162.53955 502.476297 
+L 1162.062297 503.412958 
+L 1161.318958 504.156297 
+L 1160.382297 504.63355 
+L 1159.344 504.798 
+L 903.12 504.798 
+L 902.081703 504.63355 
+L 901.145042 504.156297 
+L 900.401703 503.412958 
+L 899.92445 502.476297 
+L 899.76 501.438 
+L 899.76 499.194 
+L 899.92445 498.155703 
+L 900.401703 497.219042 
+L 901.145042 496.475703 
+L 902.081703 495.99845 
+L 903.12 495.834 
+L 1159.344 495.834 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-box--28" class="tf-box">
+    <path d="M 1063.728 477.906 
+L 1064.766297 478.07045 
+L 1065.702958 478.547703 
+L 1066.446297 479.291042 
+L 1066.92355 480.227703 
+L 1067.088 481.266 
+L 1067.088 492.474 
+L 1066.92355 493.512297 
+L 1066.446297 494.448958 
+L 1065.702958 495.192297 
+L 1064.766297 495.66955 
+L 1063.728 495.834 
+L 986.784 495.834 
+L 985.745703 495.66955 
+L 984.809042 495.192297 
+L 984.065703 494.448958 
+L 983.58845 493.512297 
+L 983.424 492.474 
+L 983.424 481.266 
+L 983.58845 480.227703 
+L 984.065703 479.291042 
+L 984.809042 478.547703 
+L 985.745703 478.07045 
+L 986.784 477.906 
+L 1063.728 477.906 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-box--29" class="tf-box">
+    <path d="M 1054.764 430.098 
+L 1055.802297 430.26245 
+L 1056.738958 430.739703 
+L 1057.482297 431.483042 
+L 1057.95955 432.419703 
+L 1058.124 433.458 
+L 1058.124 474.546 
+L 1057.95955 475.584297 
+L 1057.482297 476.520958 
+L 1056.738958 477.264297 
+L 1055.802297 477.74155 
+L 1054.764 477.906 
+L 995.748 477.906 
+L 994.709703 477.74155 
+L 993.773042 477.264297 
+L 993.029703 476.520958 
+L 992.55245 475.584297 
+L 992.388 474.546 
+L 992.388 433.458 
+L 992.55245 432.419703 
+L 993.029703 431.483042 
+L 993.773042 430.739703 
+L 994.709703 430.26245 
+L 995.748 430.098 
+L 1054.764 430.098 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-box--30" class="tf-box">
+    <path d="M 941.22 462.966 
+L 942.258297 463.13045 
+L 943.194958 463.607703 
+L 943.938297 464.351042 
+L 944.41555 465.287703 
+L 944.58 466.326 
+L 944.58 492.474 
+L 944.41555 493.512297 
+L 943.938297 494.448958 
+L 943.194958 495.192297 
+L 942.258297 495.66955 
+L 941.22 495.834 
+L 927.024 495.834 
+L 925.985703 495.66955 
+L 925.049042 495.192297 
+L 924.305703 494.448958 
+L 923.82845 493.512297 
+L 923.664 492.474 
+L 923.664 466.326 
+L 923.82845 465.287703 
+L 924.305703 464.351042 
+L 925.049042 463.607703 
+L 925.985703 463.13045 
+L 927.024 462.966 
+L 941.22 462.966 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-box--31" class="tf-box">
+    <path d="M 968.112 471.93 
+L 969.150297 472.09445 
+L 970.086958 472.571703 
+L 970.830297 473.315042 
+L 971.30755 474.251703 
+L 971.472 475.29 
+L 971.472 492.474 
+L 971.30755 493.512297 
+L 970.830297 494.448958 
+L 970.086958 495.192297 
+L 969.150297 495.66955 
+L 968.112 495.834 
+L 956.904 495.834 
+L 955.865703 495.66955 
+L 954.929042 495.192297 
+L 954.185703 494.448958 
+L 953.70845 493.512297 
+L 953.544 492.474 
+L 953.544 475.29 
+L 953.70845 474.251703 
+L 954.185703 473.315042 
+L 954.929042 472.571703 
+L 955.865703 472.09445 
+L 956.904 471.93 
+L 968.112 471.93 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-box--32" class="tf-box">
+    <path d="M 627.48 543.642 
+L 628.518297 543.80645 
+L 629.454958 544.283703 
+L 630.198297 545.027042 
+L 630.67555 545.963703 
+L 630.84 547.002 
+L 630.84 576.138 
+L 630.67555 577.176297 
+L 630.198297 578.112958 
+L 629.454958 578.856297 
+L 628.518297 579.33355 
+L 627.48 579.498 
+L 580.416 579.498 
+L 579.377703 579.33355 
+L 578.441042 578.856297 
+L 577.697703 578.112958 
+L 577.22045 577.176297 
+L 577.056 576.138 
+L 577.056 547.002 
+L 577.22045 545.963703 
+L 577.697703 545.027042 
+L 578.441042 544.283703 
+L 579.377703 543.80645 
+L 580.416 543.642 
+L 627.48 543.642 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--33" class="tf-arrow">
+    <path d="M 9.336 185.082 
+L 147.144 185.082 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 3.733333"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--34" class="tf-arrow">
+    <path d="M 672.672 185.082 
+L 816.456 185.082 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 3.733333"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--35" class="tf-arrow">
+    <path d="M 1019.28 328.506 
+L 1019.28 400.578 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 3.733333"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--36" class="tf-arrow">
+    <path d="M 1473.456 555.594 
+L 1204.176 555.594 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--muted, #56616B); stroke-width: 3.733333"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--37" class="tf-arrow">
+    <path d="M 1473.456 465.954 
+L 1204.176 465.954 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--muted, #56616B); stroke-width: 3.733333"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--38" class="tf-arrow">
+    <path d="M 481.44 561.57 
+L 20.928 561.57 
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: none; stroke: var(--muted, #56616B); stroke-width: 3.733333"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--39" class="tf-arrow">
+    <path d="M 158.736 185.082 
+L 145.856 180.322 
+L 145.856 189.842 
+z
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: var(--accent, #0E8A7E)"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--40" class="tf-arrow">
+    <path d="M 828.048 185.082 
+L 815.168 180.322 
+L 815.168 189.842 
+z
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: var(--accent, #0E8A7E)"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--41" class="tf-arrow">
+    <path d="M 1019.28 412.17 
+L 1024.04 399.29 
+L 1014.52 399.29 
+z
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: var(--accent, #0E8A7E)"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--42" class="tf-arrow">
+    <path d="M 1192.584 555.594 
+L 1205.464 560.354 
+L 1205.464 550.834 
+z
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: var(--muted, #56616B)"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--43" class="tf-arrow">
+    <path d="M 1192.584 465.954 
+L 1205.464 470.714 
+L 1205.464 461.194 
+z
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: var(--muted, #56616B)"/>
+   </g>
+   <g id="tf-ahu-booth-tf-arrow--44" class="tf-arrow">
+    <path d="M 9.336 561.57 
+L 22.216 566.33 
+L 22.216 556.81 
+z
+" clip-path="url(#tf-ahu-booth-pf0071cb59c)" style="fill: var(--muted, #56616B)"/>
+   </g>
+   <g id="tf-ahu-booth-tf-label--49" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="124.587625" y="87.635562" transform="rotate(-0 124.587625 87.635562)">air neuf</text>
+   </g>
+   <g id="tf-ahu-booth-tf-label--50" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(127.459125 340.566)">centrale de traitement d'air</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(99.001937 382.734)">filtrer, chauffer, refroidir, sécher</text>
+   </g>
+   <g id="tf-ahu-booth-tf-label--51" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="804.144" y="111.896" transform="rotate(-0 804.144 111.896)">mode éco : débit réduit hors pesée</text>
+   </g>
+   <g id="tf-ahu-booth-tf-label--52" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="880.717125" y="341.972" transform="rotate(-0 880.717125 341.972)">cabine de pesée</text>
+   </g>
+   <g id="tf-ahu-booth-tf-label--53" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1291.5275 290.3)">cabine en dépression :</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1310.460313 337.578)">l'air de la salle entre</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1313.3675 380.586)">(inversion brève au</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" transform="translate(1279.450313 423.580875)">changement de régime)</text>
+   </g>
+   <g id="tf-ahu-booth-tf-label--54" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="361.92" y="509.061562" transform="rotate(-0 361.92 509.061562)">rejet, sans recyclage</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="tf-ahu-booth-pf0071cb59c">
+   <rect x="0" y="0" width="1680" height="660"/>
+  </clipPath>
+ </defs>
+</svg>
