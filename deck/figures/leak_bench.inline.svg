@@ -676,7 +676,7 @@ z
    <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="230" y="588">pour chaque pression : débit calculé à la buse, comparé au score LeakQ et aux dB lus à la caméra</text>
    <text style="font-weight: 500; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--muted, #56616B)" x="230" y="638">deux lois :</text>
    <text style="font-weight: 600; font-size: 40px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="400" y="638">Q<tspan font-size="28px" dy="8">V</tspan><tspan dy="-8"> = f(LeakQ)</tspan></text>
-   <text style="font-weight: 600; font-size: 40px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="820" y="638">Q<tspan font-size="28px" dy="8">V</tspan><tspan dy="-8"> = g(dB)</tspan></text>
+   <text style="font-weight: 600; font-size: 40px; font-family: 'Instrument Sans', 'DejaVu Sans'; fill: var(--ink, #14202B)" x="820" y="638">Q<tspan font-size="28px" dy="8">V</tspan><tspan dy="-8"> = f(dB)</tspan></text>
   </g>
  <defs>
   <clipPath id="tf-leak-bench-pf0071cb59c">
