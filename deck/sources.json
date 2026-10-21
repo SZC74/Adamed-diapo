@@ -45,6 +45,12 @@
       "id": "audit2021",
       "citation": "Adamed Pharma, audit énergétique du site, 2021, document interne (non public)",
       "kind": "report"
+    },
+    {
+      "id": "cdc_2003",
+      "citation": "CDC, Guidelines for Environmental Infection Control in Health-Care Facilities, MMWR 2003;52(RR-10):1-48",
+      "url": "https://www.cdc.gov/mmwr/PDF/rr/rr5210.pdf",
+      "kind": "report"
     }
   ],
   "claims": [
