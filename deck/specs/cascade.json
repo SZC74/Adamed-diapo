@@ -1,22 +1,287 @@
 {
- "xlim": [0, 1680], "ylim": [0, 660],
- "alt": "Vue en plan de deux chambres de patient à la pression atmosphérique et d'un couloir en pression haute. L'air entre dans chaque chambre depuis le couloir par la porte.",
+ "xlim": [
+  0,
+  1680
+ ],
+ "ylim": [
+  0,
+  660
+ ],
+ "alt": "Vue en plan de deux chambres de patient à la pression atmosphérique, desservies par un couloir en surpression. Par chaque porte ouverte, l'air passe du couloir vers la chambre.",
  "elements": [
-  {"id": "outer", "type": "polyline", "points": [[34, 101], [1646, 101], [1646, 560], [34, 560], [34, 101]]},
-  {"id": "w1", "type": "line", "from": [34, 262], "to": [150, 262]},
-  {"id": "w2", "type": "line", "from": [250, 262], "to": [1430, 262]},
-  {"id": "w3", "type": "line", "from": [1530, 262], "to": [1646, 262]},
-  {"id": "mid", "type": "line", "from": [840, 262], "to": [840, 560]},
-  {"type": "arrow", "from": [200, 140], "to": [200, 380], "color": "accent"},
-  {"type": "arrow", "from": [1480, 140], "to": [1480, 380], "color": "accent"},
-  {"type": "text", "x": 470, "y": 495, "text": "chambre", "fixed": true},
-  {"type": "text", "x": 470, "y": 440, "text": "pression atmosphérique", "color": "accent", "fixed": true},
-  {"type": "text", "x": 470, "y": 385, "text": "l'air entre", "fixed": true},
-  {"type": "text", "x": 470, "y": 330, "text": "patient", "color": "muted", "fixed": true},
-  {"type": "text", "x": 1210, "y": 495, "text": "chambre", "fixed": true},
-  {"type": "text", "x": 1210, "y": 440, "text": "pression atmosphérique", "color": "accent", "fixed": true},
-  {"type": "text", "x": 1210, "y": 385, "text": "l'air entre", "fixed": true},
-  {"type": "text", "x": 1210, "y": 330, "text": "patient", "color": "muted", "fixed": true},
-  {"type": "text", "x": 840, "y": 180, "text": "couloir en pression haute", "color": "accent", "fixed": true}
+  {
+   "id": "corr",
+   "type": "region",
+   "x": 140,
+   "y": 60,
+   "w": 1400,
+   "h": 160,
+   "fill": {
+    "color": "accent",
+    "alpha": 0.12
+   }
+  },
+  {
+   "id": "outer",
+   "type": "polyline",
+   "points": [
+    [
+     140,
+     60
+    ],
+    [
+     1540,
+     60
+    ],
+    [
+     1540,
+     600
+    ],
+    [
+     140,
+     600
+    ],
+    [
+     140,
+     60
+    ]
+   ]
+  },
+  {
+   "id": "w1",
+   "type": "line",
+   "from": [
+    140,
+    220
+   ],
+   "to": [
+    290,
+    220
+   ]
+  },
+  {
+   "id": "w2",
+   "type": "line",
+   "from": [
+    410,
+    220
+   ],
+   "to": [
+    1270,
+    220
+   ]
+  },
+  {
+   "id": "w3",
+   "type": "line",
+   "from": [
+    1390,
+    220
+   ],
+   "to": [
+    1540,
+    220
+   ]
+  },
+  {
+   "id": "mid",
+   "type": "line",
+   "from": [
+    840,
+    220
+   ],
+   "to": [
+    840,
+    600
+   ]
+  },
+  {
+   "id": "doorA",
+   "type": "line",
+   "from": [
+    410,
+    220
+   ],
+   "to": [
+    410,
+    330
+   ],
+   "width": 0.8
+  },
+  {
+   "id": "doorB",
+   "type": "line",
+   "from": [
+    1390,
+    220
+   ],
+   "to": [
+    1390,
+    330
+   ],
+   "width": 0.8
+  },
+  {
+   "id": "bedA",
+   "type": "box",
+   "x": 520,
+   "y": 400,
+   "w": 230,
+   "h": 110,
+   "radius_px": 8
+  },
+  {
+   "id": "pilA",
+   "type": "box",
+   "x": 690,
+   "y": 415,
+   "w": 44,
+   "h": 80,
+   "radius_px": 6,
+   "z": "front",
+   "allow_overlap": true
+  },
+  {
+   "id": "bedB",
+   "type": "box",
+   "x": 1180,
+   "y": 400,
+   "w": 230,
+   "h": 110,
+   "radius_px": 8
+  },
+  {
+   "id": "pilB",
+   "type": "box",
+   "x": 1350,
+   "y": 415,
+   "w": 44,
+   "h": 80,
+   "radius_px": 6,
+   "z": "front",
+   "allow_overlap": true
+  },
+  {
+   "type": "arrow",
+   "from": [
+    350,
+    100
+   ],
+   "to": [
+    350,
+    330
+   ],
+   "color": "accent",
+   "width": 1.4
+  },
+  {
+   "type": "arrow",
+   "from": [
+    1330,
+    100
+   ],
+   "to": [
+    1330,
+    330
+   ],
+   "color": "accent",
+   "width": 1.4
+  },
+  {
+   "type": "text",
+   "x": 190,
+   "y": 555,
+   "text": "chambre",
+   "ha": "left",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 190,
+   "y": 510,
+   "text": "P atm",
+   "ha": "left",
+   "color": "accent",
+   "bold": true,
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 880,
+   "y": 555,
+   "text": "chambre",
+   "ha": "left",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 880,
+   "y": 510,
+   "text": "P atm",
+   "ha": "left",
+   "color": "accent",
+   "bold": true,
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 635,
+   "y": 360,
+   "text": "patient",
+   "color": "muted",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 1295,
+   "y": 360,
+   "text": "patient",
+   "color": "muted",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 840,
+   "y": 158,
+   "text": "couloir",
+   "fixed": true
+  },
+  {
+   "type": "text",
+   "x": 840,
+   "y": 110,
+   "text": "P > P atm",
+   "color": "accent",
+   "bold": true,
+   "fixed": true
+  },
+  {
+   "type": "line",
+   "from": [
+    600,
+    400
+   ],
+   "to": [
+    600,
+    510
+   ],
+   "z": "front",
+   "allow_overlap": true,
+   "width": 0.8
+  },
+  {
+   "type": "line",
+   "from": [
+    1260,
+    400
+   ],
+   "to": [
+    1260,
+    510
+   ],
+   "z": "front",
+   "allow_overlap": true,
+   "width": 0.8
+  }
  ]
 }

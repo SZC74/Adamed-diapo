@@ -1,5 +1,5 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1680 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1680" height="660" style="aspect-ratio: 1680 / 660" data-viewbox="0 0 1680 660" data-min-text="28" data-slot="1680x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Vue en plan de deux chambres de patient à la pression atmosphérique et d'un couloir en pression haute. L'air entre dans chaque chambre depuis le couloir par la porte.">
- <title>Vue en plan de deux chambres de patient à la pression atmosphérique et d'un couloir en pression haute. L'air entre dans chaque chambre depuis le couloir par la porte.</title>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1680 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1680" height="660" style="aspect-ratio: 1680 / 660" data-viewbox="0 0 1680 660" data-min-text="28" data-slot="1680x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Vue en plan de deux chambres de patient à la pression atmosphérique, desservies par un couloir en surpression. Par chaque porte ouverte, l'air passe du couloir vers la chambre.">
+ <title>Vue en plan de deux chambres de patient à la pression atmosphérique, desservies par un couloir en surpression. Par chaque porte ouverte, l'air passe du couloir vers la chambre.</title>
  <defs>
   <style type="text/css">.tf-figure *{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
@@ -14,84 +14,353 @@ z
 " style="fill: none; opacity: 0"/>
   </g>
   <g id="tf-cascade-axes_1">
-   <g id="tf-cascade-tf-polyline--0" class="tf-polyline">
-    <path d="M 42.206545 556.668364 
-L 1637.793455 556.668364 
-L 1637.793455 102.341818 
-L 42.206545 102.341818 
-L 42.206545 556.668364 
-" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   <g id="tf-cascade-tf-region--0" class="tf-region tf-ink">
+    <path d="M 147.127273 597.250909 
+L 1532.872727 597.250909 
+L 1532.872727 438.88 
+L 147.127273 438.88 
+z
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: var(--accent, #0E8A7E); opacity: 0.12"/>
    </g>
-   <g id="tf-cascade-tf-line--1" class="tf-line">
-    <path d="M 42.206545 397.307636 
-L 157.025455 397.307636 
+   <g id="tf-cascade-tf-polyline--1" class="tf-polyline">
+    <path d="M 147.127273 597.250909 
+L 1532.872727 597.250909 
+L 1532.872727 62.749091 
+L 147.127273 62.749091 
+L 147.127273 597.250909 
 " clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
    <g id="tf-cascade-tf-line--2" class="tf-line">
-    <path d="M 256.007273 397.307636 
-L 1423.992727 397.307636 
+    <path d="M 147.127273 438.88 
+L 295.6 438.88 
 " clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
    <g id="tf-cascade-tf-line--3" class="tf-line">
-    <path d="M 1522.974545 397.307636 
-L 1637.793455 397.307636 
+    <path d="M 414.378182 438.88 
+L 1265.621818 438.88 
 " clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
    <g id="tf-cascade-tf-line--4" class="tf-line">
-    <path d="M 840 397.307636 
-L 840 102.341818 
+    <path d="M 1384.4 438.88 
+L 1532.872727 438.88 
 " clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-cascade-tf-arrow--5" class="tf-arrow">
-    <path d="M 206.516364 518.065455 
-L 206.516364 292.101091 
-" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.986667"/>
+   <g id="tf-cascade-tf-line--5" class="tf-line">
+    <path d="M 840 438.88 
+L 840 62.749091 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-cascade-tf-arrow--6" class="tf-arrow">
-    <path d="M 1473.483636 518.065455 
-L 1473.483636 292.101091 
-" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.986667"/>
+   <g id="tf-cascade-tf-line--6" class="tf-line">
+    <path d="M 414.378182 438.88 
+L 414.378182 330 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 1.493333"/>
    </g>
-   <g id="tf-cascade-tf-arrow--7" class="tf-arrow">
-    <path d="M 206.516364 280.509091 
-L 201.756364 293.389091 
-L 211.276364 293.389091 
+   <g id="tf-cascade-tf-line--7" class="tf-line">
+    <path d="M 1384.4 438.88 
+L 1384.4 330 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 1.493333"/>
+   </g>
+   <g id="tf-cascade-tf-line--22" class="tf-line">
+    <path d="M 414.378182 438.88 
+L 418.858182 438.88 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667; stroke-linecap: round"/>
+   </g>
+   <g id="tf-cascade-tf-line--23" class="tf-line">
+    <path d="M 1384.4 438.88 
+L 1388.88 438.88 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667; stroke-linecap: round"/>
+   </g>
+   <g id="tf-cascade-tf-line--24" class="tf-line">
+    <path d="M 414.378182 438.88 
+L 414.378182 435.88 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 1.493333; stroke-linecap: round"/>
+   </g>
+   <g id="tf-cascade-tf-line--25" class="tf-line">
+    <path d="M 1384.4 438.88 
+L 1384.4 435.88 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 1.493333; stroke-linecap: round"/>
+   </g>
+   <g id="tf-cascade-tf-box--8" class="tf-box">
+    <path d="M 742.916364 151.832727 
+L 745.3885 152.224275 
+L 747.618646 153.360591 
+L 749.3885 155.130445 
+L 750.524816 157.360591 
+L 750.916364 159.832727 
+L 750.916364 252.712727 
+L 750.524816 255.184863 
+L 749.3885 257.415009 
+L 747.618646 259.184863 
+L 745.3885 260.321179 
+L 742.916364 260.712727 
+L 531.258182 260.712727 
+L 528.786046 260.321179 
+L 526.5559 259.184863 
+L 524.786046 257.415009 
+L 523.64973 255.184863 
+L 523.258182 252.712727 
+L 523.258182 159.832727 
+L 523.64973 157.360591 
+L 524.786046 155.130445 
+L 526.5559 153.360591 
+L 528.786046 152.224275 
+L 531.258182 151.832727 
+z
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: var(--slide-bg, #F3F1EA)"/>
+   </g>
+   <g id="tf-cascade-tf-box--9" class="tf-box">
+    <path d="M 742.916364 151.832727 
+L 745.3885 152.224275 
+L 747.618646 153.360591 
+L 749.3885 155.130445 
+L 750.524816 157.360591 
+L 750.916364 159.832727 
+L 750.916364 252.712727 
+L 750.524816 255.184863 
+L 749.3885 257.415009 
+L 747.618646 259.184863 
+L 745.3885 260.321179 
+L 742.916364 260.712727 
+L 531.258182 260.712727 
+L 528.786046 260.321179 
+L 526.5559 259.184863 
+L 524.786046 257.415009 
+L 523.64973 255.184863 
+L 523.258182 252.712727 
+L 523.258182 159.832727 
+L 523.64973 157.360591 
+L 524.786046 155.130445 
+L 526.5559 153.360591 
+L 528.786046 152.224275 
+L 531.258182 151.832727 
+L 742.916364 151.832727 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-cascade-tf-box--10" class="tf-box">
+    <path d="M 1396.196364 151.832727 
+L 1398.6685 152.224275 
+L 1400.898646 153.360591 
+L 1402.6685 155.130445 
+L 1403.804816 157.360591 
+L 1404.196364 159.832727 
+L 1404.196364 252.712727 
+L 1403.804816 255.184863 
+L 1402.6685 257.415009 
+L 1400.898646 259.184863 
+L 1398.6685 260.321179 
+L 1396.196364 260.712727 
+L 1184.538182 260.712727 
+L 1182.066046 260.321179 
+L 1179.8359 259.184863 
+L 1178.066046 257.415009 
+L 1176.92973 255.184863 
+L 1176.538182 252.712727 
+L 1176.538182 159.832727 
+L 1176.92973 157.360591 
+L 1178.066046 155.130445 
+L 1179.8359 153.360591 
+L 1182.066046 152.224275 
+L 1184.538182 151.832727 
+z
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: var(--slide-bg, #F3F1EA)"/>
+   </g>
+   <g id="tf-cascade-tf-box--11" class="tf-box">
+    <path d="M 1396.196364 151.832727 
+L 1398.6685 152.224275 
+L 1400.898646 153.360591 
+L 1402.6685 155.130445 
+L 1403.804816 157.360591 
+L 1404.196364 159.832727 
+L 1404.196364 252.712727 
+L 1403.804816 255.184863 
+L 1402.6685 257.415009 
+L 1400.898646 259.184863 
+L 1398.6685 260.321179 
+L 1396.196364 260.712727 
+L 1184.538182 260.712727 
+L 1182.066046 260.321179 
+L 1179.8359 259.184863 
+L 1178.066046 257.415009 
+L 1176.92973 255.184863 
+L 1176.538182 252.712727 
+L 1176.538182 159.832727 
+L 1176.92973 157.360591 
+L 1178.066046 155.130445 
+L 1179.8359 153.360591 
+L 1182.066046 152.224275 
+L 1184.538182 151.832727 
+L 1396.196364 151.832727 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-cascade-tf-arrow--12" class="tf-arrow">
+    <path d="M 354.989091 557.658182 
+L 354.989091 341.592 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.613333"/>
+   </g>
+   <g id="tf-cascade-tf-arrow--13" class="tf-arrow">
+    <path d="M 1325.010909 557.658182 
+L 1325.010909 341.592 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.613333"/>
+   </g>
+   <g id="tf-cascade-tf-arrow--14" class="tf-arrow">
+    <path d="M 354.989091 330 
+L 350.229091 342.88 
+L 359.749091 342.88 
 z
 " clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: var(--accent, #0E8A7E)"/>
    </g>
-   <g id="tf-cascade-tf-arrow--8" class="tf-arrow">
-    <path d="M 1473.483636 280.509091 
-L 1468.723636 293.389091 
-L 1478.243636 293.389091 
+   <g id="tf-cascade-tf-arrow--15" class="tf-arrow">
+    <path d="M 1325.010909 330 
+L 1320.250909 342.88 
+L 1329.770909 342.88 
 z
 " clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: var(--accent, #0E8A7E)"/>
    </g>
-   <g id="tf-cascade-tf-label--9" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="473.767273" y="176.62" transform="rotate(-0 473.767273 176.62)">chambre</text>
+   <g id="tf-cascade-tf-line--16" class="tf-line">
+    <path d="M 602.443636 260.712727 
+L 602.443636 151.832727 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 1.493333"/>
    </g>
-   <g id="tf-cascade-tf-label--10" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="473.767273" y="228.61" transform="rotate(-0 473.767273 228.61)">pression atmosphérique</text>
+   <g id="tf-cascade-tf-line--17" class="tf-line">
+    <path d="M 1255.723636 260.712727 
+L 1255.723636 151.832727 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 1.493333"/>
    </g>
-   <g id="tf-cascade-tf-label--11" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="473.767273" y="285.92" transform="rotate(-0 473.767273 285.92)">l'air entre</text>
+   <g id="tf-cascade-tf-box--18" class="tf-box">
+    <path d="M 729.079273 166.68 
+L 730.933375 166.973661 
+L 732.605984 167.825898 
+L 733.933375 169.153288 
+L 734.785612 170.825898 
+L 735.079273 172.68 
+L 735.079273 239.865455 
+L 734.785612 241.719557 
+L 733.933375 243.392166 
+L 732.605984 244.719557 
+L 730.933375 245.571794 
+L 729.079273 245.865455 
+L 697.527273 245.865455 
+L 695.673171 245.571794 
+L 694.000561 244.719557 
+L 692.673171 243.392166 
+L 691.820934 241.719557 
+L 691.527273 239.865455 
+L 691.527273 172.68 
+L 691.820934 170.825898 
+L 692.673171 169.153288 
+L 694.000561 167.825898 
+L 695.673171 166.973661 
+L 697.527273 166.68 
+z
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
-   <g id="tf-cascade-tf-label--12" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="473.767273" y="337.391563" transform="rotate(-0 473.767273 337.391563)">patient</text>
+   <g id="tf-cascade-tf-box--19" class="tf-box">
+    <path d="M 729.079273 166.68 
+L 730.933375 166.973661 
+L 732.605984 167.825898 
+L 733.933375 169.153288 
+L 734.785612 170.825898 
+L 735.079273 172.68 
+L 735.079273 239.865455 
+L 734.785612 241.719557 
+L 733.933375 243.392166 
+L 732.605984 244.719557 
+L 730.933375 245.571794 
+L 729.079273 245.865455 
+L 697.527273 245.865455 
+L 695.673171 245.571794 
+L 694.000561 244.719557 
+L 692.673171 243.392166 
+L 691.820934 241.719557 
+L 691.527273 239.865455 
+L 691.527273 172.68 
+L 691.820934 170.825898 
+L 692.673171 169.153288 
+L 694.000561 167.825898 
+L 695.673171 166.973661 
+L 697.527273 166.68 
+L 729.079273 166.68 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-cascade-tf-label--13" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1206.232727" y="176.62" transform="rotate(-0 1206.232727 176.62)">chambre</text>
+   <g id="tf-cascade-tf-box--20" class="tf-box">
+    <path d="M 1382.359273 166.68 
+L 1384.213375 166.973661 
+L 1385.885984 167.825898 
+L 1387.213375 169.153288 
+L 1388.065612 170.825898 
+L 1388.359273 172.68 
+L 1388.359273 239.865455 
+L 1388.065612 241.719557 
+L 1387.213375 243.392166 
+L 1385.885984 244.719557 
+L 1384.213375 245.571794 
+L 1382.359273 245.865455 
+L 1350.807273 245.865455 
+L 1348.953171 245.571794 
+L 1347.280561 244.719557 
+L 1345.953171 243.392166 
+L 1345.100934 241.719557 
+L 1344.807273 239.865455 
+L 1344.807273 172.68 
+L 1345.100934 170.825898 
+L 1345.953171 169.153288 
+L 1347.280561 167.825898 
+L 1348.953171 166.973661 
+L 1350.807273 166.68 
+z
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
-   <g id="tf-cascade-tf-label--14" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="1206.232727" y="228.61" transform="rotate(-0 1206.232727 228.61)">pression atmosphérique</text>
+   <g id="tf-cascade-tf-box--21" class="tf-box">
+    <path d="M 1382.359273 166.68 
+L 1384.213375 166.973661 
+L 1385.885984 167.825898 
+L 1387.213375 169.153288 
+L 1388.065612 170.825898 
+L 1388.359273 172.68 
+L 1388.359273 239.865455 
+L 1388.065612 241.719557 
+L 1387.213375 243.392166 
+L 1385.885984 244.719557 
+L 1384.213375 245.571794 
+L 1382.359273 245.865455 
+L 1350.807273 245.865455 
+L 1348.953171 245.571794 
+L 1347.280561 244.719557 
+L 1345.953171 243.392166 
+L 1345.100934 241.719557 
+L 1344.807273 239.865455 
+L 1344.807273 172.68 
+L 1345.100934 170.825898 
+L 1345.953171 169.153288 
+L 1347.280561 167.825898 
+L 1348.953171 166.973661 
+L 1350.807273 166.68 
+L 1382.359273 166.68 
+" clip-path="url(#tf-cascade-pf0071cb59c)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-cascade-tf-label--15" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="1206.232727" y="285.92" transform="rotate(-0 1206.232727 285.92)">l'air entre</text>
+   <g id="tf-cascade-tf-label--26" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="255.750994" y="117.230909" transform="rotate(-0 255.750994 117.230909)">chambre</text>
    </g>
-   <g id="tf-cascade-tf-label--16" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1206.232727" y="337.391563" transform="rotate(-0 1206.232727 337.391563)">patient</text>
+   <g id="tf-cascade-tf-label--27" class="tf-label tf-ink">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="235.368182" y="161.759602" transform="rotate(-0 235.368182 161.759602)">P atm</text>
    </g>
-   <g id="tf-cascade-tf-label--17" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="840" y="485.86429" transform="rotate(-0 840 485.86429)">couloir en pression haute</text>
+   <g id="tf-cascade-tf-label--28" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="938.72554" y="117.230909" transform="rotate(-0 938.72554 117.230909)">chambre</text>
+   </g>
+   <g id="tf-cascade-tf-label--29" class="tf-label tf-ink">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="918.342727" y="161.759602" transform="rotate(-0 918.342727 161.759602)">P atm</text>
+   </g>
+   <g id="tf-cascade-tf-label--30" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="637.087273" y="307.697017" transform="rotate(-0 637.087273 307.697017)">patient</text>
+   </g>
+   <g id="tf-cascade-tf-label--31" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1290.367273" y="307.697017" transform="rotate(-0 1290.367273 307.697017)">patient</text>
+   </g>
+   <g id="tf-cascade-tf-label--32" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="840" y="510.37029" transform="rotate(-0 840 510.37029)">couloir</text>
+   </g>
+   <g id="tf-cascade-tf-label--33" class="tf-label tf-ink">
+    <text style="font-weight: 700; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="840" y="557.686875" transform="rotate(-0 840 557.686875)">P &gt; P atm</text>
    </g>
   </g>
  </g>
