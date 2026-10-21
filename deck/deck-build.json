@@ -52,6 +52,12 @@
    "slot": "1680x360px",
    "out": "equations/choked_flow",
    "size": "fit"
+  },
+  {
+   "id": "eurovent_mean_side",
+   "latex": "\\overline{\\Delta p} = \\dfrac{2\\,\\Delta p_0 + \\Delta p_\\mathrm{final}}{3}",
+   "slot": "460x110px",
+   "out": "equations/eurovent_mean_side"
   }
  ],
  "values": [
