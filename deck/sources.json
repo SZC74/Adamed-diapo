@@ -51,6 +51,11 @@
       "citation": "European Commission, EudraLex Volume 4, Annex 15: Qualification and Validation, 2015 (change control, section 11)",
       "url": "https://health.ec.europa.eu/system/files/2016-11/2015-10_annex15_0.pdf",
       "kind": "report"
+    },
+    {
+      "id": "site_air",
+      "citation": "Adamed Pharma, site de Pabianice : réseau d'air comprimé en service permanent, 8 760 h par an (information du site)",
+      "kind": "report"
     }
   ],
   "claims": [
@@ -86,6 +91,14 @@
       "source": "eurovent_424",
       "quote": "If fan efficiency and/or operating time are not known, the default values of Eurovent 4/21 can be used as a substitute: t = 6.000 h/a, η = 0,5",
       "locator": "Section 2, after Eq. (1)"
+    },
+    {
+      "slide": 5,
+      "text": "8 760 h",
+      "source": "site_air",
+      "qualifiers": [
+        "réseau sous pression"
+      ]
     }
   ],
   "images": [
