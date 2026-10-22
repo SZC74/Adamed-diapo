@@ -7,7 +7,7 @@
   0,
   660
  ],
- "alt": "Schéma de principe : l'air neuf passe par une batterie de récupération puis par la centrale de traitement d'air, qui le souffle par le haut dans la cabine de pesée. En mode éco, le débit est réduit hors pesée. La cabine est en dépression et l'air de la salle entre par sa façade ouverte. L'air extrait est filtré, passe par la seconde batterie de la boucle d'eau glycolée puis est rejeté dehors sans recyclage.",
+ "alt": "Schéma de principe : l'air neuf passe par une batterie de récupération puis par la centrale de traitement d'air, qui le souffle par le haut dans la cabine de pesée. En mode éco, le débit est réduit hors pesée. Une cascade de pression est maintenue entre la cabine et la salle. L'air extrait est filtré, passe par la seconde batterie de la boucle d'eau glycolée puis est rejeté dehors sans recyclage.",
  "elements": [
   {
    "id": "inlet",
@@ -391,32 +391,6 @@
    "radius_px": 2
   },
   {
-   "id": "room1",
-   "type": "arrow",
-   "from": [
-    1090,
-    200
-   ],
-   "to": [
-    975,
-    200
-   ],
-   "color": "muted"
-  },
-  {
-   "id": "room2",
-   "type": "arrow",
-   "from": [
-    1090,
-    140
-   ],
-   "to": [
-    975,
-    140
-   ],
-   "color": "muted"
-  },
-  {
    "id": "exh1",
    "type": "line",
    "from": [
@@ -592,24 +566,16 @@
   {
    "type": "text",
    "x": 580,
-   "y": 330,
+   "y": 310,
    "text": "cabine de pesée",
    "ha": "left",
    "fixed": true
   },
   {
    "type": "text",
-   "x": 580,
-   "y": 284,
-   "text": "en dépression",
-   "ha": "left",
-   "fixed": true
-  },
-  {
-   "type": "text",
    "x": 1095,
-   "y": 92,
-   "text": "air de la salle",
+   "y": 150,
+   "text": "cascade",
    "ha": "right",
    "color": "muted",
    "fixed": true
@@ -620,6 +586,71 @@
    "y": 40,
    "text": "GTB : gestion technique du bâtiment",
    "ha": "left",
+   "color": "muted",
+   "fixed": true
+  },
+  {
+   "id": "casc",
+   "type": "line",
+   "from": [
+    992,
+    218
+   ],
+   "to": [
+    1073,
+    218
+   ]
+  },
+  {
+   "id": "casc_l",
+   "type": "polygon",
+   "points": [
+    [
+     972,
+     218
+    ],
+    [
+     992,
+     227
+    ],
+    [
+     992,
+     209
+    ]
+   ],
+   "fill": "ink",
+   "stroke": false,
+   "allow_overlap": true,
+   "z": "front"
+  },
+  {
+   "id": "casc_r",
+   "type": "polygon",
+   "points": [
+    [
+     1093,
+     218
+    ],
+    [
+     1073,
+     227
+    ],
+    [
+     1073,
+     209
+    ]
+   ],
+   "fill": "ink",
+   "stroke": false,
+   "allow_overlap": true,
+   "z": "front"
+  },
+  {
+   "type": "text",
+   "x": 1095,
+   "y": 100,
+   "text": "de pression",
+   "ha": "right",
    "color": "muted",
    "fixed": true
   }

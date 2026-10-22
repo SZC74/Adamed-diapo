@@ -1,5 +1,5 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1100" height="660" style="aspect-ratio: 1100 / 660" data-viewbox="0 0 1100 660" data-min-text="28" data-slot="1100x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Schéma de principe : l'air neuf passe par une batterie de récupération puis par la centrale de traitement d'air, qui le souffle par le haut dans la cabine de pesée. En mode éco, le débit est réduit hors pesée. La cabine est en dépression et l'air de la salle entre par sa façade ouverte. L'air extrait est filtré, passe par la seconde batterie de la boucle d'eau glycolée puis est rejeté dehors sans recyclage.">
- <title>Schéma de principe : l'air neuf passe par une batterie de récupération puis par la centrale de traitement d'air, qui le souffle par le haut dans la cabine de pesée. En mode éco, le débit est réduit hors pesée. La cabine est en dépression et l'air de la salle entre par sa façade ouverte. L'air extrait est filtré, passe par la seconde batterie de la boucle d'eau glycolée puis est rejeté dehors sans recyclage.</title>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 660" xmlns="http://www.w3.org/2000/svg" class="tf-figure" width="1100" height="660" style="aspect-ratio: 1100 / 660" data-viewbox="0 0 1100 660" data-min-text="28" data-slot="1100x660" preserveAspectRatio="xMinYMin meet" role="img" aria-label="Schéma de principe : l'air neuf passe par une batterie de récupération puis par la centrale de traitement d'air, qui le souffle par le haut dans la cabine de pesée. En mode éco, le débit est réduit hors pesée. Une cascade de pression est maintenue entre la cabine et la salle. L'air extrait est filtré, passe par la seconde batterie de la boucle d'eau glycolée puis est rejeté dehors sans recyclage.">
+ <title>Schéma de principe : l'air neuf passe par une batterie de récupération puis par la centrale de traitement d'air, qui le souffle par le haut dans la cabine de pesée. En mode éco, le débit est réduit hors pesée. Une cascade de pression est maintenue entre la cabine et la salle. L'air extrait est filtré, passe par la seconde batterie de la boucle d'eau glycolée puis est rejeté dehors sans recyclage.</title>
  <defs>
   <style type="text/css">.tf-figure *{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
@@ -79,7 +79,12 @@ L 96.111609 469.562899
 L 111.837006 469.562899 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--12" class="tf-box">
+   <g id="tf-ahu-booth-tf-line--12" class="tf-line">
+    <path d="M 990.49357 440.07778 
+L 1070.103392 440.07778 
+" clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
+   </g>
+   <g id="tf-ahu-booth-tf-box--13" class="tf-box">
     <path d="M 120.271054 145.226584 
 L 121.309351 145.391034 
 L 122.246012 145.868287 
@@ -107,7 +112,7 @@ L 87.677561 145.226584
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--13" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--14" class="tf-box">
     <path d="M 120.271054 145.226584 
 L 121.309351 145.391034 
 L 122.246012 145.868287 
@@ -135,7 +140,7 @@ L 87.677561 145.226584
 L 120.271054 145.226584 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--14" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--15" class="tf-box">
     <path d="M 474.092489 108.861603 
 L 475.130786 109.026053 
 L 476.067447 109.503306 
@@ -163,7 +168,7 @@ L 156.476174 108.861603
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--15" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--16" class="tf-box">
     <path d="M 474.092489 108.861603 
 L 475.130786 109.026053 
 L 476.067447 109.503306 
@@ -191,7 +196,7 @@ L 156.476174 108.861603
 L 474.092489 108.861603 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--16" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--17" class="tf-box">
     <path d="M 888.244163 532.464488 
 L 888.862197 532.562375 
 L 889.419733 532.846454 
@@ -219,7 +224,7 @@ L 695.676699 532.464488
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--17" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--18" class="tf-box">
     <path d="M 888.244163 532.464488 
 L 888.862197 532.562375 
 L 889.419733 532.846454 
@@ -247,7 +252,7 @@ L 695.676699 532.464488
 L 888.244163 532.464488 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--18" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--19" class="tf-box">
     <path d="M 852.862019 512.807741 
 L 853.480053 512.905628 
 L 854.03759 513.189707 
@@ -275,7 +280,7 @@ L 766.440986 512.807741
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--19" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--20" class="tf-box">
     <path d="M 852.862019 512.807741 
 L 853.480053 512.905628 
 L 854.03759 513.189707 
@@ -303,7 +308,7 @@ L 766.440986 512.807741
 L 852.862019 512.807741 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--20" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--21" class="tf-box">
     <path d="M 843.639321 465.63155 
 L 844.677618 465.796 
 L 845.614279 466.273253 
@@ -331,7 +336,7 @@ L 775.663685 465.63155
 L 843.639321 465.63155 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--21" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--22" class="tf-box">
     <path d="M 725.093168 504.945043 
 L 725.711202 505.04293 
 L 726.268738 505.327009 
@@ -359,7 +364,7 @@ L 709.436422 504.945043
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--22" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--23" class="tf-box">
     <path d="M 725.093168 504.945043 
 L 725.711202 505.04293 
 L 726.268738 505.327009 
@@ -387,7 +392,7 @@ L 709.436422 504.945043
 L 725.093168 504.945043 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--23" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--24" class="tf-box">
     <path d="M 746.715589 514.773416 
 L 747.333623 514.871303 
 L 747.89116 515.155382 
@@ -415,7 +420,7 @@ L 734.990192 514.773416
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--24" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--25" class="tf-box">
     <path d="M 746.715589 514.773416 
 L 747.333623 514.871303 
 L 747.89116 515.155382 
@@ -443,7 +448,7 @@ L 734.990192 514.773416
 L 746.715589 514.773416 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--25" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--26" class="tf-box">
     <path d="M 424.950623 469.562899 
 L 425.98892 469.727349 
 L 426.925581 470.204602 
@@ -471,7 +476,7 @@ L 392.35713 469.562899
 L 424.950623 469.562899 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--26" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--27" class="tf-box">
     <path d="M 120.271054 469.562899 
 L 121.309351 469.727349 
 L 122.246012 470.204602 
@@ -499,67 +504,43 @@ L 87.677561 469.562899
 L 120.271054 469.562899 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-arrow--27" class="tf-arrow">
+   <g id="tf-ahu-booth-tf-arrow--28" class="tf-arrow">
     <path d="M 20.433136 162.917656 
 L 70.759887 162.917656 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-arrow--28" class="tf-arrow">
+   <g id="tf-ahu-booth-tf-arrow--29" class="tf-arrow">
     <path d="M 880.41579 315.25744 
 L 880.41579 397.034986 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-arrow--29" class="tf-arrow">
-    <path d="M 1086.811627 457.768851 
-L 985.377335 457.768851 
-" clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--muted, #56616B); stroke-width: 2.986667"/>
-   </g>
    <g id="tf-ahu-booth-tf-arrow--30" class="tf-arrow">
-    <path d="M 1086.811627 516.739091 
-L 985.377335 516.739091 
-" clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--muted, #56616B); stroke-width: 2.986667"/>
-   </g>
-   <g id="tf-ahu-booth-tf-arrow--31" class="tf-arrow">
     <path d="M 84.317561 487.253971 
 L 32.025136 487.253971 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--muted, #56616B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-arrow--32" class="tf-arrow">
+   <g id="tf-ahu-booth-tf-arrow--31" class="tf-arrow">
     <path d="M 82.351887 162.917656 
 L 69.471887 158.157656 
 L 69.471887 167.677656 
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--accent, #0E8A7E)"/>
    </g>
-   <g id="tf-ahu-booth-tf-arrow--33" class="tf-arrow">
+   <g id="tf-ahu-booth-tf-arrow--32" class="tf-arrow">
     <path d="M 880.41579 408.626986 
 L 885.17579 395.746986 
 L 875.65579 395.746986 
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--accent, #0E8A7E)"/>
    </g>
-   <g id="tf-ahu-booth-tf-arrow--34" class="tf-arrow">
-    <path d="M 973.785335 457.768851 
-L 986.665335 462.528851 
-L 986.665335 453.008851 
-z
-" clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--muted, #56616B)"/>
-   </g>
-   <g id="tf-ahu-booth-tf-arrow--35" class="tf-arrow">
-    <path d="M 973.785335 516.739091 
-L 986.665335 521.499091 
-L 986.665335 511.979091 
-z
-" clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--muted, #56616B)"/>
-   </g>
-   <g id="tf-ahu-booth-tf-arrow--36" class="tf-arrow">
+   <g id="tf-ahu-booth-tf-arrow--33" class="tf-arrow">
     <path d="M 20.433136 487.253971 
 L 33.313136 492.013971 
 L 33.313136 482.493971 
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--muted, #56616B)"/>
    </g>
-   <g id="tf-ahu-booth-tf-polyline--37" class="tf-polyline">
+   <g id="tf-ahu-booth-tf-polyline--34" class="tf-polyline">
     <path d="M 92.18026 149.157933 
 L 115.768355 156.037795 
 L 92.18026 162.917656 
@@ -567,17 +548,17 @@ L 115.768355 169.797517
 L 92.18026 176.677378 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-line--38" class="tf-line">
+   <g id="tf-ahu-booth-tf-line--35" class="tf-line">
     <path d="M 261.228279 216.973708 
 L 261.228279 108.861603 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-line--39" class="tf-line">
+   <g id="tf-ahu-booth-tf-line--36" class="tf-line">
     <path d="M 369.340384 216.973708 
 L 369.340384 108.861603 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-polyline--40" class="tf-polyline">
+   <g id="tf-ahu-booth-tf-polyline--37" class="tf-polyline">
     <path d="M 192.429666 133.432536 
 L 226.828973 148.175096 
 L 192.429666 162.917656 
@@ -585,17 +566,17 @@ L 226.828973 177.660216
 L 192.429666 192.402775 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-line--41" class="tf-line">
+   <g id="tf-ahu-booth-tf-line--38" class="tf-line">
     <path d="M 290.713398 197.316962 
 L 339.855264 128.51835 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-line--42" class="tf-line">
+   <g id="tf-ahu-booth-tf-line--39" class="tf-line">
     <path d="M 393.911317 501.013694 
 L 423.396436 473.494249 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-polyline--43" class="tf-polyline">
+   <g id="tf-ahu-booth-tf-polyline--40" class="tf-polyline">
     <path d="M 92.18026 473.494249 
 L 115.768355 480.37411 
 L 92.18026 487.253971 
@@ -603,7 +584,7 @@ L 115.768355 494.133832
 L 92.18026 501.013694 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--accent, #0E8A7E); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-circle--44" class="tf-circle">
+   <g id="tf-ahu-booth-tf-circle--41" class="tf-circle">
     <path d="M 456.812905 162.917656 
 L 456.739844 160.709142 
 L 456.520981 158.510285 
@@ -702,7 +683,7 @@ L 456.739844 165.12617
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--slide-bg, #F3F1EA)"/>
    </g>
-   <g id="tf-ahu-booth-tf-circle--45" class="tf-circle">
+   <g id="tf-ahu-booth-tf-circle--42" class="tf-circle">
     <path d="M 456.812905 162.917656 
 L 456.739844 160.709142 
 L 456.520981 158.510285 
@@ -801,21 +782,21 @@ L 456.739844 165.12617
 L 456.812905 162.917656 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-polygon--46" class="tf-polygon">
+   <g id="tf-ahu-booth-tf-polygon--43" class="tf-polygon">
     <path d="M 410.619551 147.192259 
 L 410.619551 178.643053 
 L 440.104671 162.917656 
 L 410.619551 147.192259 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-polygon--47" class="tf-polygon">
+   <g id="tf-ahu-booth-tf-polygon--44" class="tf-polygon">
     <path d="M 705.470747 154.07212 
 L 705.470747 171.763192 
 L 725.127493 162.917656 
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--ink, #14202B)"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--48" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--45" class="tf-box">
     <path d="M 796.46313 517.721928 
 L 797.501427 517.886378 
 L 798.438088 518.363631 
@@ -843,7 +824,7 @@ L 777.629359 517.721928
 z
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--ink, #14202B)"/>
    </g>
-   <g id="tf-ahu-booth-tf-box--49" class="tf-box">
+   <g id="tf-ahu-booth-tf-box--46" class="tf-box">
     <path d="M 796.46313 517.721928 
 L 797.501427 517.886378 
 L 798.438088 518.363631 
@@ -871,35 +852,49 @@ L 777.629359 517.721928
 L 796.46313 517.721928 
 " clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: none; stroke: var(--ink, #14202B); stroke-width: 2.986667"/>
    </g>
-   <g id="tf-ahu-booth-tf-label--50" class="tf-label tf-ink">
+   <g id="tf-ahu-booth-tf-polygon--47" class="tf-polygon">
+    <path d="M 970.836823 440.07778 
+L 990.49357 431.232244 
+L 990.49357 448.923316 
+z
+" clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--ink, #14202B)"/>
+   </g>
+   <g id="tf-ahu-booth-tf-polygon--48" class="tf-polygon">
+    <path d="M 1089.760139 440.07778 
+L 1070.103392 431.232244 
+L 1070.103392 448.923316 
+z
+" clip-path="url(#tf-ahu-booth-peeeca20f9a)" style="fill: var(--ink, #14202B)"/>
+   </g>
+   <g id="tf-ahu-booth-tf-label--49" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="52.866767" y="128.811539" transform="rotate(-0 52.866767 128.811539)">air neuf</text>
    </g>
-   <g id="tf-ahu-booth-tf-label--51" class="tf-label tf-ink">
+   <g id="tf-ahu-booth-tf-label--50" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="315.284331" y="79.90811" transform="rotate(-0 315.284331 79.90811)">centrale de traitement d'air</text>
    </g>
-   <g id="tf-ahu-booth-tf-label--52" class="tf-label tf-ink">
+   <g id="tf-ahu-booth-tf-label--51" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="762.475311" y="126.376851" transform="rotate(-0 762.475311 126.376851)">débit réduit hors pesée (mode éco)</text>
    </g>
-   <g id="tf-ahu-booth-tf-label--53" class="tf-label tf-ink">
+   <g id="tf-ahu-booth-tf-label--52" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="223.420489" y="331.592976" transform="rotate(-0 223.420489 331.592976)">récupération</text>
    </g>
-   <g id="tf-ahu-booth-tf-label--54" class="tf-label tf-ink">
+   <g id="tf-ahu-booth-tf-label--53" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--accent-text, #0A6B62)" x="303.850176" y="376.803493" transform="rotate(-0 303.850176 376.803493)">par boucle d'eau glycolée</text>
    </g>
-   <g id="tf-ahu-booth-tf-label--55" class="tf-label tf-ink">
+   <g id="tf-ahu-booth-tf-label--54" class="tf-label tf-ink">
     <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="310.370145" y="551.748536" transform="rotate(-0 310.370145 551.748536)">rejet sans recyclage d'air</text>
    </g>
+   <g id="tf-ahu-booth-tf-label--55" class="tf-label tf-ink">
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="692.017719" y="357.146746" transform="rotate(-0 692.017719 357.146746)">cabine de pesée</text>
+   </g>
    <g id="tf-ahu-booth-tf-label--56" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="692.017719" y="337.49" transform="rotate(-0 692.017719 337.49)">cabine de pesée</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1037.264876" y="516.850717" transform="rotate(-0 1037.264876 516.850717)">cascade</text>
    </g>
    <g id="tf-ahu-booth-tf-label--57" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--ink, #14202B)" x="678.080219" y="382.700517" transform="rotate(-0 678.080219 382.700517)">en dépression</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="255.690824" y="622.372823" transform="rotate(-0 255.690824 622.372823)">GTB : gestion technique du bâtiment</text>
    </g>
    <g id="tf-ahu-booth-tf-label--58" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1008.632063" y="574.036844" transform="rotate(-0 1008.632063 574.036844)">air de la salle</text>
-   </g>
-   <g id="tf-ahu-booth-tf-label--59" class="tf-label tf-ink">
-    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="255.690824" y="622.372823" transform="rotate(-0 255.690824 622.372823)">GTB : gestion technique du bâtiment</text>
+    <text style="font-weight: 600; font-size: 28px; font-family: 'Instrument Sans', 'DejaVu Sans'; text-anchor: middle; fill: var(--muted, #56616B)" x="1015.772688" y="563.444146" transform="rotate(-0 1015.772688 563.444146)">de pression</text>
    </g>
   </g>
  </g>
