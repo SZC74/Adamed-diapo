@@ -1,5 +1,5 @@
 {
- "alt": "Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau à pression constante, buse calibrée et jet critique, observé par une caméra acoustique qui donne un score LeakQ et des décibels mais pas de débit. En dessous, l'étalonnage : pour chaque pression amont, le débit calculé à la buse et les indications de la caméra donnent deux lois, débit en fonction du score LeakQ et débit en fonction des décibels, puis le coût annuel d'une fuite : débit fois 8 760 heures fois énergie spécifique de l'audit 2021 fois prix du kWh.",
+ "alt": "Banc d'étalonnage en schéma de principe : réseau d'air comprimé, vanne, détendeur, manomètre de pression amont, tuyau à pression constante, buse calibrée et jet critique, observé par une caméra acoustique qui donne un score LeakQ et des décibels mais pas de débit. En dessous, l'étalonnage : pour chaque pression amont, le débit calculé à la buse et les indications de la caméra donnent deux lois, débit en fonction du score LeakQ et débit en fonction des décibels, puis l'estimation du coût annuel d'une seule fuite : débit fois 8 760 heures fois énergie spécifique de l'audit 2021 fois prix du kWh.",
  "xlim": [
   0,
   1680
@@ -415,7 +415,7 @@
    "type": "text",
    "x": 1367,
    "y": 205,
-   "text": "coût annuel d'une fuite",
+   "text": "estimation du coût annuel d'une seule fuite",
    "inside": "D",
    "fixed": true,
    "bold": true
