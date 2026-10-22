@@ -7,7 +7,7 @@
   0,
   660
  ],
- "alt": "Schéma de principe : l'air neuf passe par une batterie de récupération puis par la centrale de traitement d'air, qui le souffle par le haut dans la cabine de pesée. En mode éco, le débit est réduit hors pesée. Une cascade de pression est maintenue entre la cabine et la salle. L'air extrait est filtré, passe par la seconde batterie de la boucle d'eau glycolée puis est rejeté dehors sans recyclage.",
+ "alt": "Schéma de principe : l'air neuf passe par la centrale de traitement d'air, qui le souffle par le haut dans la cabine de pesée. En mode éco, le débit est réduit hors pesée. Une cascade de pression est maintenue entre la cabine et la salle. L'air extrait est filtré puis est rejeté dehors sans recyclage.",
  "elements": [
   {
    "id": "inlet",
@@ -17,53 +17,10 @@
     500
    ],
    "to": [
-    68,
+    138,
     500
    ],
    "color": "accent"
-  },
-  {
-   "id": "r1",
-   "type": "box",
-   "x": 70,
-   "y": 482,
-   "w": 40,
-   "h": 36
-  },
-  {
-   "id": "r1z",
-   "type": "polyline",
-   "points": [
-    [
-     78,
-     514
-    ],
-    [
-     102,
-     507
-    ],
-    [
-     78,
-     500
-    ],
-    [
-     102,
-     493
-    ],
-    [
-     78,
-     486
-    ]
-   ],
-   "color": "accent",
-   "allow_overlap": true,
-   "z": "front"
-  },
-  {
-   "id": "link",
-   "type": "line",
-   "from": "r1.right",
-   "to": "ahu.left"
   },
   {
    "id": "ahu",
@@ -404,23 +361,10 @@
    "color": "muted"
   },
   {
-   "id": "exh2",
-   "type": "line",
-   "from": [
-    380,
-    170
-   ],
-   "to": [
-    110,
-    170
-   ],
-   "color": "muted"
-  },
-  {
    "id": "exh3",
    "type": "arrow",
    "from": [
-    70,
+    380,
     170
    ],
    "to": [
@@ -453,70 +397,6 @@
    "allow_overlap": true
   },
   {
-   "id": "r2",
-   "type": "box",
-   "x": 70,
-   "y": 152,
-   "w": 40,
-   "h": 36,
-   "fill": "none"
-  },
-  {
-   "id": "r2z",
-   "type": "polyline",
-   "points": [
-    [
-     78,
-     184
-    ],
-    [
-     102,
-     177
-    ],
-    [
-     78,
-     170
-    ],
-    [
-     102,
-     163
-    ],
-    [
-     78,
-     156
-    ]
-   ],
-   "color": "accent",
-   "allow_overlap": true,
-   "z": "front"
-  },
-  {
-   "id": "loopa",
-   "type": "line",
-   "from": [
-    82,
-    482
-   ],
-   "to": [
-    82,
-    188
-   ],
-   "color": "accent"
-  },
-  {
-   "id": "loopb",
-   "type": "line",
-   "from": [
-    98,
-    482
-   ],
-   "to": [
-    98,
-    188
-   ],
-   "color": "accent"
-  },
-  {
    "type": "text",
    "x": 38,
    "y": 545,
@@ -535,24 +415,6 @@
    "x": 760,
    "y": 545,
    "text": "débit réduit hors pesée (mode éco)",
-   "color": "accent",
-   "fixed": true
-  },
-  {
-   "type": "text",
-   "x": 125,
-   "y": 336,
-   "text": "récupération",
-   "ha": "left",
-   "color": "accent",
-   "fixed": true
-  },
-  {
-   "type": "text",
-   "x": 125,
-   "y": 290,
-   "text": "par boucle d'eau glycolée",
-   "ha": "left",
    "color": "accent",
    "fixed": true
   },
